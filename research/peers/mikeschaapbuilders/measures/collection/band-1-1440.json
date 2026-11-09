@@ -1,0 +1,118 @@
+{
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "placement": {
+    "top": 0,
+    "viewportTop": 0,
+    "left": 0,
+    "width": 1440,
+    "height": 1646
+  },
+  "summary": {
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px",
+    "display": "block",
+    "flexDirection": "row",
+    "gap": "normal",
+    "contentBox": null,
+    "columns": 1,
+    "layoutDriver": "block",
+    "layoutGap": null,
+    "backgroundPaint": "opaque",
+    "border": "0px 0px 0px 0px",
+    "radius": "0px",
+    "heading": null,
+    "body": null,
+    "copy": {
+      "paragraphs": 0,
+      "bodyChars": 0
+    },
+    "slots": {
+      "h1": 0,
+      "h2": 0,
+      "h3": 0,
+      "p": 0,
+      "li": 0,
+      "links": 0,
+      "buttons": 0,
+      "images": 0,
+      "video": 0,
+      "svg": 0,
+      "inputs": 0,
+      "canvas": 0
+    }
+  },
+  "tree": {
+    "tag": "div",
+    "cls": "section-border",
+    "box": {
+      "top": 0,
+      "left": 0,
+      "width": 1440,
+      "height": 1646
+    },
+    "styles": {
+      "fontFamily": "freight-sans-pro",
+      "fontSize": "17.728px",
+      "fontWeight": "400",
+      "lineHeight": "30.1376px",
+      "textAlign": "start",
+      "width": "1440px",
+      "height": "1646.28px",
+      "boxSizing": "content-box",
+      "display": "block",
+      "flexDirection": "row",
+      "flexWrap": "nowrap",
+      "overflow": "visible",
+      "borderTopColor": "rgb(0, 0, 0)",
+      "position": "absolute",
+      "objectFit": "fill",
+      "objectPosition": "50% 50%",
+      "opacity": "1"
+    },
+    "backgroundPaint": "opaque",
+    "text": null,
+    "img": null,
+    "childCount": 1,
+    "children": [
+      {
+        "tag": "div",
+        "cls": "sqs-section-background",
+        "box": {
+          "top": -111,
+          "left": 0,
+          "width": 1440,
+          "height": 1758
+        },
+        "styles": {
+          "fontFamily": "freight-sans-pro",
+          "fontSize": "17.728px",
+          "fontWeight": "400",
+          "lineHeight": "30.1376px",
+          "textAlign": "start",
+          "width": "1440px",
+          "height": "1757.72px",
+          "boxSizing": "content-box",
+          "display": "block",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "overflow": "hidden",
+          "borderTopColor": "rgb(0, 0, 0)",
+          "position": "absolute",
+          "top": "-111.438px",
+          "zIndex": "0",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "opacity": "1"
+        },
+        "backgroundPaint": "transparent",
+        "text": null,
+        "img": null,
+        "childCount": 0,
+        "children": []
+      }
+    ]
+  }
+}

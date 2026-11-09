@@ -1,0 +1,14 @@
+{
+  "origin": "http://127.0.0.1:65127",
+  "pages": [
+    {
+      "path": "/",
+      "type": "home",
+      "reason": "listed",
+      "slug": "home",
+      "url": "http://127.0.0.1:65127/"
+    }
+  ],
+  "skipped": [],
+  "linksSeen": 0
+}

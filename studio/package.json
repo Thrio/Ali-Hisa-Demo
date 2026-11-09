@@ -1,0 +1,13 @@
+{
+  "name": "alihisa-studio",
+  "private": true,
+  "scripts": {
+    "dev": "sanity dev",
+    "build": "sanity build",
+    "deploy": "sanity deploy"
+  },
+  "dependencies": {
+    "sanity": "3.91.0",
+    "styled-components": "6.1.18"
+  }
+}

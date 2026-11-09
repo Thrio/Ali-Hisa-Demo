@@ -1,0 +1,32 @@
+{
+  "name": "Ali Hisa",
+  "defaultDescription": "[[PENDING: default meta description]]",
+  "phonePrimary": "+38971890243",
+  "phoneSecondary": "+38970362763",
+  "email": "Info@alihisa.com",
+  "facebookUrl": "https://www.facebook.com/Bauhaus.Struga/",
+  "instagramUrl": "https://www.instagram.com/bauhaus_hisa/",
+  "city": "Strugë",
+  "country": "Maqedonia e Veriut",
+  "foundedYear": 1997,
+  "footer": {
+    "tagline": "Studio arkitekture dhe ndërtimi në Strugë, që nga viti 1997.",
+    "intro": "Arkitekturë dhe ndërtim nën një çati — nga skica e parë deri te detaji i fundit.",
+    "services": ["Arkitekturë", "Ndërtim"]
+  },
+  "legalNav": [{ "label": "Privatësia", "href": "/privacy" }],
+  "primaryCtaLabel": "Get in touch",
+  "logo": {
+    "src": "/images/brand/logo.jpg",
+    "width": 976,
+    "height": 976,
+    "alt": "Logo e Ali Hisa"
+  },
+  "nav": [
+    { "label": "Kreu", "href": "/" },
+    { "label": "Projektet", "href": "/projects" },
+    { "label": "Shërbimet", "href": "/services" },
+    { "label": "Rreth nesh", "href": "/about" },
+    { "label": "Kontakt", "href": "/contact" }
+  ]
+}

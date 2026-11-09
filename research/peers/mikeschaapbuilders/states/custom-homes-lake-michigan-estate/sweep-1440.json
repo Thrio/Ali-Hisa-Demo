@@ -1,0 +1,61 @@
+{
+  "note": "one viewport frame per scroll step; open them in order to see scroll-driven motion (lesson 13)",
+  "frames": [
+    {
+      "frame": "001",
+      "scrollY": 0,
+      "bandsOnScreen": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "frame": "002",
+      "scrollY": 270,
+      "bandsOnScreen": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "frame": "003",
+      "scrollY": 540,
+      "bandsOnScreen": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "frame": "004",
+      "scrollY": 810,
+      "bandsOnScreen": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "frame": "005",
+      "scrollY": 1080,
+      "bandsOnScreen": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "frame": "006",
+      "scrollY": 1350,
+      "bandsOnScreen": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "frame": "007",
+      "scrollY": 1448,
+      "bandsOnScreen": [
+        "1",
+        "2"
+      ]
+    }
+  ]
+}

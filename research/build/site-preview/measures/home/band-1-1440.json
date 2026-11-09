@@ -1,0 +1,164 @@
+{
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "placement": {
+    "top": 111,
+    "viewportTop": 111,
+    "left": 0,
+    "width": 1440,
+    "height": 966
+  },
+  "summary": {
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px",
+    "display": "block",
+    "flexDirection": "row",
+    "gap": "normal",
+    "contentBox": null,
+    "columns": 1,
+    "layoutDriver": "block",
+    "layoutGap": null,
+    "backgroundPaint": "transparent",
+    "border": "0px 0px 0px 0px",
+    "radius": "0px",
+    "heading": null,
+    "body": null,
+    "copy": {
+      "paragraphs": 0,
+      "bodyChars": 0
+    },
+    "slots": {
+      "h1": 0,
+      "h2": 0,
+      "h3": 0,
+      "p": 0,
+      "li": 0,
+      "links": 0,
+      "buttons": 0,
+      "images": 1,
+      "video": 0,
+      "svg": 0,
+      "inputs": 0,
+      "canvas": 0
+    }
+  },
+  "tree": {
+    "tag": "section",
+    "cls": "relative w-full",
+    "box": {
+      "top": 111,
+      "left": 0,
+      "width": 1440,
+      "height": 966
+    },
+    "styles": {
+      "fontFamily": "Schibsted Grotesk",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "lineHeight": "27.2px",
+      "textAlign": "start",
+      "width": "1440px",
+      "height": "966.094px",
+      "boxSizing": "border-box",
+      "display": "block",
+      "flexDirection": "row",
+      "flexWrap": "nowrap",
+      "overflow": "visible",
+      "borderTopStyle": "solid",
+      "borderTopColor": "lab(4.38094 2.04752 1.24407)",
+      "position": "relative",
+      "objectFit": "fill",
+      "objectPosition": "50% 50%",
+      "opacity": "1"
+    },
+    "backgroundPaint": "transparent",
+    "text": null,
+    "img": null,
+    "childCount": 1,
+    "children": [
+      {
+        "tag": "div",
+        "cls": "relative w-full",
+        "box": {
+          "top": 111,
+          "left": 0,
+          "width": 1440,
+          "height": 966
+        },
+        "styles": {
+          "fontFamily": "Schibsted Grotesk",
+          "fontSize": "17px",
+          "fontWeight": "400",
+          "lineHeight": "27.2px",
+          "textAlign": "start",
+          "width": "1440px",
+          "height": "966.094px",
+          "boxSizing": "border-box",
+          "display": "block",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "aspectRatio": "2048 / 1374",
+          "overflow": "visible",
+          "borderTopStyle": "solid",
+          "borderTopColor": "lab(4.38094 2.04752 1.24407)",
+          "position": "relative",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "opacity": "1"
+        },
+        "backgroundPaint": "transparent",
+        "text": null,
+        "img": null,
+        "childCount": 1,
+        "children": [
+          {
+            "tag": "img",
+            "cls": "object-contain",
+            "box": {
+              "top": 111,
+              "left": 0,
+              "width": 1440,
+              "height": 966
+            },
+            "styles": {
+              "fontFamily": "Schibsted Grotesk",
+              "fontSize": "17px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "textAlign": "start",
+              "width": "1440px",
+              "height": "966.094px",
+              "maxWidth": "100%",
+              "boxSizing": "border-box",
+              "display": "block",
+              "flexDirection": "row",
+              "flexWrap": "nowrap",
+              "overflow": "clip",
+              "borderTopStyle": "solid",
+              "position": "absolute",
+              "objectFit": "contain",
+              "objectPosition": "50% 50%",
+              "opacity": "1"
+            },
+            "backgroundPaint": "transparent",
+            "text": null,
+            "img": {
+              "natural": [
+                768,
+                515
+              ],
+              "rendered": [
+                1440,
+                966
+              ]
+            },
+            "childCount": 0,
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}

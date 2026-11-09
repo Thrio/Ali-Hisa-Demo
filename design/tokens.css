@@ -1,0 +1,129 @@
+/* Ali Hisa · design tokens — :root for static preview; @theme for Tailwind at /scaffold (keep both in sync). */
+
+:root {
+  --color-surface: oklch(99% 0.006 85);
+  --color-surface-muted: oklch(96.5% 0.012 75);
+  --color-surface-elevated: oklch(100% 0 0);
+  --color-on-surface: oklch(17% 0.01 30);
+  --color-on-surface-muted: oklch(48% 0.015 30);
+  --color-border: oklch(88% 0.01 75);
+  --color-accent: oklch(42% 0.04 55);
+  --color-on-accent: oklch(99% 0.006 85);
+  --color-focus: oklch(55% 0.12 250);
+  --color-hero-overlay: oklch(17% 0.01 30 / 0.45);
+
+  --font-display: "League Spartan", system-ui, sans-serif;
+  --font-body: "Schibsted Grotesk", system-ui, sans-serif;
+
+  --text-xs: 0.6875rem;
+  --text-sm: 0.875rem;
+  --text-base: 1.0625rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.5625rem;
+  --text-2xl: 2.1875rem;
+  --text-3xl: 2.5rem;
+  --text-hero: clamp(2.25rem, 4vw + 1rem, 3.484rem);
+
+  --leading-tight: 1.15;
+  --leading-normal: 1.6;
+  --tracking-display: 0.04em;
+  --tracking-body: 0;
+
+  --space-1: 0.5rem;
+  --space-2: 0.75rem;
+  --space-3: 1rem;
+  --space-4: 1.0625rem;
+  --space-5: 1.5rem;
+  --space-6: 1.875rem;
+  --space-7: 2rem;
+  --space-8: 3rem;
+  --space-9: 3.625rem;
+  --space-10: 5.875rem;
+  --space-11: 6.625rem;
+
+  --radius-sm: 0.125rem;
+  --radius-md: 0.25rem;
+  --radius-pill: 9999px;
+
+  --shadow-subtle: 0 1px 5px oklch(0% 0 0 / 0.12);
+  --shadow-card: 0 1px 6px oklch(0% 0 0 / 0.1);
+
+  --content-max: 112.5rem;
+  --gutter-inline: clamp(1.25rem, 4vw, 3.6rem);
+  --section-pad-y: var(--space-10);
+  --hero-min-height: min(100svh, 52rem);
+  --header-height: 6.9375rem;
+
+  --motion-reveal-distance: 1rem;
+  --motion-reveal-duration: 0.85s;
+  --motion-reveal-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-reveal-stagger: 0.07s;
+  --motion-header-duration: 0.35s;
+  --motion-header-ease: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Mobile nav — right slide-out drawer (intentional override vs peer full-screen menu) */
+  --header-bg: oklch(0% 0 0);
+}
+
+@theme {
+  --color-surface: oklch(99% 0.006 85);
+  --color-surface-muted: oklch(96.5% 0.012 75);
+  --color-surface-elevated: oklch(100% 0 0);
+  --color-on-surface: oklch(17% 0.01 30);
+  --color-on-surface-muted: oklch(48% 0.015 30);
+  --color-border: oklch(88% 0.01 75);
+  --color-accent: oklch(42% 0.04 55);
+  --color-on-accent: oklch(99% 0.006 85);
+  --color-focus: oklch(55% 0.12 250);
+
+  --font-display: "League Spartan", system-ui, sans-serif;
+  --font-body: "Schibsted Grotesk", system-ui, sans-serif;
+
+  --text-xs: 0.6875rem;
+  --text-sm: 0.875rem;
+  --text-base: 1.0625rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.5625rem;
+  --text-2xl: 2.1875rem;
+  --text-3xl: 2.5rem;
+  --text-hero: 3.484rem;
+
+  --leading-tight: 1.15;
+  --leading-normal: 1.6;
+  --tracking-display: 0.04em;
+  --tracking-body: 0;
+
+  --space-1: 0.5rem;
+  --space-2: 0.75rem;
+  --space-3: 1rem;
+  --space-4: 1.0625rem;
+  --space-5: 1.5rem;
+  --space-6: 1.875rem;
+  --space-7: 2rem;
+  --space-8: 3rem;
+  --space-9: 3.625rem;
+  --space-10: 5.875rem;
+  --space-11: 6.625rem;
+
+  --radius-sm: 0.125rem;
+  --radius-md: 0.25rem;
+  --radius-pill: 9999px;
+
+  --shadow-subtle: 0 1px 5px oklch(0% 0 0 / 0.12);
+  --shadow-card: 0 1px 6px oklch(0% 0 0 / 0.1);
+
+  --content-max: 112.5rem;
+  --gutter-inline: clamp(1.25rem, 4vw, 3.6rem);
+  --section-pad-y: var(--space-10);
+  --hero-min-height: 100svh;
+  --header-height: 6.9375rem;
+
+  --motion-reveal-distance: 1rem;
+  --motion-reveal-duration: 0.85s;
+  --motion-reveal-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-reveal-stagger: 0.07s;
+  --motion-header-duration: 0.35s;
+  --motion-header-ease: cubic-bezier(0.4, 0, 0.2, 1);
+
+  --header-bg: oklch(0% 0 0);
+}

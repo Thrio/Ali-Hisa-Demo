@@ -1,0 +1,156 @@
+Client questions
+Fill what you know. Leave a line blank when you do not know the fact.
+Nothing is required. A blank answer is filled later in chat.
+A heading that says one needs a single checked box. All that apply: check every box that fits.
+A filled copy of this form is the client card.
+The business
+Business name
+Write here
+What do you do?
+One line.
+Write here
+City
+Write here
+What should a visitor do on the site?
+One action. For example: call, write, visit, or buy.
+Write here
+What should the button say?
+For example: Call us.
+Write here
+How people reach you
+Check a channel when it is on. The phone number is written once.
+Phone
+Prefix — one.
++383
++355
++389
+Write here
+WhatsApp — one
+Same number as the phone
+A different number — write it below, with the prefix
+No WhatsApp
+Write here
+Email
+Write here
+The site has a contact form. Messages go to the email above.
+Brand you already use
+Colors — one
+None
+We already use these colors
+Write here
+Fonts — one
+None
+We already use these fonts
+Write here
+Logo — one
+None. Use the business name.
+We have a logo. The file is attached.
+Words and photos
+Languages on the site — all that apply
+Albanian
+English
+Italian
+German
+Other — write it below
+Write here
+Main language
+The language the site opens in. For example: Albanian.
+Write here
+Who writes the words — one
+We write the words
+I will write the words
+Photos — one
+We choose the photos
+I will send the photos
+Product photos — one
+Only if you sell products.
+Transparent background (PNG)
+Plain background
+In a real setting
+More
+Current website — one
+None
+We have a website
+Write here
+Address
+Write here
+Sites you like
+Write here
+Domain
+Write here
+Deadline
+Write here
+Pages you need — all that apply
+Home
+About
+Services or menu
+Products or shop
+Gallery or projects
+Contact
+Blog
+Other — write it below
+Write here
+Animations — one
+How much movement the site has.
+Low — no animations, or only a few simple ones
+Medium — sections, titles and images appear as you scroll
+High — rich, professional animations, including 3D
+What you sell
+Fill this when you sell or promote products.
+Do you sell or promote any of these? — all that apply
+None of these
+Alcohol
+Tobacco or vapes
+Medicines or supplements
+Other — write it below
+Write here
+Visitors must confirm they are 18 or older — one
+Yes
+No
+Delivery limits for these products
+For example: wine from Kosovo to Albania. Write each country where delivery is not allowed or you are not sure.
+Write here
+Business customers (restaurants, hotels, shops) — one
+No
+Yes, same prices
+Yes, separate business prices
+How businesses see their prices — one
+Only if they have separate prices.
+Price list on request
+A separate login
+Shown on the site
+Minimum order for businesses
+Write here
+Shop
+Fill this when the site is an online shop.
+Countries you deliver to
+Kosovo (+383)
+Albania (+355)
+North Macedonia (+389)
+Delivery fee
+Amount, and the zone it covers.
+Write here
+Shop phone
+Prefix, then the number.
+Write here
+Order inbox
+The staff email that receives orders.
+Write here
+Six products
+At least two products have two kinds of options, such as size and color, and four or more variants.
+One product has a compare-at price.
+In Mark, write out of stock on one row. Write new or best seller on one other row.
+#
+Name
+Variants
+Price
+Compare-at
+Stock
+Photo
+Mark
+1
+2
+3
+4
+5
+6

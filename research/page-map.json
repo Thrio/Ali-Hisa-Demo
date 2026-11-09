@@ -1,0 +1,25 @@
+{
+  "peerSlug": "mikeschaapbuilders",
+  "peerOrigin": "https://mikeschaapbuilders.com",
+  "pages": [
+    { "name": "home", "peer": "home", "peerPath": "/", "build": "/" },
+    { "name": "about", "peer": "about-us", "peerPath": "/about-us", "build": "/about" },
+    { "name": "services", "peer": "services", "peerPath": "/services", "build": "/services" },
+    { "name": "contact", "peer": "contact", "peerPath": "/contact", "build": "/contact" },
+    { "name": "projects", "peer": "collection", "peerPath": "/collection", "build": "/projects" },
+    {
+      "name": "project",
+      "peer": "custom-homes-lake-michigan-estate",
+      "peerPath": "/custom-homes/lake-michigan-estate",
+      "build": "/projects/[slug]",
+      "note": "Representative full case; peer nav lists /custom-homes/* while grid lives at /collection"
+    },
+    {
+      "name": "privacy",
+      "peer": null,
+      "peerPath": null,
+      "build": "/privacy",
+      "note": "Not on reference — legal page from site-chrome defaults, not cloned"
+    }
+  ]
+}

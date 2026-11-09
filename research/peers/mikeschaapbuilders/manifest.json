@@ -1,0 +1,1852 @@
+{
+  "tool": "web-brain capture",
+  "version": "3.3.0",
+  "browser": {
+    "channel": "chrome",
+    "version": "156.0.8078.80",
+    "sandbox": true
+  },
+  "playwright": "1.64.1",
+  "capturedAt": "2026-11-09T09:41:46.945Z",
+  "url": "https://mikeschaapbuilders.com/",
+  "origin": "https://mikeschaapbuilders.com",
+  "slug": "mikeschaapbuilders",
+  "os": "win32 10.0.26200",
+  "options": {
+    "widths": [
+      1440,
+      375
+    ],
+    "pages": [
+      "/",
+      "/about-us",
+      "/services",
+      "/contact",
+      "/collection",
+      "/custom-homes/lake-michigan-estate"
+    ],
+    "maxPages": 6,
+    "motion": true,
+    "states": true,
+    "local": false
+  },
+  "robots": "robots.txt found",
+  "ownerPermission": null,
+  "cloneability": {
+    "rating": "medium",
+    "score": 69,
+    "reasons": [
+      "4 scroll-scrubbed or pinned sections",
+      "5 sections paint late or on canvas"
+    ]
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "path": "/",
+      "type": "home"
+    },
+    {
+      "slug": "about-us",
+      "path": "/about-us",
+      "type": "page"
+    },
+    {
+      "slug": "services",
+      "path": "/services",
+      "type": "page"
+    },
+    {
+      "slug": "contact",
+      "path": "/contact",
+      "type": "page"
+    },
+    {
+      "slug": "collection",
+      "path": "/collection",
+      "type": "page"
+    },
+    {
+      "slug": "custom-homes-lake-michigan-estate",
+      "path": "/custom-homes/lake-michigan-estate",
+      "type": "page"
+    }
+  ],
+  "files": [
+    {
+      "path": "assets.json",
+      "sha256": "bdee22aa205e2eb3b76e9d9f8a9e85fb962e59703b9bd86bb9c23a113567e93e",
+      "bytes": 83874
+    },
+    {
+      "path": "behaviors.json",
+      "sha256": "954072431c186eba6e888b026bbbe8ead6a7e77b4bb137e37b40a623b1deac92",
+      "bytes": 12865
+    },
+    {
+      "path": "behaviors.md",
+      "sha256": "38c3ebd50b82de344baea044a1dcf44d3ef000eca6dd496df6cea7d827df4a7d",
+      "bytes": 4549
+    },
+    {
+      "path": "measures\\about-us\\band-1-1440.json",
+      "sha256": "0474bb0e4757105e1681e4271435a6b6c20d669214f707e8047b308c91581b69",
+      "bytes": 7920
+    },
+    {
+      "path": "measures\\about-us\\band-1-375.json",
+      "sha256": "6d69a8b31207c6f7ccf9553f6540040a43478757f857bac3227a3f3ca7c93bf3",
+      "bytes": 7901
+    },
+    {
+      "path": "measures\\about-us\\band-1.md",
+      "sha256": "f7080b7efb47af240434322ef6d44ad1b2a634db92490cd8189fdb09bd65ecf3",
+      "bytes": 1618
+    },
+    {
+      "path": "measures\\about-us\\band-2-1440.json",
+      "sha256": "cddb3ebe0b0b24a77114f2bd7060219fe39f583427ff0d44fb9e073fa6e26004",
+      "bytes": 7415
+    },
+    {
+      "path": "measures\\about-us\\band-2-375.json",
+      "sha256": "d3f3eb118669151c03597f2b9f1594de961733dc16898786a6ab9a86fbefe1e9",
+      "bytes": 7409
+    },
+    {
+      "path": "measures\\about-us\\band-2.md",
+      "sha256": "9cb05ba126ebfc8f7813714bd7493694742abcf3c725900bd57a2bf5dd3d2d1d",
+      "bytes": 1433
+    },
+    {
+      "path": "measures\\about-us\\band-3-1440.json",
+      "sha256": "9512127a01beff43c102aadb7e38ca287185551a93def27aa8837fd0d5bffb10",
+      "bytes": 7934
+    },
+    {
+      "path": "measures\\about-us\\band-3-375.json",
+      "sha256": "d43fe799c6177cf46f91ae018182ca0237b951fd2829618ca58e9b5a2fde1351",
+      "bytes": 2683
+    },
+    {
+      "path": "measures\\about-us\\band-3.md",
+      "sha256": "fc65994a4ab491c35a6e91b7b80a028d0594d1807380dbc365657d48feeacb80",
+      "bytes": 1437
+    },
+    {
+      "path": "measures\\about-us\\band-4-1440.json",
+      "sha256": "aec55ee68efdd6485fea8fa25c0f6761f3fde503717435dd954a8cddc694a08d",
+      "bytes": 7857
+    },
+    {
+      "path": "measures\\about-us\\band-4-375.json",
+      "sha256": "7b3636afd6a5783146efc138546cd0118d5d1818c319714a898400faa6df5ac9",
+      "bytes": 6029
+    },
+    {
+      "path": "measures\\about-us\\band-4.md",
+      "sha256": "0fc447b977e9df59f6214a3e5b27f312b9ad2949385f9db7d81881cd24dd6846",
+      "bytes": 1674
+    },
+    {
+      "path": "measures\\about-us\\band-5-375.json",
+      "sha256": "a41ccdb4fe2667a307ab20669bf3738649c4987c4cf32f6625d88af072558fbe",
+      "bytes": 7847
+    },
+    {
+      "path": "measures\\about-us\\band-5.md",
+      "sha256": "173f3e30b7832cd275ff843d356b22d884f9ab05181bb42af5a8543ee490d753",
+      "bytes": 1276
+    },
+    {
+      "path": "measures\\about-us\\footer-1440.json",
+      "sha256": "e04e5cd530b71957b7eb05c5e13291e767dc8bb576bbcd270988130892c28276",
+      "bytes": 8157
+    },
+    {
+      "path": "measures\\about-us\\footer-375.json",
+      "sha256": "62d5254f8772c356bb4a8709a75fa3e22a86309552da56c1a1de60108b6f1bb2",
+      "bytes": 8157
+    },
+    {
+      "path": "measures\\about-us\\header-1440.json",
+      "sha256": "45c45f9f4fc02fd95a88dc87e061aaca595b774cc3400fdfcb3ee9d32a8e51ab",
+      "bytes": 48477
+    },
+    {
+      "path": "measures\\about-us\\header-375.json",
+      "sha256": "7ab71f20f59f546f579f267304a445eb5f87f4697bf49075b1496eda58490150",
+      "bytes": 48452
+    },
+    {
+      "path": "measures\\collection\\band-1-1440.json",
+      "sha256": "4d828379e0c01860e1ad8d775e628505f127936176cfffdf2d75ac2f9d079749",
+      "bytes": 2639
+    },
+    {
+      "path": "measures\\collection\\band-1-375.json",
+      "sha256": "48dff42e34ed6062e3d3a1d55ce3ea0fa2ad7e5dbb2dfd305a2f99eff312f71e",
+      "bytes": 2629
+    },
+    {
+      "path": "measures\\collection\\band-1.md",
+      "sha256": "b5909ce532c2e12055e19fe5b81921f9a1fabd5bc237f23a2db7c7b83d1b8aa8",
+      "bytes": 1287
+    },
+    {
+      "path": "measures\\collection\\band-2-1440.json",
+      "sha256": "5fc4e532d6c8b91412fc842bc124bdbe228384051f59667984d9dc39e3962675",
+      "bytes": 19497
+    },
+    {
+      "path": "measures\\collection\\band-2-375.json",
+      "sha256": "1296246180d7597872ce9adc36f59a37134d0de5e046c1d71934a45153d5a477",
+      "bytes": 19486
+    },
+    {
+      "path": "measures\\collection\\band-2.md",
+      "sha256": "8656dad8c32b71f6059889631d1b98288d39e7ba077cbcd197b7440eb2b87c46",
+      "bytes": 1529
+    },
+    {
+      "path": "measures\\collection\\footer-1440.json",
+      "sha256": "dc6d9996deb2780ff5a6f62ab168c70d01cc38efe43eeab4e6e5eda88eeab7b9",
+      "bytes": 8157
+    },
+    {
+      "path": "measures\\collection\\footer-375.json",
+      "sha256": "b6f5012dd4f415516bc2906c859a61de9a36466e1d8d01ebc16b4611936e5d19",
+      "bytes": 8157
+    },
+    {
+      "path": "measures\\collection\\header-1440.json",
+      "sha256": "45c45f9f4fc02fd95a88dc87e061aaca595b774cc3400fdfcb3ee9d32a8e51ab",
+      "bytes": 48477
+    },
+    {
+      "path": "measures\\collection\\header-375.json",
+      "sha256": "7ab71f20f59f546f579f267304a445eb5f87f4697bf49075b1496eda58490150",
+      "bytes": 48452
+    },
+    {
+      "path": "measures\\contact\\band-1-1440.json",
+      "sha256": "7c900f0ff7310afc8f40c0ce214284f119a324d76ef49fe2fb3cdd08218f9c69",
+      "bytes": 7919
+    },
+    {
+      "path": "measures\\contact\\band-1-375.json",
+      "sha256": "ae80436f95725dcac3b659f731c6a8af67a1cb41d592ee6fe6c67531b0e60365",
+      "bytes": 7893
+    },
+    {
+      "path": "measures\\contact\\band-1.md",
+      "sha256": "31fe15be59e23accc16293ef686395d26f9070f43f75c0e7ce14bc634a11bda6",
+      "bytes": 1613
+    },
+    {
+      "path": "measures\\contact\\band-2-1440.json",
+      "sha256": "eba488bef3d7a472fd8d4a3024f9a0c71f4dae024b2b5abe099f8fb06ad5a9d9",
+      "bytes": 7611
+    },
+    {
+      "path": "measures\\contact\\band-2-375.json",
+      "sha256": "520bc15714aceab35253e3d35a2e892026d0bd9b56218cc5ec5c38c03e671931",
+      "bytes": 7611
+    },
+    {
+      "path": "measures\\contact\\band-2.md",
+      "sha256": "15356b6de35afbe8fa81116d86e5b4be2538a365dec7b8edfddbb61bc19020c1",
+      "bytes": 1489
+    },
+    {
+      "path": "measures\\contact\\band-3-1440.json",
+      "sha256": "c9643d817bdeb79dde8b60ce87c514567f6e406c021c156ddee7e9fbbc5393c6",
+      "bytes": 7608
+    },
+    {
+      "path": "measures\\contact\\band-3-375.json",
+      "sha256": "dcf9ea50f1755dc6bf6b974c715689a3bfbc3e5cdf8baf30988f22d300d54d23",
+      "bytes": 7597
+    },
+    {
+      "path": "measures\\contact\\band-3.md",
+      "sha256": "72021a5d5a36044d9d3ecb3a35ed54a21d201bf5f34400e4b84bdc06278dadff",
+      "bytes": 1472
+    },
+    {
+      "path": "measures\\contact\\footer-1440.json",
+      "sha256": "720065adf5675147685a422db758cfa79eea632273e1f14e3d63fa0a75181c5c",
+      "bytes": 8157
+    },
+    {
+      "path": "measures\\contact\\footer-375.json",
+      "sha256": "ce1f6e9b7646229d23b82cea31101c32f249e23f93b307eca50daf76b0363c06",
+      "bytes": 8157
+    },
+    {
+      "path": "measures\\contact\\header-1440.json",
+      "sha256": "45c45f9f4fc02fd95a88dc87e061aaca595b774cc3400fdfcb3ee9d32a8e51ab",
+      "bytes": 48477
+    },
+    {
+      "path": "measures\\contact\\header-375.json",
+      "sha256": "7ab71f20f59f546f579f267304a445eb5f87f4697bf49075b1496eda58490150",
+      "bytes": 48452
+    },
+    {
+      "path": "measures\\custom-homes-lake-michigan-estate\\band-1-1440.json",
+      "sha256": "869ce4d43c9dae7a0ab6d5d3502a688ec66a7a4b0b713539269b0e1e315a36b0",
+      "bytes": 2571
+    },
+    {
+      "path": "measures\\custom-homes-lake-michigan-estate\\band-1-375.json",
+      "sha256": "3d79d40218d9fcf1e13f135dd1906ec6da5540deeb85deb15ff376c0d80966bf",
+      "bytes": 2564
+    },
+    {
+      "path": "measures\\custom-homes-lake-michigan-estate\\band-1.md",
+      "sha256": "6b44ef58a1e78258026ca50d4f880381b3017f0434b50cc81c3ccf3498fc202a",
+      "bytes": 1332
+    },
+    {
+      "path": "measures\\custom-homes-lake-michigan-estate\\band-2-1440.json",
+      "sha256": "2dd6360e2f92b32249b26ca9c97837e1c8ae9de2f2d8fbd22e2c503904a562fc",
+      "bytes": 4991
+    },
+    {
+      "path": "measures\\custom-homes-lake-michigan-estate\\band-2-375.json",
+      "sha256": "9754ae6e84170d72a5ada50034361c04a1d57aa191c169a9161b23af57a69bde",
+      "bytes": 4975
+    },
+    {
+      "path": "measures\\custom-homes-lake-michigan-estate\\band-2.md",
+      "sha256": "3e28fb787f1dbddbd5a55aa8eee7913c9744f4f4ea88a60d4157a2a88d8eb4d0",
+      "bytes": 1347
+    },
+    {
+      "path": "measures\\custom-homes-lake-michigan-estate\\footer-1440.json",
+      "sha256": "9e963fc5b4dd7737d8d14a7e878486784d0cf0d4a41aae325f0da7169069e01a",
+      "bytes": 8157
+    },
+    {
+      "path": "measures\\custom-homes-lake-michigan-estate\\footer-375.json",
+      "sha256": "8997de9c0ef59a45f7dda054e1516883686083812e93797cdaccc7fb1c3401cf",
+      "bytes": 8157
+    },
+    {
+      "path": "measures\\custom-homes-lake-michigan-estate\\header-1440.json",
+      "sha256": "45c45f9f4fc02fd95a88dc87e061aaca595b774cc3400fdfcb3ee9d32a8e51ab",
+      "bytes": 48477
+    },
+    {
+      "path": "measures\\custom-homes-lake-michigan-estate\\header-375.json",
+      "sha256": "7ab71f20f59f546f579f267304a445eb5f87f4697bf49075b1496eda58490150",
+      "bytes": 48452
+    },
+    {
+      "path": "measures\\home\\band-1-1440.json",
+      "sha256": "50f2ca14e79aeea88f360198e3d235d512bda5b2e9dfa8496b0df51c16a1527b",
+      "bytes": 8388
+    },
+    {
+      "path": "measures\\home\\band-1-375.json",
+      "sha256": "2bbd35293c707e45a1ee361280ad91d5a596f074077a1135a237e7436f9c97b8",
+      "bytes": 8361
+    },
+    {
+      "path": "measures\\home\\band-1.md",
+      "sha256": "0fbc5a866b8f5981f81f42e51fdd56ca6b13cb1d417a897a0b87bf6214c12e84",
+      "bytes": 1298
+    },
+    {
+      "path": "measures\\home\\band-2-1440.json",
+      "sha256": "75737831dfa8bcd07d0c9fd77ebbc76aee4529bcef5d2de90e0a5ee3eee30d1d",
+      "bytes": 9875
+    },
+    {
+      "path": "measures\\home\\band-2-375.json",
+      "sha256": "73ead5d798c17d971b70d5e8fd4d4b1c6fa4803970e1a7223fed802355f54db4",
+      "bytes": 9857
+    },
+    {
+      "path": "measures\\home\\band-2.md",
+      "sha256": "7f9123160fc9ade11f067f2f23a0cbdbfe74a95198ad1b8322018554fe7118ef",
+      "bytes": 1475
+    },
+    {
+      "path": "measures\\home\\band-3-1440.json",
+      "sha256": "bc09c7eb396d3393d97a830fa03fd7dcf7967e851d63fbef275e84fdf11e68ab",
+      "bytes": 10306
+    },
+    {
+      "path": "measures\\home\\band-3-375.json",
+      "sha256": "a3bdf94aa1fddc64244fb9812531dea71b46f990ba1eab07b2d4a019a80425ac",
+      "bytes": 10290
+    },
+    {
+      "path": "measures\\home\\band-3.md",
+      "sha256": "54fed135cd48b387db48fa8773aa50223af84547f70309e76323e30df79e154f",
+      "bytes": 1473
+    },
+    {
+      "path": "measures\\home\\band-4-1440.json",
+      "sha256": "e096d193b4482e87b95cf269acbd0215a970d73804e093acd8b4d15a6336e42d",
+      "bytes": 44300
+    },
+    {
+      "path": "measures\\home\\band-4-375.json",
+      "sha256": "1e1ebe219a8513a3370c3f53e74fd7047f0c8ba6672049ed0787dad9ed85944b",
+      "bytes": 44271
+    },
+    {
+      "path": "measures\\home\\band-4.md",
+      "sha256": "521e1a3b54271662061073e78f713094b273f97d7e4daa4abdc5a7177acf0817",
+      "bytes": 1483
+    },
+    {
+      "path": "measures\\home\\band-5-1440.json",
+      "sha256": "738cad25e5ea90c16a035689825be833ebbe3152ba29e04c1bb98780b8b1a798",
+      "bytes": 10258
+    },
+    {
+      "path": "measures\\home\\band-5-375.json",
+      "sha256": "8428d45371b558f1f7c588be6cbd066c6764d3bf2d519d604f61b32de1876345",
+      "bytes": 10242
+    },
+    {
+      "path": "measures\\home\\band-5.md",
+      "sha256": "526f52fa1929eb0f58e692ef92399b694736ac974e5072ec5e89526e7580ffb9",
+      "bytes": 1475
+    },
+    {
+      "path": "measures\\home\\band-6-1440.json",
+      "sha256": "ed7a5d54ea65c8b919fc810d3b65d7b1941a6aefc29b1c40e287a360e6325166",
+      "bytes": 28783
+    },
+    {
+      "path": "measures\\home\\band-6-375.json",
+      "sha256": "31dc15217811c97588bf0b115bf9935728aa90e184d3edf1271fd51fde194057",
+      "bytes": 28751
+    },
+    {
+      "path": "measures\\home\\band-6.md",
+      "sha256": "055f5b8c428bcc6969e3bf61380ff1818cadb4e2a0c4f1a0d6dd718bb5ead7be",
+      "bytes": 1483
+    },
+    {
+      "path": "measures\\home\\band-7-1440.json",
+      "sha256": "7e00132e83833abef10eb9df559446056076ffbb29dacfe6fff44558aa39e855",
+      "bytes": 7375
+    },
+    {
+      "path": "measures\\home\\band-7-375.json",
+      "sha256": "03423dac730a3d451c50b969f07219a81eb6e19d8cb76580290582acec212334",
+      "bytes": 7375
+    },
+    {
+      "path": "measures\\home\\band-7.md",
+      "sha256": "a3bf7444ffde1d684c2c17ff5e6ec8c5c0956ff5da718822fa2bb6407ed61b0f",
+      "bytes": 1354
+    },
+    {
+      "path": "measures\\home\\footer-1440.json",
+      "sha256": "bc8644ca82b7cc3559cb06c221e9331fdf241d642e9d2b4d7f510c4269ab70e1",
+      "bytes": 8157
+    },
+    {
+      "path": "measures\\home\\footer-375.json",
+      "sha256": "5d7498ed616671de80e9028710ca1f46bd1a6bba5b995794f0b972398b4f3123",
+      "bytes": 8157
+    },
+    {
+      "path": "measures\\home\\header-1440.json",
+      "sha256": "45c45f9f4fc02fd95a88dc87e061aaca595b774cc3400fdfcb3ee9d32a8e51ab",
+      "bytes": 48477
+    },
+    {
+      "path": "measures\\home\\header-375.json",
+      "sha256": "7ab71f20f59f546f579f267304a445eb5f87f4697bf49075b1496eda58490150",
+      "bytes": 48452
+    },
+    {
+      "path": "measures\\services\\band-1-1440.json",
+      "sha256": "78ef337679a03ee23db5c25541982054a461d1c89f3ee6a198301557463c50a2",
+      "bytes": 10536
+    },
+    {
+      "path": "measures\\services\\band-1-375.json",
+      "sha256": "90386acca69b1425873fad4d56182232f8eb9f0c5d94c0cefd3aad926d8d61fb",
+      "bytes": 10509
+    },
+    {
+      "path": "measures\\services\\band-1.md",
+      "sha256": "5b3f6152bd5f037e61863b955781a3525643aa5a4dc4f60e7e831cd309ef3b25",
+      "bytes": 1600
+    },
+    {
+      "path": "measures\\services\\band-2-1440.json",
+      "sha256": "63bb8dd95f7a6bb621206858bd628006e5e0fe75819f2a184c73fa94dc0c4ea8",
+      "bytes": 7850
+    },
+    {
+      "path": "measures\\services\\band-2-375.json",
+      "sha256": "ea49beabe9e000f725648e9843bf5d023984ca8a50c7c3b0e2f0daa335c3da6c",
+      "bytes": 7838
+    },
+    {
+      "path": "measures\\services\\band-2.md",
+      "sha256": "945c2e73e2303c1b13f312c6d20a4a18d6b73c969ec69e7bd05be1817bb89b2e",
+      "bytes": 1608
+    },
+    {
+      "path": "measures\\services\\band-3-1440.json",
+      "sha256": "30b87903a6e1c6cf4384825df540810a6246ad4aba4a59fb0563d7a52b45d3c3",
+      "bytes": 10114
+    },
+    {
+      "path": "measures\\services\\band-3-375.json",
+      "sha256": "e8ddf67f54e54fac4b89fb46c58f5f4bf8420abec2eec854758b41e323121a08",
+      "bytes": 10104
+    },
+    {
+      "path": "measures\\services\\band-3.md",
+      "sha256": "52fd641c03163b4c0f11148e8ed36f9c17054ba2b62be330751a781a2fbde2e7",
+      "bytes": 1614
+    },
+    {
+      "path": "measures\\services\\band-4-1440.json",
+      "sha256": "4ed320ec9d76e967a13f3abf951ef14d372dbd5696f2e7fd97746bb69984f800",
+      "bytes": 7857
+    },
+    {
+      "path": "measures\\services\\band-4-375.json",
+      "sha256": "7edf50496bbbd4af834b8749338f11044139bf6f5394bd272f4fd24c6b0e7e77",
+      "bytes": 7854
+    },
+    {
+      "path": "measures\\services\\band-4.md",
+      "sha256": "14c67c34b261ca62bb39eea6a698e201b8e631a31ee70538cd87a2f8b5fd8aef",
+      "bytes": 1615
+    },
+    {
+      "path": "measures\\services\\band-5-1440.json",
+      "sha256": "2cd886f0d5df57ec0a365e800d2a21f1f4419aa844b42bb5a8c8944ed6e86f3c",
+      "bytes": 7859
+    },
+    {
+      "path": "measures\\services\\band-5-375.json",
+      "sha256": "94ea16a49d5654d54f779dd460eee6661f2f9ba622ffc54e0851c01fe8f8b17a",
+      "bytes": 7849
+    },
+    {
+      "path": "measures\\services\\band-5.md",
+      "sha256": "67ace6280eac6056128cbe344a6f04a1c3784e5f5a230299016c546dc51f0292",
+      "bytes": 1614
+    },
+    {
+      "path": "measures\\services\\band-6-1440.json",
+      "sha256": "93ad26763279b75b0d57e5be4c2e64a937ab359d6f25ae1690afadcabc167ba5",
+      "bytes": 10112
+    },
+    {
+      "path": "measures\\services\\band-6-375.json",
+      "sha256": "2aa473d89023688ce4920ba011cb6e2b5b71a1ddf40459c2bde30395c556183d",
+      "bytes": 10104
+    },
+    {
+      "path": "measures\\services\\band-6.md",
+      "sha256": "94df98f287c001a01b2979a31a9778944b6fd743d799b0b6642f82630057c401",
+      "bytes": 1610
+    },
+    {
+      "path": "measures\\services\\band-7-1440.json",
+      "sha256": "e585adf9765a2d93307fd289dfdbde9bb9c69bf318d2dc56735892bedd4eb355",
+      "bytes": 7848
+    },
+    {
+      "path": "measures\\services\\band-7-375.json",
+      "sha256": "33ccc3aa319886af31f4c02ed5c0dd358ad294bdb0a8b7571778546d7aedca8e",
+      "bytes": 7850
+    },
+    {
+      "path": "measures\\services\\band-7.md",
+      "sha256": "5983dee2381f539f70008f93cb29171db16d24d28966ceaf3546ecc713507577",
+      "bytes": 1614
+    },
+    {
+      "path": "measures\\services\\footer-1440.json",
+      "sha256": "f707ccc891687fa766893c2d83cf76c9df3fc6d39e6057dffc770ce67069c5c6",
+      "bytes": 8157
+    },
+    {
+      "path": "measures\\services\\footer-375.json",
+      "sha256": "439efba1f7e0ccc42c3c9c636bc43cfe8fd07c919e601575e6d2139602c4c8e6",
+      "bytes": 8157
+    },
+    {
+      "path": "measures\\services\\header-1440.json",
+      "sha256": "45c45f9f4fc02fd95a88dc87e061aaca595b774cc3400fdfcb3ee9d32a8e51ab",
+      "bytes": 48477
+    },
+    {
+      "path": "measures\\services\\header-375.json",
+      "sha256": "7ab71f20f59f546f579f267304a445eb5f87f4697bf49075b1496eda58490150",
+      "bytes": 48452
+    },
+    {
+      "path": "pages\\about-us\\band-1-1440.png",
+      "sha256": "82926644b6f5b98bab56d25d0bdf8c880edda360c3ee8e8ba0662bce529650c4",
+      "bytes": 476646
+    },
+    {
+      "path": "pages\\about-us\\band-1-375.png",
+      "sha256": "44340bf27cca1bd3121914f46dc88b4c1e34106c8d8b7ade2989c1925bf5fdfb",
+      "bytes": 289298
+    },
+    {
+      "path": "pages\\about-us\\band-2-1440.png",
+      "sha256": "dab832bdfdfd76acecfacbe5f8e72c8c846e9c73cc3ae709f2ee7e445c858b2f",
+      "bytes": 34498
+    },
+    {
+      "path": "pages\\about-us\\band-2-375.png",
+      "sha256": "72699ba89dc485f0855ca01deb88d5bd49463e210e2c67cf9190a07bae0b5472",
+      "bytes": 28500
+    },
+    {
+      "path": "pages\\about-us\\band-3-1440.png",
+      "sha256": "0c29c89cd72bf893e6866e7e05e383ad0182bea7ca99d1189e17973d39caae7f",
+      "bytes": 104480
+    },
+    {
+      "path": "pages\\about-us\\band-3-375.png",
+      "sha256": "370040faa855b38633c2a0fa9970e026a5c27c48bb99f35833bf1fc6be379b04",
+      "bytes": 113174
+    },
+    {
+      "path": "pages\\about-us\\band-4-1440.png",
+      "sha256": "d32e789c28ef6bac4a72fec74ad6575e2b2e4914c3d7184e31eaf85762dae16a",
+      "bytes": 442287
+    },
+    {
+      "path": "pages\\about-us\\band-4-375.png",
+      "sha256": "b9a63fe7cf5b71ad3f355849803c8f53e8fb2b562896a58eab2c0f334fcca07e",
+      "bytes": 100062
+    },
+    {
+      "path": "pages\\about-us\\band-5-375.png",
+      "sha256": "dd82c5764748639fd86f499cd831f4172d1caba62011452ee639d628a188a944",
+      "bytes": 105387
+    },
+    {
+      "path": "pages\\about-us\\first-screen-1440.png",
+      "sha256": "6f5696d3e794577a4a800eab4928524e1dfd353a8d35bf4df0faf971b8c80b74",
+      "bytes": 477630
+    },
+    {
+      "path": "pages\\about-us\\first-screen-375.png",
+      "sha256": "92ea4469a1edf586023fbdb574ea56fa392d5bfb1d7cf12977d2c3c18fdd0ec8",
+      "bytes": 50815
+    },
+    {
+      "path": "pages\\about-us\\footer-1440.png",
+      "sha256": "84d6edd63dfd07ffdc7a404a454b6ef927a216145359a0e4cce7ce3409d6ecd3",
+      "bytes": 37604
+    },
+    {
+      "path": "pages\\about-us\\footer-375.png",
+      "sha256": "606cea4c752e6cceff6f75725d261a9b63dc8188d3c5c09634c69746e46b1616",
+      "bytes": 33430
+    },
+    {
+      "path": "pages\\about-us\\full-1440.png",
+      "sha256": "32b291f65b309748065b7f82f6cc5377f35b13660c775c94ce77025a62fcb616",
+      "bytes": 1096427
+    },
+    {
+      "path": "pages\\about-us\\full-375.png",
+      "sha256": "ee6e48c850fff921e9742fa632b7506762eb36e46f6157461d65e495d5c4b79f",
+      "bytes": 573200
+    },
+    {
+      "path": "pages\\about-us\\header-1440.png",
+      "sha256": "256de93506a7d386ca02dc3678a76a2b333294e64d5e0637b70d8cb9ee0f4c0d",
+      "bytes": 7466
+    },
+    {
+      "path": "pages\\about-us\\header-375.png",
+      "sha256": "4735b667472b57b93ac3ab2b3c0ac7e7a3438182d09533424f76a66cbbd49932",
+      "bytes": 5410
+    },
+    {
+      "path": "pages\\collection\\band-1-1440.png",
+      "sha256": "95112c423cf7dec36e0eaa5bef36cadc97c24a9300f88c422b4c8cbd43cfac22",
+      "bytes": 2595057
+    },
+    {
+      "path": "pages\\collection\\band-1-375.png",
+      "sha256": "39131ebfc5c08a3fef01277c4c235b0d82994bad4cb1b1c23d5c41b28472891c",
+      "bytes": 2615811
+    },
+    {
+      "path": "pages\\collection\\band-2-1440.png",
+      "sha256": "3956f5e3230bd62d3167f869a3f9a9fb6f75ca60556313ee5a63de982926e8d3",
+      "bytes": 2587978
+    },
+    {
+      "path": "pages\\collection\\band-2-375.png",
+      "sha256": "0212e8bdfa96adfe8f4961515ec1182530267ebde65c649ada1ba5527cd4daee",
+      "bytes": 2609875
+    },
+    {
+      "path": "pages\\collection\\first-screen-1440.png",
+      "sha256": "932ffaac41e2006d02590b5eff7bf6621886eb93281925a0c8dcddd70d1b5109",
+      "bytes": 1306872
+    },
+    {
+      "path": "pages\\collection\\first-screen-375.png",
+      "sha256": "63a32f393133ff079e443e3f54be303e20409a8d4eb421932fc0c951e0c4a034",
+      "bytes": 8079
+    },
+    {
+      "path": "pages\\collection\\footer-1440.png",
+      "sha256": "84d6edd63dfd07ffdc7a404a454b6ef927a216145359a0e4cce7ce3409d6ecd3",
+      "bytes": 37604
+    },
+    {
+      "path": "pages\\collection\\footer-375.png",
+      "sha256": "7c049a691c2b64b0a62c2a88bf6501f1dc3dd64f489a6ad4d9c526661b498ba5",
+      "bytes": 33434
+    },
+    {
+      "path": "pages\\collection\\full-1440.png",
+      "sha256": "43a942a7e63ece240a61ddcb2cd5e5b24bc19aaeff19aacf55771bfb19826cf3",
+      "bytes": 2633621
+    },
+    {
+      "path": "pages\\collection\\full-375.png",
+      "sha256": "7d1feab2044ef700ea18258365c763c38cba53575ceeaa7c81624b8fbdee76b7",
+      "bytes": 2650643
+    },
+    {
+      "path": "pages\\collection\\header-1440.png",
+      "sha256": "f47d6e601f4aaf51af8356ca2bcc8d9f7b54d5873f5737bf2662c38cc25c2443",
+      "bytes": 7465
+    },
+    {
+      "path": "pages\\collection\\header-375.png",
+      "sha256": "4735b667472b57b93ac3ab2b3c0ac7e7a3438182d09533424f76a66cbbd49932",
+      "bytes": 5410
+    },
+    {
+      "path": "pages\\contact\\band-1-1440.png",
+      "sha256": "dc0f31d95b1166f15fc1045f071977cac325ebee832063e0a302922c951b19d3",
+      "bytes": 15017
+    },
+    {
+      "path": "pages\\contact\\band-1-375.png",
+      "sha256": "d2cfae6380659027dd7ae1edc262ac3326140c08a47eb6519d33e2f892477879",
+      "bytes": 10535
+    },
+    {
+      "path": "pages\\contact\\band-2-1440.png",
+      "sha256": "5913f6a1257b4af67fbe4f9a3b9778cac16eb102496c8dadbb0c1beea8b4965d",
+      "bytes": 21447
+    },
+    {
+      "path": "pages\\contact\\band-2-375.png",
+      "sha256": "44982c7596c5926f73bf50082b5974c0ea7aba51d605725d2d93ab682534beda",
+      "bytes": 17705
+    },
+    {
+      "path": "pages\\contact\\band-3-1440.png",
+      "sha256": "c29720aceb75d85ac2b7443985ac6cacd035d33d9a12980f5b4c91f6bfd1e09c",
+      "bytes": 179110
+    },
+    {
+      "path": "pages\\contact\\band-3-375.png",
+      "sha256": "406cde952c58555ab5c1ca3253580e4fc883eaa0f0259832c1db9694a5c16daf",
+      "bytes": 41628
+    },
+    {
+      "path": "pages\\contact\\first-screen-1440.png",
+      "sha256": "40797e36b0edb89662e4bcb2843e82e8ca02e631410ccd7db52caf918d4be3b7",
+      "bytes": 83868
+    },
+    {
+      "path": "pages\\contact\\first-screen-375.png",
+      "sha256": "a049bcf5e7014588abe4d0a5f7e24ee196cf33e715df88b637944f7393740ebc",
+      "bytes": 45117
+    },
+    {
+      "path": "pages\\contact\\footer-1440.png",
+      "sha256": "1c87c54a97a5917042719fbfad79c268888f12e6b38770af03be03ba0647e254",
+      "bytes": 37620
+    },
+    {
+      "path": "pages\\contact\\footer-375.png",
+      "sha256": "90f4a39818ca8d2bf9314562f774a0223d903e2ff4bf12396ce6e307246a3e03",
+      "bytes": 33435
+    },
+    {
+      "path": "pages\\contact\\full-1440.png",
+      "sha256": "54cc1f6e258f6692732896211d129d190604160aa0b922c6035ca318a7fa619d",
+      "bytes": 253823
+    },
+    {
+      "path": "pages\\contact\\full-375.png",
+      "sha256": "767a01a7d77fa414e2173747e19e130ea1f088c71a6ef4a38f5df1c805d69622",
+      "bytes": 103839
+    },
+    {
+      "path": "pages\\contact\\header-1440.png",
+      "sha256": "f47d6e601f4aaf51af8356ca2bcc8d9f7b54d5873f5737bf2662c38cc25c2443",
+      "bytes": 7465
+    },
+    {
+      "path": "pages\\contact\\header-375.png",
+      "sha256": "4735b667472b57b93ac3ab2b3c0ac7e7a3438182d09533424f76a66cbbd49932",
+      "bytes": 5410
+    },
+    {
+      "path": "pages\\custom-homes-lake-michigan-estate\\band-1-1440.png",
+      "sha256": "b4307ce32c60c2520ca6fefa79b4e77b4ef62ff9737fd845f85a68503f0b8e36",
+      "bytes": 2466326
+    },
+    {
+      "path": "pages\\custom-homes-lake-michigan-estate\\band-1-375.png",
+      "sha256": "d4f4a0cc9dea0d1192b2d67c6f0f7b894ecd2f3ae734b60d3f6b28f46a94a5b0",
+      "bytes": 450405
+    },
+    {
+      "path": "pages\\custom-homes-lake-michigan-estate\\band-2-1440.png",
+      "sha256": "e4c289243a34e684e42432cd10fb24ba711143861788429d8589cd546890aba0",
+      "bytes": 2457288
+    },
+    {
+      "path": "pages\\custom-homes-lake-michigan-estate\\band-2-375.png",
+      "sha256": "ec0ca80d2df26e8615b0fdc5e31fed879bc800f138e65b95a53690891ab4edd7",
+      "bytes": 444184
+    },
+    {
+      "path": "pages\\custom-homes-lake-michigan-estate\\first-screen-1440.png",
+      "sha256": "47c00ce785e7bcc8d3e943b56ebb65fc718005f5cb461b2a8861754d8e2a608e",
+      "bytes": 1268162
+    },
+    {
+      "path": "pages\\custom-homes-lake-michigan-estate\\first-screen-375.png",
+      "sha256": "ba11d695ba93be3a6eb1827b1c0c34ef93d6bf59a258a4c4b9b1269e6d721552",
+      "bytes": 382267
+    },
+    {
+      "path": "pages\\custom-homes-lake-michigan-estate\\footer-1440.png",
+      "sha256": "739bce7678d26ec1eccab7858653536df184c851646f22bf769d820a633030fa",
+      "bytes": 37620
+    },
+    {
+      "path": "pages\\custom-homes-lake-michigan-estate\\footer-375.png",
+      "sha256": "a5ee084989175523bd044db7464470e6f02cd0d107db9131b5aeacdceb94987d",
+      "bytes": 33439
+    },
+    {
+      "path": "pages\\custom-homes-lake-michigan-estate\\full-1440.png",
+      "sha256": "5108b5c55749fcd18f7fd865931b01079bd64fb7cecd827573ab9087afd8c789",
+      "bytes": 2513596
+    },
+    {
+      "path": "pages\\custom-homes-lake-michigan-estate\\full-375.png",
+      "sha256": "ccbfffa3d4015fd28512314a33903ff0bea98024bcc0dccce941937145110efe",
+      "bytes": 489202
+    },
+    {
+      "path": "pages\\custom-homes-lake-michigan-estate\\header-1440.png",
+      "sha256": "f47d6e601f4aaf51af8356ca2bcc8d9f7b54d5873f5737bf2662c38cc25c2443",
+      "bytes": 7465
+    },
+    {
+      "path": "pages\\custom-homes-lake-michigan-estate\\header-375.png",
+      "sha256": "4735b667472b57b93ac3ab2b3c0ac7e7a3438182d09533424f76a66cbbd49932",
+      "bytes": 5410
+    },
+    {
+      "path": "pages\\home\\band-1-1440.png",
+      "sha256": "891652a16e0e37b905a9af3eea71198dcb2b1d8857b7a3db142cf3cdcbc814eb",
+      "bytes": 12559
+    },
+    {
+      "path": "pages\\home\\band-1-375.png",
+      "sha256": "2bcc33cf1b5c1106c8feff0f604a26525db9c89914d421ec52f37fb861fecd6c",
+      "bytes": 7631
+    },
+    {
+      "path": "pages\\home\\band-2-1440.png",
+      "sha256": "1039e054a07d2b4008b8d500d55aaad7bde8ca61e0a7057f27752e1f3fdca799",
+      "bytes": 42127
+    },
+    {
+      "path": "pages\\home\\band-2-375.png",
+      "sha256": "1575cd2cc5cca82432e74d7620cffe431dc800a66a2ad661959e21318822e937",
+      "bytes": 36864
+    },
+    {
+      "path": "pages\\home\\band-3-1440.png",
+      "sha256": "e17a383f8b4408f3a1cc5de07ac9aea005d84a59b7030ae48505b54889546865",
+      "bytes": 361872
+    },
+    {
+      "path": "pages\\home\\band-3-375.png",
+      "sha256": "7f65149b0d896497a0bcf053cc82bce9ecd068252481df9b0a8a1af2abaaa116",
+      "bytes": 127289
+    },
+    {
+      "path": "pages\\home\\band-4-1440.png",
+      "sha256": "f3072bc4cc0b8ed63fa6c40a3d7af3a8974db12685aa2cf5f570f9d963d9ada5",
+      "bytes": 364386
+    },
+    {
+      "path": "pages\\home\\band-4-375.png",
+      "sha256": "0a6a7e90000d5071dc83d109d0daa66cdff729bd5eca6fd47c354e7401ba2e23",
+      "bytes": 144475
+    },
+    {
+      "path": "pages\\home\\band-5-1440.png",
+      "sha256": "605a40d57ed50407e0b20c48d94ccfe879226d022c8d1c93e0fef3fea7c51667",
+      "bytes": 800566
+    },
+    {
+      "path": "pages\\home\\band-5-375.png",
+      "sha256": "b7d847d601dbeb95376ba75b39aea3ebfca564cb5c230d69692d65b98e2f57a3",
+      "bytes": 172990
+    },
+    {
+      "path": "pages\\home\\band-6-1440.png",
+      "sha256": "5b8b45d79890bf144f2be3e089bd46f951706b0617a17acd2522cc8a0300807e",
+      "bytes": 38839
+    },
+    {
+      "path": "pages\\home\\band-6-375.png",
+      "sha256": "b3effb6c0423cc5ac77976a8d7d05a42e7359f434234eefbf61f54565a0603aa",
+      "bytes": 45285
+    },
+    {
+      "path": "pages\\home\\band-7-1440.png",
+      "sha256": "74d8d15837ac1bdf7c6c5182f5eea99ef7ffeb7ffb79dcf3714c6342440b3581",
+      "bytes": 3696
+    },
+    {
+      "path": "pages\\home\\band-7-375.png",
+      "sha256": "ee8fefb79b13e4e1f47feae3f666eaef44b77f432ae4896f3ba65a325297a375",
+      "bytes": 2579
+    },
+    {
+      "path": "pages\\home\\first-screen-1440.png",
+      "sha256": "78f5e2f4634be7397d1212918487f2e4d16039eb474bfa7bd1ff9c6715ff1b0e",
+      "bytes": 14039
+    },
+    {
+      "path": "pages\\home\\first-screen-375.png",
+      "sha256": "cf846064d2c874836ae7be8ebdd1db44c25fdd93c3c26ae0f246028b4d1fc815",
+      "bytes": 12966
+    },
+    {
+      "path": "pages\\home\\footer-1440.png",
+      "sha256": "f720269f3d79267f1d9a3753555b556a331d92c2ffe6cee0761a6b70b0c1e1e5",
+      "bytes": 37615
+    },
+    {
+      "path": "pages\\home\\footer-375.png",
+      "sha256": "90f4a39818ca8d2bf9314562f774a0223d903e2ff4bf12396ce6e307246a3e03",
+      "bytes": 33435
+    },
+    {
+      "path": "pages\\home\\full-1440.png",
+      "sha256": "7beddc3b879a2587d503f13b570fbaa544091e24362ae62460af75e72211f44a",
+      "bytes": 1659727
+    },
+    {
+      "path": "pages\\home\\full-375.png",
+      "sha256": "493b00db27583d38929330be91e79ff83282392814bf2c788fbcc1a88bf05c64",
+      "bytes": 572064
+    },
+    {
+      "path": "pages\\home\\header-1440.png",
+      "sha256": "93007ee28d335f4717512cc2eb53789c29ad96614f898ab94a1d941453f9cb90",
+      "bytes": 7461
+    },
+    {
+      "path": "pages\\home\\header-375.png",
+      "sha256": "4735b667472b57b93ac3ab2b3c0ac7e7a3438182d09533424f76a66cbbd49932",
+      "bytes": 5410
+    },
+    {
+      "path": "pages\\services\\band-1-1440.png",
+      "sha256": "38cf3410f0da5a99cd7e95153d150c5fb6d1edeb4b26071379f8b73fa8a689dd",
+      "bytes": 639725
+    },
+    {
+      "path": "pages\\services\\band-1-375.png",
+      "sha256": "1634cbff8760c501cb3041c8fe553fcd5996283178b96295525a826b47e5ec7d",
+      "bytes": 182877
+    },
+    {
+      "path": "pages\\services\\band-2-1440.png",
+      "sha256": "ee8f398a06fe6bc138f48406750afa4a8b4ae21f224327c29764c59a8d98af82",
+      "bytes": 382657
+    },
+    {
+      "path": "pages\\services\\band-2-375.png",
+      "sha256": "41894a26af7ba7815666e57a7351fc6dfae768727328130b308cfe6eb41d532a",
+      "bytes": 170084
+    },
+    {
+      "path": "pages\\services\\band-3-1440.png",
+      "sha256": "67ae4d3d5a9afa097c86687deb5c913da16c0f0e6a2e2843087d5237c28a4abc",
+      "bytes": 336540
+    },
+    {
+      "path": "pages\\services\\band-3-375.png",
+      "sha256": "9a3d25db0c64de09d62b4aa6b8b6eaff4249502b9533fd70d18a609c423f9d11",
+      "bytes": 150101
+    },
+    {
+      "path": "pages\\services\\band-4-1440.png",
+      "sha256": "4e487e2d783813193c422553def9ef52ab8f100411e779a08bde2db39784abe4",
+      "bytes": 361244
+    },
+    {
+      "path": "pages\\services\\band-4-375.png",
+      "sha256": "5c788f3a3cc774ff32d51843627e1481c37aa17c62720832054ffe4366aaf53a",
+      "bytes": 191217
+    },
+    {
+      "path": "pages\\services\\band-5-1440.png",
+      "sha256": "aabad7f27d12b401f0b49b715bac7040e69dd153de019f7227107bf4a3f64f27",
+      "bytes": 424616
+    },
+    {
+      "path": "pages\\services\\band-5-375.png",
+      "sha256": "22dde3770654d377571d4065fb183868c08c8b7631e255d5b7ba14d074727ea4",
+      "bytes": 188233
+    },
+    {
+      "path": "pages\\services\\band-6-1440.png",
+      "sha256": "532d36bdd2fe81489dfd318800aa0997ee94f3dd83cfba262610aa9b2a775f19",
+      "bytes": 394469
+    },
+    {
+      "path": "pages\\services\\band-6-375.png",
+      "sha256": "b7a166aa88c4f93380aba3765fb68d0b9e3b2aff6f18437d589c27466bb98687",
+      "bytes": 178199
+    },
+    {
+      "path": "pages\\services\\band-7-1440.png",
+      "sha256": "b0eb2abfd3bc5a226cb78d9de8d0470027f8df41111ff94088052ed742fe8dc9",
+      "bytes": 377379
+    },
+    {
+      "path": "pages\\services\\band-7-375.png",
+      "sha256": "0e6d6a2b95bedb971804d3f09ce1347408a172e42414a890ef038a61fcc264ea",
+      "bytes": 166973
+    },
+    {
+      "path": "pages\\services\\first-screen-1440.png",
+      "sha256": "638b12ce4fa68d30945653a8e4edbba95fb88c32a75b3bceb45ab8a8b7b733d4",
+      "bytes": 814958
+    },
+    {
+      "path": "pages\\services\\first-screen-375.png",
+      "sha256": "d6444fb2267732532ed494900be052e5d0fb957298b1ee8e9684a3d70195bc3a",
+      "bytes": 300825
+    },
+    {
+      "path": "pages\\services\\footer-1440.png",
+      "sha256": "84d6edd63dfd07ffdc7a404a454b6ef927a216145359a0e4cce7ce3409d6ecd3",
+      "bytes": 37604
+    },
+    {
+      "path": "pages\\services\\footer-375.png",
+      "sha256": "5f4974399174c3e4229905160a59d2765d87579b800ffc700bf0f95c5eb702e8",
+      "bytes": 33470
+    },
+    {
+      "path": "pages\\services\\full-1440.png",
+      "sha256": "13ef0e7d6e33cb70b41344e41504b0357c5730fa4df94642e4b68b8b253c42e9",
+      "bytes": 2956652
+    },
+    {
+      "path": "pages\\services\\full-375.png",
+      "sha256": "db8b2d04d5f528942f9084ce767e71a321753eccdb0f8a32eca33200c0232b87",
+      "bytes": 1263526
+    },
+    {
+      "path": "pages\\services\\header-1440.png",
+      "sha256": "cf6ce6f99a458bedbb3230e2b4a9b8e1452d8a9f6398590ae65844b93ec10993",
+      "bytes": 8662
+    },
+    {
+      "path": "pages\\services\\header-375.png",
+      "sha256": "4735b667472b57b93ac3ab2b3c0ac7e7a3438182d09533424f76a66cbbd49932",
+      "bytes": 5410
+    },
+    {
+      "path": "report.md",
+      "sha256": "7325e6d8cd4ed80dab14ffe9371f80e71ae921f16b437e7dbb21d30a9db56efa",
+      "bytes": 7247
+    },
+    {
+      "path": "routes.json",
+      "sha256": "4d8da603a80f507937084522fcae98f1903c8dc91ab4399d6a7f618c017cf2b0",
+      "bytes": 1173
+    },
+    {
+      "path": "security.json",
+      "sha256": "4a13d26b7173fccb45e50beba1e74a642b8e94612e5c480cf33aa3a6898e325b",
+      "bytes": 1158
+    },
+    {
+      "path": "states\\about-us\\band-2-1440-after.png",
+      "sha256": "df8d0bd47af837b1c6a90ebece8df6a9e556525a1aec5780073a6422b91891f7",
+      "bytes": 96470
+    },
+    {
+      "path": "states\\about-us\\band-2-1440-before.png",
+      "sha256": "6f5696d3e794577a4a800eab4928524e1dfd353a8d35bf4df0faf971b8c80b74",
+      "bytes": 477630
+    },
+    {
+      "path": "states\\about-us\\band-3-1440-after.png",
+      "sha256": "ee302330fdbe21bd1c5865516ba4c01e5793ad7c0ecae05df738d69406a0daef",
+      "bytes": 114114
+    },
+    {
+      "path": "states\\about-us\\band-3-1440-before.png",
+      "sha256": "a21f87a877d6d0576f50815fb317ac89f8c5d918a0e20303e9f93e536101fce1",
+      "bytes": 222158
+    },
+    {
+      "path": "states\\about-us\\band-4-1440-after.png",
+      "sha256": "02a7ee1461195d536783b70da7986b45e5f979df118a12862ea32795d64d20a8",
+      "bytes": 389012
+    },
+    {
+      "path": "states\\about-us\\band-4-1440-before.png",
+      "sha256": "457f1d11a8069db8ddf96bae9f3cf97f73430930dabcb44dd193183a29ca02b5",
+      "bytes": 102162
+    },
+    {
+      "path": "states\\about-us\\header-1440-scrolled.png",
+      "sha256": "7b7e27e7bbad3de6ea990ed790aced25a5820cae82bf87eaa90517356f32b834",
+      "bytes": 33088
+    },
+    {
+      "path": "states\\about-us\\header-1440-top.png",
+      "sha256": "ef761a53c45b2f96b61f31cecff9c518e63aa52c5a6bf1972b6861844ababd5b",
+      "bytes": 72591
+    },
+    {
+      "path": "states\\about-us\\sweep-1440-001.jpg",
+      "sha256": "041025ec981948d31cafa29697432559126c612385e9f5e3771ed0edf8df8c1f",
+      "bytes": 99346
+    },
+    {
+      "path": "states\\about-us\\sweep-1440-002.jpg",
+      "sha256": "060c98aa53bf29eaf47289df59f089338169e85aff8ead50b2c330965f18c180",
+      "bytes": 103953
+    },
+    {
+      "path": "states\\about-us\\sweep-1440-003.jpg",
+      "sha256": "bc870f1a11106d81d221a5b7f310537188260567f61a2548af4fc0f0b6fac632",
+      "bytes": 61961
+    },
+    {
+      "path": "states\\about-us\\sweep-1440-004.jpg",
+      "sha256": "30d188525affbfaa98b2f469ed7c33eb9abcfce085e8e968f7d96ffbb46c38cb",
+      "bytes": 85133
+    },
+    {
+      "path": "states\\about-us\\sweep-1440-005.jpg",
+      "sha256": "ad982983a3f29c03bfcdf095c3b78c80b6037556462eeef55456f75a37cafa03",
+      "bytes": 103476
+    },
+    {
+      "path": "states\\about-us\\sweep-1440-006.jpg",
+      "sha256": "4a2e88a26a902517bfb53f41b6422bf0173563ab742a8e3a6b8622c05f9d0556",
+      "bytes": 103250
+    },
+    {
+      "path": "states\\about-us\\sweep-1440-007.jpg",
+      "sha256": "02fb21386efcb70bb7089b2d2237d9f38d0df618b7bc40ca8a085dc72ae218cd",
+      "bytes": 87386
+    },
+    {
+      "path": "states\\about-us\\sweep-1440-008.jpg",
+      "sha256": "404f7bea8f5b44eced0fc717edcfa3d84bec2837f0e82cb815b5a77012d3957d",
+      "bytes": 83469
+    },
+    {
+      "path": "states\\about-us\\sweep-1440-009.jpg",
+      "sha256": "60bc61cdc29b7c736936f8036a2852184a33bd33c46674367259ee3c33215c44",
+      "bytes": 73516
+    },
+    {
+      "path": "states\\about-us\\sweep-1440-010.jpg",
+      "sha256": "68fa65bb8348bde7a77639718c3c47279e4b823f4d1107eef844a94813c6db3b",
+      "bytes": 66637
+    },
+    {
+      "path": "states\\about-us\\sweep-1440-011.jpg",
+      "sha256": "e566641281bdbdea28589e4f61f5dff54cbb4ac2da7e9b8aa3161a6243512822",
+      "bytes": 65354
+    },
+    {
+      "path": "states\\about-us\\sweep-1440.json",
+      "sha256": "fdc28ca04371071b358b294cf1bc471437fe5c422f1512a6878882d12f9d4ef8",
+      "bytes": 1386
+    },
+    {
+      "path": "states\\collection\\header-1440-scrolled.png",
+      "sha256": "d1c2311e32c1a749d06ebfa75ee7f35dfb56a195d48f1c406777a5e35b83553f",
+      "bytes": 462475
+    },
+    {
+      "path": "states\\collection\\header-1440-top.png",
+      "sha256": "11bf97b69b69957d6ec3abe6ec4a2b9e0edd13295e4dfe803e47e88ef6467e2e",
+      "bytes": 103619
+    },
+    {
+      "path": "states\\collection\\sweep-1440-001.jpg",
+      "sha256": "80c471469a28541ba25d9ee3bde493e273eab0a74a91ef2cc8400ef4e5f79240",
+      "bytes": 148890
+    },
+    {
+      "path": "states\\collection\\sweep-1440-002.jpg",
+      "sha256": "429c29e6996926fc60e30d43caabe3dd56d850a2af923e4e443c717a9d66ab59",
+      "bytes": 176889
+    },
+    {
+      "path": "states\\collection\\sweep-1440-003.jpg",
+      "sha256": "ac1eeb55b002ab5b410cedd783b4a86c2186e5d9ff569f1bf75e7218ab624a02",
+      "bytes": 179031
+    },
+    {
+      "path": "states\\collection\\sweep-1440-004.jpg",
+      "sha256": "517928f57fa077ace60b1a2501ac5cf210619dfe1f8a06111dcf7ecb093ecaae",
+      "bytes": 159496
+    },
+    {
+      "path": "states\\collection\\sweep-1440-005.jpg",
+      "sha256": "d9064f8a0ab070b4154a18d430abab8d13d9b0f6168ab9ff99658291761af39e",
+      "bytes": 121149
+    },
+    {
+      "path": "states\\collection\\sweep-1440-006.jpg",
+      "sha256": "8ae5d39b9c8f39ba9533e542eab6ca7a4ca26c83a8eb01fe02b8c3833011dcbb",
+      "bytes": 123365
+    },
+    {
+      "path": "states\\collection\\sweep-1440.json",
+      "sha256": "76465c17fce6b83dcd06a1ffcf604e07d0af2629a91178d9037bd660891a9577",
+      "bytes": 819
+    },
+    {
+      "path": "states\\contact\\header-1440-scrolled.png",
+      "sha256": "de9f91aed3e5009d74494b0e1b636043c30c1000e51e3cb0fcf860649ae101e3",
+      "bytes": 89636
+    },
+    {
+      "path": "states\\contact\\header-1440-top.png",
+      "sha256": "c7d5d62063bbd864973a47c83e6db35ae273b6c065576f78d15e5b6f6b8e0a45",
+      "bytes": 14076
+    },
+    {
+      "path": "states\\contact\\sweep-1440-001.jpg",
+      "sha256": "9ac7fe52ef090250f1b19a9035204b6d6bc1dac035a9e515ff609634ffa3f87a",
+      "bytes": 52183
+    },
+    {
+      "path": "states\\contact\\sweep-1440-002.jpg",
+      "sha256": "3757fa0f9b968e16278e93031b92862ce432cb219f2b0ac6df2b3d63b50515d9",
+      "bytes": 73949
+    },
+    {
+      "path": "states\\contact\\sweep-1440-003.jpg",
+      "sha256": "47e8f6c73b5028b402e72966c7ec344283625a99ab7fccec25aa636db681c393",
+      "bytes": 68674
+    },
+    {
+      "path": "states\\contact\\sweep-1440-004.jpg",
+      "sha256": "9a685384b2358a61cec8238b42e6f5e35937a16a12d05590c11fde3b53867b87",
+      "bytes": 64275
+    },
+    {
+      "path": "states\\contact\\sweep-1440-005.jpg",
+      "sha256": "cbd41d3426c0937aa70d65f97b971c973daab7bbd1b66d05b7b45b78a2dbbb75",
+      "bytes": 47046
+    },
+    {
+      "path": "states\\contact\\sweep-1440-006.jpg",
+      "sha256": "f8c8f007b4e38f1785b3eb7fc380ee9f482083336b89a220b8e87e1f90b81bb5",
+      "bytes": 38830
+    },
+    {
+      "path": "states\\contact\\sweep-1440.json",
+      "sha256": "058edeb519abad7c2dc612d5a4b3ae8f0a6290b068c116883708acaa4308cec2",
+      "bytes": 806
+    },
+    {
+      "path": "states\\custom-homes-lake-michigan-estate\\header-1440-scrolled.png",
+      "sha256": "4ded628fb737c14e4c0b1976ef04d4ed371827c3756864b5db1c21dfdca68f31",
+      "bytes": 433955
+    },
+    {
+      "path": "states\\custom-homes-lake-michigan-estate\\header-1440-top.png",
+      "sha256": "d4241d97fb5507a36113cc3b130cf6157430ef1cd07bf1f4152d8b2e750e40bc",
+      "bytes": 135989
+    },
+    {
+      "path": "states\\custom-homes-lake-michigan-estate\\sweep-1440-001.jpg",
+      "sha256": "f0953646fe87c172e258c1c77a583fe9a70543e73f6952aafca89e2679a2cc05",
+      "bytes": 154289
+    },
+    {
+      "path": "states\\custom-homes-lake-michigan-estate\\sweep-1440-002.jpg",
+      "sha256": "bcdac213e9c77f4dd99c5fa1ccdc945518f4750f84b654fe5417589187a17371",
+      "bytes": 169893
+    },
+    {
+      "path": "states\\custom-homes-lake-michigan-estate\\sweep-1440-003.jpg",
+      "sha256": "692250997dc69af2e91131b6f9874e1a2ec396f12c61810ee1e09e84682232c2",
+      "bytes": 162051
+    },
+    {
+      "path": "states\\custom-homes-lake-michigan-estate\\sweep-1440-004.jpg",
+      "sha256": "6d8f43d21bcf8daee7c8e5916d5d83e5b1c05f82c46d801682b5f5f151d3a95c",
+      "bytes": 147648
+    },
+    {
+      "path": "states\\custom-homes-lake-michigan-estate\\sweep-1440-005.jpg",
+      "sha256": "d138339809a7f7b8318faa985f89e29c63e7ca09b7533334fe780c002448a83b",
+      "bytes": 106125
+    },
+    {
+      "path": "states\\custom-homes-lake-michigan-estate\\sweep-1440-006.jpg",
+      "sha256": "bdd69c1c38df9626b12329a60218a8cceafa6716359427b3c3ba1aadfdd7da3a",
+      "bytes": 73434
+    },
+    {
+      "path": "states\\custom-homes-lake-michigan-estate\\sweep-1440-007.jpg",
+      "sha256": "5bca6e1793faed0a384858f582f70764abfb8fc889b1d973ee8ae274231d84f2",
+      "bytes": 63888
+    },
+    {
+      "path": "states\\custom-homes-lake-michigan-estate\\sweep-1440.json",
+      "sha256": "ebeaa1a9f9f60e25cf1b02bd72e11d3ba4ec901d2edb71f83a7ec84d2ee37970",
+      "bytes": 935
+    },
+    {
+      "path": "states\\home\\band-2-1440-after.png",
+      "sha256": "d000a2c3295710744a522ca88957554e7ed94ce8780a08125e30b1fafc323f2e",
+      "bytes": 90194
+    },
+    {
+      "path": "states\\home\\band-2-1440-before.png",
+      "sha256": "78f5e2f4634be7397d1212918487f2e4d16039eb474bfa7bd1ff9c6715ff1b0e",
+      "bytes": 14039
+    },
+    {
+      "path": "states\\home\\band-2-375-after.png",
+      "sha256": "3b72573ccf5413f10949b2f6216f93212c6823077ff809fbfc28b9250b442592",
+      "bytes": 37307
+    },
+    {
+      "path": "states\\home\\band-2-375-before.png",
+      "sha256": "cf846064d2c874836ae7be8ebdd1db44c25fdd93c3c26ae0f246028b4d1fc815",
+      "bytes": 12966
+    },
+    {
+      "path": "states\\home\\band-3-1440-after.png",
+      "sha256": "a12df43e5a25af213309f51d51531f602679ee0c04fba6a37e919e71c79d8eeb",
+      "bytes": 743277
+    },
+    {
+      "path": "states\\home\\band-3-1440-before.png",
+      "sha256": "d000a2c3295710744a522ca88957554e7ed94ce8780a08125e30b1fafc323f2e",
+      "bytes": 90194
+    },
+    {
+      "path": "states\\home\\band-3-375-after.png",
+      "sha256": "8dc5e9bcb204b8168cc71ac3aa6934fe2a66e709ccd203bc31727014c356f67c",
+      "bytes": 132865
+    },
+    {
+      "path": "states\\home\\band-3-375-before.png",
+      "sha256": "334d84a32bfea575551ca7e99a7e52ef71ca4de20300736bf7dcad78d26858c9",
+      "bytes": 88476
+    },
+    {
+      "path": "states\\home\\band-4-375-after.png",
+      "sha256": "4da61d764d2d2552435c85708b3d82a5eb98d3bbe53b7a9c2c597e53344a82d9",
+      "bytes": 127735
+    },
+    {
+      "path": "states\\home\\band-4-375-before.png",
+      "sha256": "43a4674cbfb383c73f78630c2d3dac52a6705d38c30af55be7f1d184cc4a511d",
+      "bytes": 147621
+    },
+    {
+      "path": "states\\home\\band-5-1440-after.png",
+      "sha256": "e5d2410e6c6a615f9d285a81067c56c52f6a610fd3a79642ef939c328622b4ef",
+      "bytes": 869950
+    },
+    {
+      "path": "states\\home\\band-5-1440-before.png",
+      "sha256": "16ade0a4d3e4c431f36866c7e004dc4ed00d0f498fce925ad58fccab6f88b4a0",
+      "bytes": 777551
+    },
+    {
+      "path": "states\\home\\band-5-375-after.png",
+      "sha256": "a9dedcad54d832859ddef3e6bc56ee873991e94867252dadc372f5f97ffafa50",
+      "bytes": 190705
+    },
+    {
+      "path": "states\\home\\band-5-375-before.png",
+      "sha256": "4da61d764d2d2552435c85708b3d82a5eb98d3bbe53b7a9c2c597e53344a82d9",
+      "bytes": 127735
+    },
+    {
+      "path": "states\\home\\band-6-1440-after.png",
+      "sha256": "8435f67ba84f54179640036c30c71d7e0e7b3ba790dda0c2484295d80216c756",
+      "bytes": 347214
+    },
+    {
+      "path": "states\\home\\band-6-1440-before.png",
+      "sha256": "e5d2410e6c6a615f9d285a81067c56c52f6a610fd3a79642ef939c328622b4ef",
+      "bytes": 869950
+    },
+    {
+      "path": "states\\home\\band-6-375-after.png",
+      "sha256": "a824b3bf635617a790536d58d8f62eaa37727cf8180f00eaaf658924a5e1668f",
+      "bytes": 57328
+    },
+    {
+      "path": "states\\home\\band-6-375-before.png",
+      "sha256": "10325f179366b0aa7b99c6bbcb7b878811b3fe308b86dfddeda82bf06b062e42",
+      "bytes": 184217
+    },
+    {
+      "path": "states\\home\\band-7-1440-after.png",
+      "sha256": "d4fc3c993a340c2c612dd30706e3b13bd1e2181a1ba95e7b5a3a5c6d76d5c9cd",
+      "bytes": 57099
+    },
+    {
+      "path": "states\\home\\band-7-1440-before.png",
+      "sha256": "8435f67ba84f54179640036c30c71d7e0e7b3ba790dda0c2484295d80216c756",
+      "bytes": 347214
+    },
+    {
+      "path": "states\\home\\band-7-375-after.png",
+      "sha256": "abd6e657cf8ee273af6c060ce1946e4d2ef1de42b3962d128103e8473ef38b90",
+      "bytes": 26846
+    },
+    {
+      "path": "states\\home\\band-7-375-before.png",
+      "sha256": "a824b3bf635617a790536d58d8f62eaa37727cf8180f00eaaf658924a5e1668f",
+      "bytes": 57328
+    },
+    {
+      "path": "states\\home\\header-1440-scrolled.png",
+      "sha256": "7be2a1647515211af113352620fe1913d5b9900d23a236f52ca043372264f4fc",
+      "bytes": 13934
+    },
+    {
+      "path": "states\\home\\header-1440-top.png",
+      "sha256": "4f074a372044a49a458663aa1edf7f9ccd1fe6469f65429b59d0366b954add7f",
+      "bytes": 8641
+    },
+    {
+      "path": "states\\home\\header-375-scrolled.png",
+      "sha256": "7babb2e4ed69f6a41c8772381889d570c9d5100582f73df7f60ce34eaa3c311d",
+      "bytes": 16921
+    },
+    {
+      "path": "states\\home\\header-375-top.png",
+      "sha256": "efc13d8824943effdd3abb641d1d225afa8f8b55f548d057a2763e73e28e1d59",
+      "bytes": 6065
+    },
+    {
+      "path": "states\\home\\hover-1-1440-after.png",
+      "sha256": "b1de1b9543e371a9ff4153c6ce8a19008c07eb41cbcde5bab2fef0c6a85f7c07",
+      "bytes": 2269
+    },
+    {
+      "path": "states\\home\\hover-1-1440-before.png",
+      "sha256": "5df282f9d469ae3b7f57d09c98d1594da5d5cf1683507c35dfdf7653e5d3f060",
+      "bytes": 2185
+    },
+    {
+      "path": "states\\home\\menu-open-375.png",
+      "sha256": "1f9fefe3f5b58b2445df8f5ec12ff67e68a8881e3fb795c3d3e2a717e126220d",
+      "bytes": 20966
+    },
+    {
+      "path": "states\\home\\sweep-1440-001.jpg",
+      "sha256": "480b9264095cca5a1ef0ec33d4800ae3b62d02bbe0e6dca7fb646eaf75c55349",
+      "bytes": 16340
+    },
+    {
+      "path": "states\\home\\sweep-1440-002.jpg",
+      "sha256": "dc035dd8e293c123d9d5908b2ae0a5c041e28a5c034faaffcfd4e3364593d56f",
+      "bytes": 17385
+    },
+    {
+      "path": "states\\home\\sweep-1440-003.jpg",
+      "sha256": "cabfa90bcba2467ee27a30f617613ad82d36d8a5a3731ca20b2e7c4d2915646b",
+      "bytes": 32184
+    },
+    {
+      "path": "states\\home\\sweep-1440-004.jpg",
+      "sha256": "9d0e5f31394934a749000a6e4ab7cc50187f97fe778c8f15fdd7d1ad7f439fd8",
+      "bytes": 40545
+    },
+    {
+      "path": "states\\home\\sweep-1440-005.jpg",
+      "sha256": "072b3b24f73a52a48d2c2130dc9681ee4c025b11e7b863abcaba88bd597375d3",
+      "bytes": 55742
+    },
+    {
+      "path": "states\\home\\sweep-1440-006.jpg",
+      "sha256": "7a1100c731d110d7acc133e493e927aba4be87cb10a253c4332122602c53c9f7",
+      "bytes": 46912
+    },
+    {
+      "path": "states\\home\\sweep-1440-007.jpg",
+      "sha256": "b6e2de1a8e47d97a89e30e994c4ebc548f066600cf166e41a8346cf42484d879",
+      "bytes": 68884
+    },
+    {
+      "path": "states\\home\\sweep-1440-008.jpg",
+      "sha256": "d1cad65544172185e829de4fedb798531d42b0158ea2ca2ae075d4242e6a3148",
+      "bytes": 80936
+    },
+    {
+      "path": "states\\home\\sweep-1440-009.jpg",
+      "sha256": "34f5a05ea1d3f894019a07b7d8dd3121addaaa04183f1405f0452ae92ccb2320",
+      "bytes": 107286
+    },
+    {
+      "path": "states\\home\\sweep-1440-010.jpg",
+      "sha256": "e69bde4e073208018a1bb160bed50f6beab5a7ac3f5cc680a1eac581d6e6fa2d",
+      "bytes": 91668
+    },
+    {
+      "path": "states\\home\\sweep-1440-011.jpg",
+      "sha256": "6bd6eafed3c07d68a2ae24f1b93c27087ba77c5e8a3999eee866f360386e859d",
+      "bytes": 110725
+    },
+    {
+      "path": "states\\home\\sweep-1440-012.jpg",
+      "sha256": "36f65f69eced3f8a41f5d0c3c66f702ab83a4971a1b362a60e6069dd01dfaec9",
+      "bytes": 69931
+    },
+    {
+      "path": "states\\home\\sweep-1440-013.jpg",
+      "sha256": "0e68b871666c7d9f6c075b2dad8b5b99cab7436c6250d3d0220f1a74b1da3f89",
+      "bytes": 50506
+    },
+    {
+      "path": "states\\home\\sweep-1440-014.jpg",
+      "sha256": "6f764d2393fbc4cb4333bac35a6a9ae319098e363e6a9af67cc85ab2c5b54e6b",
+      "bytes": 46584
+    },
+    {
+      "path": "states\\home\\sweep-1440.json",
+      "sha256": "70cec82580f01fb3353faae17cb1737f84039770bc6f0c670195c0b55fc58ce8",
+      "bytes": 1825
+    },
+    {
+      "path": "states\\home\\sweep-375-001.jpg",
+      "sha256": "723a8e7acbee5282571492ce129f6f4338d0c7b0f16acdcaa6a46f5413256d28",
+      "bytes": 9520
+    },
+    {
+      "path": "states\\home\\sweep-375-002.jpg",
+      "sha256": "fcf0fd0eb508aff3cdace27e5957cd6daabbdcc7139ec808fbebc3a5f16e8403",
+      "bytes": 15986
+    },
+    {
+      "path": "states\\home\\sweep-375-003.jpg",
+      "sha256": "7b6073223c9fa38e2a68fb7a06db44662bd064b586e97ea5928d18cb0ed9565c",
+      "bytes": 24897
+    },
+    {
+      "path": "states\\home\\sweep-375-004.jpg",
+      "sha256": "d6b43cca275fbc1e5118385e63f0cc457a2b9eea4bfaea8cf3c357af20959611",
+      "bytes": 28292
+    },
+    {
+      "path": "states\\home\\sweep-375-005.jpg",
+      "sha256": "445b71122a6b4f0feb95450ae1fc81374a14e714073466be76f2744ddb67378c",
+      "bytes": 30149
+    },
+    {
+      "path": "states\\home\\sweep-375-006.jpg",
+      "sha256": "badde9caea3dc17fd7671799871f4928e01db92d12b9e43646afac9fa9e15af0",
+      "bytes": 20341
+    },
+    {
+      "path": "states\\home\\sweep-375-007.jpg",
+      "sha256": "b9d836f089a08790be5448a612b5f2d76b5802c427811ac0fe3c51a9e55649a5",
+      "bytes": 29067
+    },
+    {
+      "path": "states\\home\\sweep-375-008.jpg",
+      "sha256": "0e9edfeaf3ad628f3ddd5279b5ea04c53d5bef726422b5b09c07e55c42ad925f",
+      "bytes": 23323
+    },
+    {
+      "path": "states\\home\\sweep-375-009.jpg",
+      "sha256": "5a35e96c09ef1298bad18b7c70c8cd7382fc86c12072a5149b14cfc8529f63b6",
+      "bytes": 25191
+    },
+    {
+      "path": "states\\home\\sweep-375-010.jpg",
+      "sha256": "538abc9ecbf27ef276f5429c6f85385a5a2b2d3a88019316498a5e9d6050bcf5",
+      "bytes": 29069
+    },
+    {
+      "path": "states\\home\\sweep-375-011.jpg",
+      "sha256": "e260cd7c639181c496948e34a29914c18166a3253ce175031acbdc1205649818",
+      "bytes": 36227
+    },
+    {
+      "path": "states\\home\\sweep-375-012.jpg",
+      "sha256": "676d770464b6391aa5b71bd8e434ccb511d4c9349d528b7c04a84272a48535ed",
+      "bytes": 34579
+    },
+    {
+      "path": "states\\home\\sweep-375-013.jpg",
+      "sha256": "8c72337ff4e35ab16360cb4917461a82d56faf3428a09091d743ae7842b789bf",
+      "bytes": 35446
+    },
+    {
+      "path": "states\\home\\sweep-375-014.jpg",
+      "sha256": "d8f3e3fb8be18d1711417b42be0d0f4570dad6859077d98a25299ae03e6c0d33",
+      "bytes": 30392
+    },
+    {
+      "path": "states\\home\\sweep-375-015.jpg",
+      "sha256": "13171da800496e9632cf6ec28d93b05c0356eb115bba7c0244ec67b97736091b",
+      "bytes": 24122
+    },
+    {
+      "path": "states\\home\\sweep-375-016.jpg",
+      "sha256": "487ed6c3a543dbf119e337d86a94baaa6663af500a2290cd6683d609625f2ffe",
+      "bytes": 16604
+    },
+    {
+      "path": "states\\home\\sweep-375-017.jpg",
+      "sha256": "7e4550981033ce54f5842927a4857c70542fd50a4f530565be923bbb6ee0399a",
+      "bytes": 20015
+    },
+    {
+      "path": "states\\home\\sweep-375-018.jpg",
+      "sha256": "7fe793e19f629f5afd122bb4e87bdae169855c834c8313f47a0078db4b53b9e6",
+      "bytes": 24632
+    },
+    {
+      "path": "states\\home\\sweep-375.json",
+      "sha256": "bede5745deb98f471cc81cfec3a04ea50caf1df26808950eb2c042e25e22daeb",
+      "bytes": 2262
+    },
+    {
+      "path": "states\\services\\band-2-1440-after.png",
+      "sha256": "e073ece5e52de16629e9cc0c1cf7e02742f689fb829c081a1050374ff5f91475",
+      "bytes": 639786
+    },
+    {
+      "path": "states\\services\\band-2-1440-before.png",
+      "sha256": "638b12ce4fa68d30945653a8e4edbba95fb88c32a75b3bceb45ab8a8b7b733d4",
+      "bytes": 814958
+    },
+    {
+      "path": "states\\services\\band-3-1440-after.png",
+      "sha256": "3c0896b2ad9e6dd65a82b3f1ca86f3db5e2ce7d19a137c79277da9d05e103cee",
+      "bytes": 511642
+    },
+    {
+      "path": "states\\services\\band-3-1440-before.png",
+      "sha256": "e073ece5e52de16629e9cc0c1cf7e02742f689fb829c081a1050374ff5f91475",
+      "bytes": 639786
+    },
+    {
+      "path": "states\\services\\band-4-1440-after.png",
+      "sha256": "3f250978978e1e1ae7f5479694e2dedfd3248e383c6e0bff0e8193e6a499a848",
+      "bytes": 375308
+    },
+    {
+      "path": "states\\services\\band-4-1440-before.png",
+      "sha256": "14b3f30e7ddf3b1f3ddd40fc6cea36b4a113299c922e1812a266ee0b19b683df",
+      "bytes": 642512
+    },
+    {
+      "path": "states\\services\\band-5-1440-after.png",
+      "sha256": "7e585e74142e0076687e0eca40b317361a69071a66e55b2ab831ffce64c24cda",
+      "bytes": 450834
+    },
+    {
+      "path": "states\\services\\band-5-1440-before.png",
+      "sha256": "a552e5294482cc8eadd675109d952661b0d7e3ba4ba91efd85f377af1306af72",
+      "bytes": 265189
+    },
+    {
+      "path": "states\\services\\band-6-1440-after.png",
+      "sha256": "6a745728026bfe7e4d6ece7d1728931d7aac0c30a4626e616458b8f823511c5d",
+      "bytes": 662082
+    },
+    {
+      "path": "states\\services\\band-6-1440-before.png",
+      "sha256": "7e585e74142e0076687e0eca40b317361a69071a66e55b2ab831ffce64c24cda",
+      "bytes": 450834
+    },
+    {
+      "path": "states\\services\\band-7-1440-after.png",
+      "sha256": "6b34f30a6feec358472e4801b0f06d279cee7a7f7f86c5865d38094149a4b5cb",
+      "bytes": 406918
+    },
+    {
+      "path": "states\\services\\band-7-1440-before.png",
+      "sha256": "2e49f36c04d2a2754869f9cf232ce70403052444bc90d8315162128812c50e61",
+      "bytes": 572224
+    },
+    {
+      "path": "states\\services\\header-1440-scrolled.png",
+      "sha256": "2a134cae3ab9fae5d941370dbab9661131c683c6ef008097be227f68ac12e9aa",
+      "bytes": 206819
+    },
+    {
+      "path": "states\\services\\header-1440-top.png",
+      "sha256": "8ead36b2212df57de6de3aa1142e940ce25d7f26d22b423d83f918ee00632ae3",
+      "bytes": 133187
+    },
+    {
+      "path": "states\\services\\sweep-1440-001.jpg",
+      "sha256": "3331be71837b5472f6fec4ed3e5960a75bf8cc3584a399463b0ddc699d9a1a21",
+      "bytes": 96146
+    },
+    {
+      "path": "states\\services\\sweep-1440-002.jpg",
+      "sha256": "4e5ed18d68bb5b139877ec5334bcddbc39044fa2e37ef55064589faf7a002016",
+      "bytes": 118591
+    },
+    {
+      "path": "states\\services\\sweep-1440-003.jpg",
+      "sha256": "bd1b574a98183edaa4644505e14452ef2e528ba36213b1f4a1265bd9411a1df2",
+      "bytes": 101761
+    },
+    {
+      "path": "states\\services\\sweep-1440-004.jpg",
+      "sha256": "4f6b55cdbf73b4e108589f46e21b8372f487e464d593f1316cdc96056c5cbfa6",
+      "bytes": 124934
+    },
+    {
+      "path": "states\\services\\sweep-1440-005.jpg",
+      "sha256": "b4fb75ef3f11c208125df0688bca91b1628fdb1cb9cbd9920de575d67403fd9b",
+      "bytes": 103318
+    },
+    {
+      "path": "states\\services\\sweep-1440-006.jpg",
+      "sha256": "24092b2e89b2f5b5efe4092635f136509fa1560aae155bec0700be73450ab722",
+      "bytes": 123530
+    },
+    {
+      "path": "states\\services\\sweep-1440-007.jpg",
+      "sha256": "7667505895727016b21a7b3020b63ac5ad1874ff109af7ab075c08a2065c0f10",
+      "bytes": 105630
+    },
+    {
+      "path": "states\\services\\sweep-1440-008.jpg",
+      "sha256": "812104e6713c77c088a19a9b3672e1b87a0a274bf65a7ecd0cb5f7c0bd632510",
+      "bytes": 102494
+    },
+    {
+      "path": "states\\services\\sweep-1440-009.jpg",
+      "sha256": "a9d9efc8f5ac7828a7194c2c5f9d4680b53b5e9ffc2039e8d4ac0367c164f91a",
+      "bytes": 105522
+    },
+    {
+      "path": "states\\services\\sweep-1440-010.jpg",
+      "sha256": "24c8ca522a26da89f27f8d15408da8379915e90df8eedc63a683e1759ecfba56",
+      "bytes": 106383
+    },
+    {
+      "path": "states\\services\\sweep-1440-011.jpg",
+      "sha256": "1874b041e5421b09197944f673b8c8f88c14ad6b5f6e21ac3f992437012acc78",
+      "bytes": 126044
+    },
+    {
+      "path": "states\\services\\sweep-1440-012.jpg",
+      "sha256": "c3a2847ecb86a4925ab88d956b279964e0ab40be9e7d25a51c34d5cb395af00a",
+      "bytes": 121928
+    },
+    {
+      "path": "states\\services\\sweep-1440-013.jpg",
+      "sha256": "4c5ef09d65d5c7b991a1db7cf545925b2a871416d21c235f0e525952cbdc9ca7",
+      "bytes": 119187
+    },
+    {
+      "path": "states\\services\\sweep-1440-014.jpg",
+      "sha256": "15ba6a058831596f77d5c4e80f64944930a3e45e0a22154c8ae21715fcfb590d",
+      "bytes": 126341
+    },
+    {
+      "path": "states\\services\\sweep-1440-015.jpg",
+      "sha256": "de6bcb6e2df67d499614b4055125efaccab7b25c6b6bfbe34f60f95fda6e07d9",
+      "bytes": 96994
+    },
+    {
+      "path": "states\\services\\sweep-1440-016.jpg",
+      "sha256": "5ad00887c8d2745d01de0b34b3b5aee24fbd2ac13397d11828ebfeab22d93939",
+      "bytes": 102848
+    },
+    {
+      "path": "states\\services\\sweep-1440.json",
+      "sha256": "a689114119f1b08e3274f7102062d52ee949643697a8b9f67dcc5cc05d63caa1",
+      "bytes": 2044
+    },
+    {
+      "path": "text\\about-us.txt",
+      "sha256": "5ad4db695a90512f1b159186f181fccd9654496299ebdb78d3b25ab6dde6cc5f",
+      "bytes": 2871
+    },
+    {
+      "path": "text\\collection.txt",
+      "sha256": "af182676f7daaf32c6435bb07064348201b5e167b4d4081a159a672621ca590f",
+      "bytes": 830
+    },
+    {
+      "path": "text\\contact.txt",
+      "sha256": "83c195477f13b5b4388f42f466e59c1482d40c7ab3c53849917292e5ac7e114f",
+      "bytes": 980
+    },
+    {
+      "path": "text\\custom-homes-lake-michigan-estate.txt",
+      "sha256": "c6369c73456ecb420f399760e4e69553b0d602b8ef584d516de95ad2679eab9c",
+      "bytes": 536
+    },
+    {
+      "path": "text\\home.txt",
+      "sha256": "466c882e43222d2cc8d47080e4aa6bf3f8ece1cdfa28e10033f6d1f6a2ddfa0c",
+      "bytes": 3471
+    },
+    {
+      "path": "text\\services.txt",
+      "sha256": "7e5a5a2b9e5bda327d1f12054136f6f134a1ccf349d8cab2eab7a991741f92e3",
+      "bytes": 4651
+    },
+    {
+      "path": "tokens.json",
+      "sha256": "c4684d88d5d836646c45eb470a88cc23b5c6d4ea0cc45d3e05a9a35401878fce",
+      "bytes": 50005
+    }
+  ]
+}

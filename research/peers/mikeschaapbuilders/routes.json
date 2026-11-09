@@ -1,0 +1,49 @@
+{
+  "origin": "https://mikeschaapbuilders.com",
+  "pages": [
+    {
+      "path": "/",
+      "type": "home",
+      "reason": "listed",
+      "slug": "home",
+      "url": "https://mikeschaapbuilders.com/"
+    },
+    {
+      "path": "/about-us",
+      "type": "page",
+      "reason": "listed",
+      "slug": "about-us",
+      "url": "https://mikeschaapbuilders.com/about-us"
+    },
+    {
+      "path": "/services",
+      "type": "page",
+      "reason": "listed",
+      "slug": "services",
+      "url": "https://mikeschaapbuilders.com/services"
+    },
+    {
+      "path": "/contact",
+      "type": "page",
+      "reason": "listed",
+      "slug": "contact",
+      "url": "https://mikeschaapbuilders.com/contact"
+    },
+    {
+      "path": "/collection",
+      "type": "page",
+      "reason": "listed",
+      "slug": "collection",
+      "url": "https://mikeschaapbuilders.com/collection"
+    },
+    {
+      "path": "/custom-homes/lake-michigan-estate",
+      "type": "page",
+      "reason": "listed",
+      "slug": "custom-homes-lake-michigan-estate",
+      "url": "https://mikeschaapbuilders.com/custom-homes/lake-michigan-estate"
+    }
+  ],
+  "skipped": [],
+  "linksSeen": 0
+}

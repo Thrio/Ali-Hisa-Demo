@@ -1,0 +1,215 @@
+{
+  "viewport": {
+    "width": 375,
+    "height": 812
+  },
+  "placement": {
+    "top": 1945,
+    "viewportTop": -1085,
+    "left": 15,
+    "width": 345,
+    "height": 2983
+  },
+  "summary": {
+    "padding": "26.796px 0px 26.796px 0px",
+    "margin": "0px 0px",
+    "display": "flex",
+    "flexDirection": "row",
+    "gap": "normal",
+    "contentBox": null,
+    "columns": 10,
+    "layoutDriver": "grid 11.5px 27.875px 27.875px 27.875px 27.875px 27.875px 27.875px 27.875px 27.875px 1",
+    "layoutGap": "11px",
+    "backgroundPaint": "transparent",
+    "border": "0px 0px 0px 0px",
+    "radius": "0px",
+    "heading": {
+      "tag": "h1",
+      "family": "futura-pt",
+      "size": "33.5392px",
+      "weight": "300",
+      "lineHeight": "37.3493px",
+      "letterSpacing": "1.34157px",
+      "transform": "none",
+      "chars": 10,
+      "lines": 1
+    },
+    "body": {
+      "tag": "p",
+      "family": "freight-sans-pro",
+      "size": "16.9744px",
+      "weight": "400",
+      "lineHeight": "28.8565px",
+      "letterSpacing": "normal",
+      "transform": "none",
+      "chars": 251,
+      "lines": 7
+    },
+    "copy": {
+      "paragraphs": 7,
+      "bodyChars": 1327
+    },
+    "slots": {
+      "h1": 1,
+      "h2": 0,
+      "h3": 0,
+      "p": 7,
+      "li": 0,
+      "links": 0,
+      "buttons": 0,
+      "images": 0,
+      "video": 0,
+      "svg": 0,
+      "inputs": 0,
+      "canvas": 0
+    }
+  },
+  "tree": {
+    "tag": "div",
+    "cls": "content-wrapper",
+    "box": {
+      "top": 1945,
+      "left": 15,
+      "width": 345,
+      "height": 2983
+    },
+    "styles": {
+      "fontFamily": "freight-sans-pro",
+      "fontSize": "16.9744px",
+      "fontWeight": "400",
+      "lineHeight": "28.8565px",
+      "textAlign": "start",
+      "padding": "26.796px 0px",
+      "paddingTop": "26.796px",
+      "paddingBottom": "26.796px",
+      "width": "345px",
+      "height": "2982.56px",
+      "maxWidth": "100%",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "nowrap",
+      "justifyContent": "center",
+      "overflow": "visible",
+      "borderTopColor": "rgb(0, 0, 0)",
+      "position": "relative",
+      "objectFit": "fill",
+      "objectPosition": "50% 50%",
+      "opacity": "1"
+    },
+    "backgroundPaint": "transparent",
+    "text": null,
+    "img": null,
+    "childCount": 1,
+    "children": [
+      {
+        "tag": "div",
+        "cls": "content",
+        "box": {
+          "top": 1972,
+          "left": 15,
+          "width": 345,
+          "height": 2929
+        },
+        "styles": {
+          "fontFamily": "freight-sans-pro",
+          "fontSize": "16.9744px",
+          "fontWeight": "400",
+          "lineHeight": "28.8565px",
+          "textAlign": "start",
+          "width": "345px",
+          "height": "2929px",
+          "boxSizing": "content-box",
+          "display": "block",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "overflow": "visible",
+          "borderTopColor": "rgb(0, 0, 0)",
+          "position": "static",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "opacity": "1"
+        },
+        "backgroundPaint": "transparent",
+        "text": null,
+        "img": null,
+        "childCount": 1,
+        "children": [
+          {
+            "tag": "div",
+            "cls": "",
+            "box": {
+              "top": 1972,
+              "left": 15,
+              "width": 345,
+              "height": 2929
+            },
+            "styles": {
+              "fontFamily": "freight-sans-pro",
+              "fontSize": "16.9744px",
+              "fontWeight": "400",
+              "lineHeight": "28.8565px",
+              "textAlign": "start",
+              "width": "345px",
+              "height": "2929px",
+              "boxSizing": "content-box",
+              "display": "block",
+              "flexDirection": "row",
+              "flexWrap": "nowrap",
+              "overflow": "visible",
+              "borderTopColor": "rgb(0, 0, 0)",
+              "position": "relative",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%",
+              "opacity": "1"
+            },
+            "backgroundPaint": "transparent",
+            "text": null,
+            "img": null,
+            "childCount": 2,
+            "children": [
+              {
+                "tag": "div",
+                "cls": "fluid-engine fe-640a240a053bb825059774b1",
+                "box": {
+                  "top": 1972,
+                  "left": 15,
+                  "width": 345,
+                  "height": 2929
+                },
+                "styles": {
+                  "fontFamily": "freight-sans-pro",
+                  "fontSize": "16.9744px",
+                  "fontWeight": "400",
+                  "lineHeight": "28.8565px",
+                  "textAlign": "start",
+                  "width": "345px",
+                  "height": "2929px",
+                  "boxSizing": "content-box",
+                  "display": "grid",
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                  "gap": "11px",
+                  "rowGap": "11px",
+                  "columnGap": "11px",
+                  "gridTemplateColumns": "11.5px 27.875px 27.875px 27.875px 27.875px 27.875px 27.875px 27.875px 27.875px 11.5px",
+                  "gridTemplateRows": "24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px 24px ",
+                  "overflow": "clip visible",
+                  "borderTopColor": "rgb(0, 0, 0)",
+                  "position": "relative",
+                  "objectFit": "fill",
+                  "objectPosition": "50% 50%",
+                  "opacity": "1"
+                },
+                "backgroundPaint": "transparent",
+                "text": null,
+                "img": null,
+                "childCount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

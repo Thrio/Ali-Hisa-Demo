@@ -1,0 +1,48 @@
+{
+  "peer": "research\\peers\\mikeschaapbuilders\\pages\\home\\first-screen-1440.png",
+  "build": "research\\build\\site\\pages\\home\\first-screen-1440.png",
+  "size": {
+    "peer": [
+      1440,
+      900
+    ],
+    "build": [
+      1440,
+      900
+    ],
+    "sameWidth": true,
+    "heightDelta": 0
+  },
+  "pixelMismatchPct": 15.9,
+  "structureMismatchPct": 69,
+  "edges": {
+    "shared": 3731,
+    "onlyInReference": 6260,
+    "onlyInBuild": 5155
+  },
+  "drift": {
+    "dx": 0,
+    "dy": 78,
+    "improvementPct": 69
+  },
+  "lookHere": [
+    {
+      "y0": 0,
+      "y1": 76,
+      "peakPct": 100
+    },
+    {
+      "y0": 833,
+      "y1": 899,
+      "peakPct": 100
+    }
+  ],
+  "hints": [
+    "whole band aligns better shifted up 78px — placement, not inner layout (L1, L8: header clearance counted twice?)",
+    "many edges exist only in the reference: missing elements, borders or layered media (L3, L9, L12)",
+    "many edges exist only in our build: invented elements or different grammar (L12)",
+    "look at y 0–76px (100% of the row differs)",
+    "look at y 833–899px (100% of the row differs)"
+  ],
+  "note": "Diagnostics, not a score. Open the sheet (reference | build | structure); the overlay passes only when structure, spacing and media side match apart from our colours, copy, logo and motion implementation."
+}

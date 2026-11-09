@@ -1,0 +1,14 @@
+{
+  "origin": "http://localhost:3000",
+  "pages": [
+    {
+      "path": "/",
+      "type": "home",
+      "reason": "listed",
+      "slug": "home",
+      "url": "http://localhost:3000/"
+    }
+  ],
+  "skipped": [],
+  "linksSeen": 0
+}

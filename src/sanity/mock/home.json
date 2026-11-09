@@ -1,0 +1,61 @@
+{
+  "slideshow": [
+    {
+      "src": "/images/facebook/Ali_foto3.jpg",
+      "width": 2048,
+      "height": 1229,
+      "alt": "Ali Hisa design for a dark-clad residential and office building with a planted terrace",
+      "focus": "0% 100%",
+      "title": "Spaces for living and working",
+      "body": "Homes and offices designed side by side, with planted terraces that bring calm to the city."
+    },
+    {
+      "src": "/images/facebook/Ali_foto4.jpg",
+      "width": 2048,
+      "height": 1418,
+      "alt": "Ali Hisa design for a high-rise with a glass office wing, apartments and ground-floor cafés",
+      "focus": "0% 100%",
+      "title": "Built to rise",
+      "body": "Taller structures planned with precision, where glass, light and solid construction work together."
+    },
+    {
+      "src": "/images/facebook/Ali_foto5.jpg",
+      "width": 2048,
+      "height": 1351,
+      "alt": "Ali Hisa design for a slim six-storey residential building on a tree-lined street",
+      "focus": "0% 100%",
+      "title": "Modern residential living",
+      "body": "Clean lines, generous windows and durable materials — residential buildings made for everyday life."
+    },
+    {
+      "src": "/images/facebook/Ali_foto6.jpg",
+      "width": 2048,
+      "height": 915,
+      "alt": "Ali Hisa design for a row of pitched-roof family houses with brick and stone facades",
+      "focus": "50% 60%",
+      "title": "Family homes, made to last",
+      "body": "Warm materials and careful detailing, from the first drawing to the final finish — since 1997."
+    }
+  ],
+  "intro": {
+    "eyebrow": "Crafting homes for",
+    "title": "Discerning clients",
+    "since": "Since 1986",
+    "body": [
+      "The only thing more important than experience is passion.",
+      "We have both."
+    ],
+    "cta": { "label": "More about us", "href": "/about" }
+  },
+  "craft": {
+    "image": {
+      "src": "/images/facebook/Ali_foto2.jpg",
+      "width": 2048,
+      "height": 1331,
+      "alt": "Ali Hisa design for a multi-storey building with a patterned facade and planted terraces"
+    },
+    "eyebrow": "Struga · Since 1997",
+    "title": "Built with precision. Designed to last.",
+    "body": "Architecture and construction under one roof — from the first drawing to the final detail."
+  }
+}

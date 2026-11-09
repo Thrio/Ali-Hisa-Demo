@@ -1,0 +1,23 @@
+{
+  "note": "inventory only — nothing was downloaded; logoSuspect items are never taken",
+  "home/band-1@1440": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "home/band-1@375": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  }
+}

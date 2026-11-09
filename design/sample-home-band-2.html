@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="sq">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ali Hisa — design preview (home bands 1–2)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&family=Schibsted+Grotesk:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="tokens.css" />
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--color-surface);
+        color: var(--color-on-surface);
+        font-family: var(--font-body);
+        font-size: var(--text-base);
+        line-height: var(--leading-normal);
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .preview-note {
+        margin: 0;
+        padding: var(--space-3) var(--gutter-inline);
+        background: var(--color-on-surface);
+        color: var(--color-on-accent);
+        font-size: var(--text-xs);
+        text-align: center;
+        letter-spacing: 0.02em;
+      }
+
+      .site-header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        height: var(--header-height);
+        display: flex;
+        align-items: center;
+        padding-inline: var(--gutter-inline);
+        background: color-mix(in oklch, var(--color-surface) 92%, transparent);
+        border-bottom: 1px solid var(--color-border);
+        backdrop-filter: blur(8px);
+      }
+
+      .site-header__inner {
+        width: 100%;
+        max-width: var(--content-max);
+        margin-inline: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: var(--space-6);
+      }
+
+      .wordmark {
+        font-family: var(--font-display);
+        font-size: var(--text-lg);
+        font-weight: 600;
+        letter-spacing: var(--tracking-display);
+        text-transform: uppercase;
+        text-decoration: none;
+        color: var(--color-on-surface);
+      }
+
+      .nav {
+        display: none;
+        gap: var(--space-7);
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      @media (min-width: 768px) {
+        .nav {
+          display: flex;
+        }
+      }
+
+      .nav a {
+        font-family: var(--font-display);
+        font-size: var(--text-xs);
+        font-weight: 500;
+        letter-spacing: var(--tracking-display);
+        text-transform: uppercase;
+        text-decoration: none;
+        color: var(--color-on-surface-muted);
+      }
+
+      .nav a:hover {
+        color: var(--color-on-surface);
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--font-display);
+        font-size: var(--text-xs);
+        font-weight: 600;
+        letter-spacing: var(--tracking-display);
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: var(--space-4) var(--space-6);
+        border-radius: var(--radius-sm);
+        border: 1px solid var(--color-on-surface);
+        color: var(--color-on-surface);
+        background: transparent;
+        transition: background 0.2s var(--motion-header-ease), color 0.2s;
+      }
+
+      .btn--primary {
+        background: var(--color-on-surface);
+        color: var(--color-surface);
+        border-color: var(--color-on-surface);
+      }
+
+      .btn--primary:hover {
+        background: var(--color-accent);
+        border-color: var(--color-accent);
+        color: var(--color-on-accent);
+      }
+
+      /* Band 1 — full-bleed hero (peer home band 1 grammar) */
+      .hero {
+        position: relative;
+        min-height: var(--hero-min-height);
+        display: grid;
+        align-items: end;
+        padding: var(--space-11) var(--gutter-inline) var(--space-10);
+        overflow: hidden;
+        background-color: oklch(55% 0.04 55);
+      }
+
+      .hero__media {
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(
+            160deg,
+            oklch(72% 0.06 70) 0%,
+            oklch(58% 0.05 55) 38%,
+            oklch(42% 0.04 45) 100%
+          );
+        transform: scale(1.02);
+      }
+
+      .hero__media::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          to top,
+          var(--color-hero-overlay) 0%,
+          oklch(17% 0.01 30 / 0.05) 55%,
+          transparent 100%
+        );
+      }
+
+      .hero__content {
+        position: relative;
+        z-index: 1;
+        max-width: var(--content-max);
+        margin-inline: auto;
+        width: 100%;
+        color: var(--color-on-accent);
+      }
+
+      .hero__eyebrow {
+        font-family: var(--font-display);
+        font-size: var(--text-sm);
+        font-weight: 500;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        margin: 0 0 var(--space-4);
+        opacity: 0.9;
+      }
+
+      .hero__title {
+        font-family: var(--font-display);
+        font-size: var(--text-hero);
+        font-weight: 600;
+        line-height: var(--leading-tight);
+        letter-spacing: var(--tracking-display);
+        text-transform: uppercase;
+        max-width: 14ch;
+        margin: 0 0 var(--space-5);
+      }
+
+      .hero__sub {
+        font-size: var(--text-lg);
+        max-width: 36ch;
+        margin: 0 0 var(--space-8);
+        opacity: 0.92;
+      }
+
+      .copy-pending {
+        font-style: italic;
+        opacity: 0.75;
+        font-size: 0.95em;
+      }
+
+      /* Band 2 — intro split (sample approval band) */
+      .band-intro {
+        background: var(--color-surface-muted);
+        border-block: 1px solid var(--color-border);
+      }
+
+      .band-intro__inner {
+        max-width: var(--content-max);
+        margin-inline: auto;
+        padding: var(--section-pad-y) var(--gutter-inline);
+        display: grid;
+        gap: var(--space-9);
+        align-items: center;
+      }
+
+      @media (min-width: 900px) {
+        .band-intro__inner {
+          grid-template-columns: 1fr 1.05fr;
+          gap: var(--space-10);
+        }
+      }
+
+      .band-intro h2 {
+        font-family: var(--font-display);
+        font-size: var(--text-2xl);
+        font-weight: 600;
+        line-height: var(--leading-tight);
+        letter-spacing: var(--tracking-display);
+        text-transform: uppercase;
+        margin: 0 0 var(--space-5);
+      }
+
+      .band-intro .lede {
+        font-size: var(--text-base);
+        color: var(--color-on-surface-muted);
+        max-width: 42ch;
+        margin: 0 0 var(--space-6);
+      }
+
+      .cta-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space-4);
+      }
+
+      .media-frame {
+        position: relative;
+        aspect-ratio: 4 / 3;
+        border-radius: var(--radius-md);
+        overflow: hidden;
+        box-shadow: var(--shadow-card);
+        background:
+          linear-gradient(135deg, oklch(88% 0.02 75), oklch(78% 0.04 60)),
+          var(--color-surface-elevated);
+      }
+
+      .media-frame__fill {
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(145deg, oklch(82% 0.03 80) 0%, oklch(65% 0.05 55) 100%),
+          repeating-linear-gradient(
+            -12deg,
+            oklch(100% 0 0 / 0.03) 0,
+            oklch(100% 0 0 / 0.03) 2px,
+            transparent 2px,
+            transparent 8px
+          );
+      }
+
+      .media-frame__label {
+        position: absolute;
+        bottom: var(--space-5);
+        left: var(--space-5);
+        font-family: var(--font-display);
+        font-size: var(--text-xs);
+        letter-spacing: var(--tracking-display);
+        text-transform: uppercase;
+        color: var(--color-on-accent);
+        text-shadow: 0 1px 4px oklch(0% 0 0 / 0.35);
+      }
+
+      .swatch-row {
+        max-width: var(--content-max);
+        margin: 0 auto;
+        padding: var(--space-8) var(--gutter-inline) var(--space-11);
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space-4);
+        align-items: center;
+        font-size: var(--text-xs);
+        color: var(--color-on-surface-muted);
+      }
+
+      .swatch {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: var(--radius-sm);
+        border: 1px solid var(--color-border);
+      }
+
+      .swatch--surface {
+        background: var(--color-surface);
+      }
+      .swatch--muted {
+        background: var(--color-surface-muted);
+      }
+      .swatch--ink {
+        background: var(--color-on-surface);
+      }
+      .swatch--accent {
+        background: var(--color-accent);
+      }
+
+      .header-actions {
+        display: flex;
+        align-items: center;
+        gap: var(--space-4);
+      }
+
+      .menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.75rem;
+        height: 2.75rem;
+        padding: 0;
+        border: 1px solid var(--color-border);
+        border-radius: var(--radius-sm);
+        background: var(--color-surface-elevated);
+        color: var(--color-on-surface);
+        cursor: pointer;
+        transition: background 0.2s var(--motion-header-ease), border-color 0.2s;
+      }
+
+      .menu-toggle:hover {
+        border-color: var(--color-on-surface);
+      }
+
+      .menu-toggle__bars {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 1.125rem;
+      }
+
+      .menu-toggle__bars span {
+        display: block;
+        height: 2px;
+        background: currentColor;
+        border-radius: 1px;
+      }
+
+      .header-cta--desktop {
+        display: none;
+      }
+
+      @media (min-width: 768px) {
+        .menu-toggle {
+          display: none;
+        }
+        .header-cta--desktop {
+          display: inline-flex;
+        }
+      }
+
+      /* Mobile nav — right slide-out (not peer full-screen) */
+      .nav-drawer {
+        position: fixed;
+        inset: 0;
+        z-index: 200;
+        pointer-events: none;
+        visibility: hidden;
+      }
+
+      .nav-drawer.is-open {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .nav-drawer__backdrop {
+        position: absolute;
+        inset: 0;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        background: var(--nav-overlay);
+        opacity: 0;
+        cursor: pointer;
+        transition: opacity var(--nav-drawer-duration) var(--nav-drawer-ease);
+      }
+
+      .nav-drawer.is-open .nav-drawer__backdrop {
+        opacity: 1;
+      }
+
+      .nav-drawer__panel {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: var(--nav-drawer-width);
+        margin: 0;
+        padding: var(--space-8) var(--space-6) var(--space-10);
+        background: var(--color-surface-elevated);
+        border-left: 1px solid var(--color-border);
+        box-shadow: -8px 0 32px oklch(0% 0 0 / 0.08);
+        transform: translateX(100%);
+        transition: transform var(--nav-drawer-duration) var(--nav-drawer-ease);
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-8);
+      }
+
+      .nav-drawer.is-open .nav-drawer__panel {
+        transform: translateX(0);
+      }
+
+      .nav-drawer__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: var(--space-4);
+      }
+
+      .nav-drawer__title {
+        font-family: var(--font-display);
+        font-size: var(--text-sm);
+        font-weight: 600;
+        letter-spacing: var(--tracking-display);
+        text-transform: uppercase;
+        margin: 0;
+      }
+
+      .nav-drawer__close {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 0;
+        border: 1px solid var(--color-border);
+        border-radius: var(--radius-sm);
+        background: transparent;
+        color: var(--color-on-surface);
+        font-family: var(--font-display);
+        font-size: 1.25rem;
+        line-height: 1;
+        cursor: pointer;
+        transition: background 0.2s var(--motion-header-ease), border-color 0.2s;
+      }
+
+      .nav-drawer__close:hover {
+        background: var(--color-surface-muted);
+        border-color: var(--color-on-surface);
+      }
+
+      .nav-drawer__links {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-6);
+      }
+
+      .nav-drawer__links a {
+        font-family: var(--font-display);
+        font-size: var(--text-lg);
+        font-weight: 500;
+        letter-spacing: var(--tracking-display);
+        text-transform: uppercase;
+        text-decoration: none;
+        color: var(--color-on-surface);
+      }
+
+      .nav-drawer__links a:hover {
+        color: var(--color-accent);
+      }
+
+      .nav-drawer__footer {
+        margin-top: auto;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .nav-drawer__backdrop,
+        .nav-drawer__panel {
+          transition: none;
+        }
+        .nav-drawer.is-open .nav-drawer__panel {
+          transform: none;
+        }
+      }
+
+      body.nav-open {
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="preview-note">
+      Design approval preview — not the shipping site. Copy marked <em>pending</em> stays in Albanian placeholders until the client provides text.
+    </p>
+
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="wordmark" href="#">Ali Hisa</a>
+        <nav class="nav--desktop" aria-label="Primary">
+          <ul class="nav">
+            <li><a href="#">Kreu</a></li>
+            <li><a href="#">Projektet</a></li>
+            <li><a href="#">Shërbimet</a></li>
+            <li><a href="#">Rreth nesh</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <a class="btn btn--primary header-cta--desktop" href="tel:+38971890243">Kontakto</a>
+          <button
+            type="button"
+            class="menu-toggle"
+            id="menu-open"
+            aria-expanded="false"
+            aria-controls="nav-drawer"
+            aria-label="Hap menunë"
+          >
+            <span class="menu-toggle__bars" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="nav-drawer" id="nav-drawer" role="dialog" aria-modal="true" aria-labelledby="nav-drawer-title" hidden>
+      <button type="button" class="nav-drawer__backdrop" id="menu-backdrop" aria-label="Mbyll menunë"></button>
+      <aside class="nav-drawer__panel">
+        <div class="nav-drawer__top">
+          <p class="nav-drawer__title" id="nav-drawer-title">Menuja</p>
+          <button type="button" class="nav-drawer__close" id="menu-close" aria-label="Mbyll menunë">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <nav aria-label="Mobile primary">
+          <ul class="nav-drawer__links">
+            <li><a href="#">Kreu</a></li>
+            <li><a href="#">Projektet</a></li>
+            <li><a href="#">Shërbimet</a></li>
+            <li><a href="#">Rreth nesh</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </nav>
+        <div class="nav-drawer__footer">
+          <a class="btn btn--primary" href="tel:+38971890243" style="width: 100%">Kontakto</a>
+        </div>
+      </aside>
+    </div>
+
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__media" aria-hidden="true"></div>
+      <div class="hero__content">
+        <p class="hero__eyebrow">Strugë · që nga 1997</p>
+        <h1 class="hero__title" id="hero-title">Ali Hisa</h1>
+        <p class="hero__sub">
+          <span class="copy-pending">Titulli dhe nëntitulli në shqip — në pritje të klientit.</span>
+        </p>
+        <div class="cta-row">
+          <a class="btn btn--primary" href="tel:+38971890243">Kontakto</a>
+          <a class="btn" href="#">Projektet</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="band-intro" aria-labelledby="intro-title">
+      <div class="band-intro__inner">
+        <div>
+          <p class="hero__eyebrow" style="color: var(--color-on-surface-muted)">Arkitekturë &amp; ndërtim</p>
+          <h2 id="intro-title">
+            <span class="copy-pending">Seksion hyrës</span>
+          </h2>
+          <p class="lede">
+            <span class="copy-pending"
+              >Paragraf shpjegues — stili i trupit Schibsted Grotesk, hapësirë e gjerë, kontakt qartë.</span
+            >
+          </p>
+          <div class="cta-row">
+            <a class="btn btn--primary" href="tel:+38971890243">Kontakto</a>
+            <a class="btn" href="#">Shërbimet</a>
+          </div>
+        </div>
+        <figure class="media-frame">
+          <div class="media-frame__fill" aria-hidden="true"></div>
+          <figcaption class="media-frame__label">Foto projekti — vend mbajtës</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <p class="swatch-row">
+      Paleta:
+      <span class="swatch swatch--surface" title="surface"></span>
+      <span class="swatch swatch--muted" title="surface-muted"></span>
+      <span class="swatch swatch--ink" title="on-surface"></span>
+      <span class="swatch swatch--accent" title="accent"></span>
+      · Display: League Spartan · Body: Schibsted Grotesk
+      · Në mobile: hapi menunë me ikonën — panel nga e djathta + overlay
+    </p>
+    <script>
+      (function () {
+        var drawer = document.getElementById("nav-drawer");
+        var openBtn = document.getElementById("menu-open");
+        var closeBtn = document.getElementById("menu-close");
+        var backdrop = document.getElementById("menu-backdrop");
+
+        function openMenu() {
+          drawer.hidden = false;
+          requestAnimationFrame(function () {
+            drawer.classList.add("is-open");
+          });
+          document.body.classList.add("nav-open");
+          openBtn.setAttribute("aria-expanded", "true");
+        }
+
+        function closeMenu() {
+          drawer.classList.remove("is-open");
+          document.body.classList.remove("nav-open");
+          openBtn.setAttribute("aria-expanded", "false");
+          window.setTimeout(function () {
+            if (!drawer.classList.contains("is-open")) drawer.hidden = true;
+          }, 450);
+        }
+
+        openBtn.addEventListener("click", openMenu);
+        closeBtn.addEventListener("click", closeMenu);
+        backdrop.addEventListener("click", closeMenu);
+        drawer.addEventListener("keydown", function (e) {
+          if (e.key === "Escape") closeMenu();
+        });
+      })();
+    </script>
+  </body>
+</html>

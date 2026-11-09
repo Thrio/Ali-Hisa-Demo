@@ -1,0 +1,290 @@
+{
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "placement": {
+    "top": 1222,
+    "viewportTop": -4,
+    "left": 0,
+    "width": 1440,
+    "height": 908
+  },
+  "summary": {
+    "padding": "57.6px 57.6px 57.6px 57.6px",
+    "margin": "0px 0px",
+    "display": "flex",
+    "flexDirection": "row",
+    "gap": "normal",
+    "contentBox": null,
+    "columns": 1,
+    "layoutDriver": "flex row",
+    "layoutGap": "normal",
+    "backgroundPaint": "transparent",
+    "border": "0px 0px 0px 0px",
+    "radius": "0px",
+    "heading": {
+      "tag": "h1",
+      "family": "futura-pt",
+      "size": "47.104px",
+      "weight": "300",
+      "lineHeight": "52.455px",
+      "letterSpacing": "1.88416px",
+      "transform": "none",
+      "chars": 10,
+      "lines": 1
+    },
+    "body": {
+      "tag": "p",
+      "family": "freight-sans-pro",
+      "size": "17.728px",
+      "weight": "400",
+      "lineHeight": "30.1376px",
+      "letterSpacing": "normal",
+      "transform": "none",
+      "chars": 251,
+      "lines": 5
+    },
+    "copy": {
+      "paragraphs": 7,
+      "bodyChars": 1327
+    },
+    "slots": {
+      "h1": 1,
+      "h2": 0,
+      "h3": 0,
+      "p": 7,
+      "li": 0,
+      "links": 0,
+      "buttons": 0,
+      "images": 0,
+      "video": 0,
+      "svg": 0,
+      "inputs": 0,
+      "canvas": 0
+    }
+  },
+  "tree": {
+    "tag": "section",
+    "cls": "page-section full-bleed-section layout-engine-section background-width--inset",
+    "box": {
+      "top": 1222,
+      "left": 0,
+      "width": 1440,
+      "height": 908
+    },
+    "styles": {
+      "fontFamily": "freight-sans-pro",
+      "fontSize": "17.728px",
+      "fontWeight": "400",
+      "lineHeight": "30.1376px",
+      "textAlign": "start",
+      "padding": "57.6px",
+      "paddingTop": "57.6px",
+      "paddingRight": "57.6px",
+      "paddingBottom": "57.6px",
+      "paddingLeft": "57.6px",
+      "width": "1440px",
+      "height": "907.875px",
+      "minHeight": "297px",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "nowrap",
+      "alignItems": "center",
+      "overflow": "visible",
+      "borderTopColor": "rgb(0, 0, 0)",
+      "position": "relative",
+      "objectFit": "fill",
+      "objectPosition": "50% 50%",
+      "opacity": "1"
+    },
+    "backgroundPaint": "transparent",
+    "text": null,
+    "img": null,
+    "childCount": 2,
+    "children": [
+      {
+        "tag": "div",
+        "cls": "section-border",
+        "box": {
+          "top": 1222,
+          "left": 0,
+          "width": 1440,
+          "height": 908
+        },
+        "styles": {
+          "fontFamily": "freight-sans-pro",
+          "fontSize": "17.728px",
+          "fontWeight": "400",
+          "lineHeight": "30.1376px",
+          "textAlign": "start",
+          "width": "1440px",
+          "height": "907.875px",
+          "boxSizing": "content-box",
+          "display": "block",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "overflow": "visible",
+          "borderTopColor": "rgb(0, 0, 0)",
+          "position": "absolute",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "opacity": "1"
+        },
+        "backgroundPaint": "opaque",
+        "text": null,
+        "img": null,
+        "childCount": 1,
+        "children": [
+          {
+            "tag": "div",
+            "cls": "section-background",
+            "box": {
+              "top": 1280,
+              "left": 58,
+              "width": 1325,
+              "height": 793
+            },
+            "styles": {
+              "fontFamily": "freight-sans-pro",
+              "fontSize": "17.728px",
+              "fontWeight": "400",
+              "lineHeight": "30.1376px",
+              "textAlign": "start",
+              "width": "1324.81px",
+              "height": "792.688px",
+              "boxSizing": "content-box",
+              "display": "block",
+              "flexDirection": "row",
+              "flexWrap": "nowrap",
+              "overflow": "hidden",
+              "borderTopColor": "rgb(0, 0, 0)",
+              "position": "absolute",
+              "top": "57.6px",
+              "bottom": "57.6px",
+              "left": "57.6px",
+              "right": "57.6px",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%",
+              "opacity": "1"
+            },
+            "backgroundPaint": "opaque",
+            "text": null,
+            "img": null,
+            "childCount": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "cls": "content-wrapper",
+        "box": {
+          "top": 1280,
+          "left": 58,
+          "width": 1325,
+          "height": 793
+        },
+        "styles": {
+          "fontFamily": "freight-sans-pro",
+          "fontSize": "17.728px",
+          "fontWeight": "400",
+          "lineHeight": "30.1376px",
+          "textAlign": "start",
+          "padding": "47.52px 0px",
+          "paddingTop": "47.52px",
+          "paddingBottom": "47.52px",
+          "width": "1324.81px",
+          "height": "792.688px",
+          "maxWidth": "100%",
+          "boxSizing": "border-box",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "justifyContent": "center",
+          "overflow": "visible",
+          "borderTopColor": "rgb(0, 0, 0)",
+          "position": "relative",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "opacity": "1"
+        },
+        "backgroundPaint": "transparent",
+        "text": null,
+        "img": null,
+        "childCount": 1,
+        "children": [
+          {
+            "tag": "div",
+            "cls": "content",
+            "box": {
+              "top": 1327,
+              "left": 58,
+              "width": 1325,
+              "height": 698
+            },
+            "styles": {
+              "fontFamily": "freight-sans-pro",
+              "fontSize": "17.728px",
+              "fontWeight": "400",
+              "lineHeight": "30.1376px",
+              "textAlign": "start",
+              "width": "1324.81px",
+              "height": "697.656px",
+              "boxSizing": "content-box",
+              "display": "block",
+              "flexDirection": "row",
+              "flexWrap": "nowrap",
+              "overflow": "visible",
+              "borderTopColor": "rgb(0, 0, 0)",
+              "position": "static",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%",
+              "opacity": "1"
+            },
+            "backgroundPaint": "transparent",
+            "text": null,
+            "img": null,
+            "childCount": 1,
+            "children": [
+              {
+                "tag": "div",
+                "cls": "",
+                "box": {
+                  "top": 1327,
+                  "left": 58,
+                  "width": 1325,
+                  "height": 698
+                },
+                "styles": {
+                  "fontFamily": "freight-sans-pro",
+                  "fontSize": "17.728px",
+                  "fontWeight": "400",
+                  "lineHeight": "30.1376px",
+                  "textAlign": "start",
+                  "width": "1324.81px",
+                  "height": "697.656px",
+                  "boxSizing": "content-box",
+                  "display": "block",
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                  "overflow": "visible",
+                  "borderTopColor": "rgb(0, 0, 0)",
+                  "position": "relative",
+                  "objectFit": "fill",
+                  "objectPosition": "50% 50%",
+                  "opacity": "1"
+                },
+                "backgroundPaint": "transparent",
+                "text": null,
+                "img": null,
+                "childCount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

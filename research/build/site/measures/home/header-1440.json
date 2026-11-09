@@ -1,0 +1,539 @@
+{
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "placement": {
+    "top": 0,
+    "viewportTop": 0,
+    "left": 0,
+    "width": 1440,
+    "height": 112
+  },
+  "summary": {
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px",
+    "display": "block",
+    "flexDirection": "row",
+    "gap": "normal",
+    "contentBox": {
+      "maxWidth": "1800px",
+      "width": 1440,
+      "paddingInline": "57.6px 57.6px",
+      "tag": "div"
+    },
+    "columns": 3,
+    "layoutDriver": "flex row",
+    "layoutGap": "16px",
+    "backgroundPaint": "opaque",
+    "border": "0px 0px 1px 0px",
+    "radius": "0px",
+    "heading": null,
+    "body": null,
+    "copy": {
+      "paragraphs": 0,
+      "bodyChars": 0
+    },
+    "slots": {
+      "h1": 0,
+      "h2": 0,
+      "h3": 0,
+      "p": 0,
+      "li": 0,
+      "links": 7,
+      "buttons": 1,
+      "images": 0,
+      "video": 0,
+      "svg": 1,
+      "inputs": 0,
+      "canvas": 0
+    }
+  },
+  "tree": {
+    "tag": "header",
+    "cls": "sticky top-0 z-50 border-b",
+    "box": {
+      "top": 0,
+      "left": 0,
+      "width": 1440,
+      "height": 112
+    },
+    "styles": {
+      "fontFamily": "Schibsted Grotesk",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "lineHeight": "27.2px",
+      "textAlign": "start",
+      "width": "1440px",
+      "height": "112px",
+      "boxSizing": "border-box",
+      "display": "block",
+      "flexDirection": "row",
+      "flexWrap": "nowrap",
+      "overflow": "visible",
+      "borderBottomWidth": "1px",
+      "borderTopStyle": "solid",
+      "borderTopColor": "lab(86.0969 0.871807 3.70513)",
+      "position": "sticky",
+      "zIndex": "50",
+      "objectFit": "fill",
+      "objectPosition": "50% 50%",
+      "opacity": "1"
+    },
+    "backgroundPaint": "opaque",
+    "text": null,
+    "img": null,
+    "childCount": 1,
+    "children": [
+      {
+        "tag": "div",
+        "cls": "mx-auto flex h-[var(--header-height)] max-w-[var(--content-max)]",
+        "box": {
+          "top": 0,
+          "left": 0,
+          "width": 1440,
+          "height": 111
+        },
+        "styles": {
+          "fontFamily": "Schibsted Grotesk",
+          "fontSize": "17px",
+          "fontWeight": "400",
+          "lineHeight": "27.2px",
+          "textAlign": "start",
+          "padding": "0px 57.6px",
+          "paddingRight": "57.6px",
+          "paddingLeft": "57.6px",
+          "width": "1440px",
+          "height": "111px",
+          "maxWidth": "1800px",
+          "boxSizing": "border-box",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "justifyContent": "space-between",
+          "alignItems": "center",
+          "gap": "16px",
+          "rowGap": "16px",
+          "columnGap": "16px",
+          "overflow": "visible",
+          "borderTopStyle": "solid",
+          "borderTopColor": "lab(4.38094 2.04752 1.24407)",
+          "position": "static",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "opacity": "1"
+        },
+        "backgroundPaint": "transparent",
+        "text": null,
+        "img": null,
+        "childCount": 3,
+        "children": [
+          {
+            "tag": "a",
+            "cls": "font-[family-name:var(--font-display)] text-lg font-semibold uppercase",
+            "box": {
+              "top": 42,
+              "left": 58,
+              "width": 73,
+              "height": 28
+            },
+            "styles": {
+              "fontFamily": "League Spartan",
+              "fontSize": "18px",
+              "fontWeight": "600",
+              "lineHeight": "28px",
+              "letterSpacing": "0.72px",
+              "textTransform": "uppercase",
+              "textAlign": "start",
+              "width": "72.8125px",
+              "height": "28px",
+              "boxSizing": "border-box",
+              "display": "block",
+              "flexDirection": "row",
+              "flexWrap": "nowrap",
+              "overflow": "visible",
+              "borderTopStyle": "solid",
+              "borderTopColor": "lab(4.38094 2.04752 1.24407)",
+              "position": "static",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%",
+              "opacity": "1"
+            },
+            "backgroundPaint": "transparent",
+            "text": {
+              "chars": 8,
+              "lines": 1
+            },
+            "img": null,
+            "childCount": 0,
+            "children": []
+          },
+          {
+            "tag": "nav",
+            "cls": "hidden items-center gap-8 md:flex",
+            "box": {
+              "top": 48,
+              "left": 517,
+              "width": 380,
+              "height": 15
+            },
+            "styles": {
+              "fontFamily": "Schibsted Grotesk",
+              "fontSize": "17px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "textAlign": "start",
+              "width": "379.594px",
+              "height": "14.6562px",
+              "boxSizing": "border-box",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexWrap": "nowrap",
+              "alignItems": "center",
+              "gap": "32px",
+              "rowGap": "32px",
+              "columnGap": "32px",
+              "overflow": "visible",
+              "borderTopStyle": "solid",
+              "borderTopColor": "lab(4.38094 2.04752 1.24407)",
+              "position": "static",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%",
+              "opacity": "1"
+            },
+            "backgroundPaint": "transparent",
+            "text": null,
+            "img": null,
+            "childCount": 5,
+            "children": [
+              {
+                "tag": "a",
+                "cls": "font-[family-name:var(--font-display)] text-xs font-medium uppercase",
+                "box": {
+                  "top": 48,
+                  "left": 517,
+                  "width": 27,
+                  "height": 15
+                },
+                "styles": {
+                  "fontFamily": "League Spartan",
+                  "fontSize": "11px",
+                  "fontWeight": "500",
+                  "lineHeight": "14.6667px",
+                  "letterSpacing": "0.44px",
+                  "textTransform": "uppercase",
+                  "textAlign": "start",
+                  "width": "26.5px",
+                  "height": "14.6562px",
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                  "overflow": "visible",
+                  "borderTopStyle": "solid",
+                  "borderTopColor": "lab(39.5546 4.40298 2.92697)",
+                  "position": "static",
+                  "objectFit": "fill",
+                  "objectPosition": "50% 50%",
+                  "opacity": "1"
+                },
+                "backgroundPaint": "transparent",
+                "text": {
+                  "chars": 4,
+                  "lines": 1
+                },
+                "img": null,
+                "childCount": 0
+              },
+              {
+                "tag": "a",
+                "cls": "font-[family-name:var(--font-display)] text-xs font-medium uppercase",
+                "box": {
+                  "top": 48,
+                  "left": 576,
+                  "width": 57,
+                  "height": 15
+                },
+                "styles": {
+                  "fontFamily": "League Spartan",
+                  "fontSize": "11px",
+                  "fontWeight": "500",
+                  "lineHeight": "14.6667px",
+                  "letterSpacing": "0.44px",
+                  "textTransform": "uppercase",
+                  "textAlign": "start",
+                  "width": "56.5312px",
+                  "height": "14.6562px",
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                  "overflow": "visible",
+                  "borderTopStyle": "solid",
+                  "borderTopColor": "lab(39.5546 4.40298 2.92697)",
+                  "position": "static",
+                  "objectFit": "fill",
+                  "objectPosition": "50% 50%",
+                  "opacity": "1"
+                },
+                "backgroundPaint": "transparent",
+                "text": {
+                  "chars": 9,
+                  "lines": 1
+                },
+                "img": null,
+                "childCount": 0
+              },
+              {
+                "tag": "a",
+                "cls": "font-[family-name:var(--font-display)] text-xs font-medium uppercase",
+                "box": {
+                  "top": 48,
+                  "left": 664,
+                  "width": 57,
+                  "height": 15
+                },
+                "styles": {
+                  "fontFamily": "League Spartan",
+                  "fontSize": "11px",
+                  "fontWeight": "500",
+                  "lineHeight": "14.6667px",
+                  "letterSpacing": "0.44px",
+                  "textTransform": "uppercase",
+                  "textAlign": "start",
+                  "width": "57.1406px",
+                  "height": "14.6562px",
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                  "overflow": "visible",
+                  "borderTopStyle": "solid",
+                  "borderTopColor": "lab(39.5546 4.40298 2.92697)",
+                  "position": "static",
+                  "objectFit": "fill",
+                  "objectPosition": "50% 50%",
+                  "opacity": "1"
+                },
+                "backgroundPaint": "transparent",
+                "text": {
+                  "chars": 9,
+                  "lines": 1
+                },
+                "img": null,
+                "childCount": 0
+              },
+              {
+                "tag": "a",
+                "cls": "font-[family-name:var(--font-display)] text-xs font-medium uppercase",
+                "box": {
+                  "top": 48,
+                  "left": 753,
+                  "width": 64,
+                  "height": 15
+                },
+                "styles": {
+                  "fontFamily": "League Spartan",
+                  "fontSize": "11px",
+                  "fontWeight": "500",
+                  "lineHeight": "14.6667px",
+                  "letterSpacing": "0.44px",
+                  "textTransform": "uppercase",
+                  "textAlign": "start",
+                  "width": "64.0469px",
+                  "height": "14.6562px",
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                  "overflow": "visible",
+                  "borderTopStyle": "solid",
+                  "borderTopColor": "lab(39.5546 4.40298 2.92697)",
+                  "position": "static",
+                  "objectFit": "fill",
+                  "objectPosition": "50% 50%",
+                  "opacity": "1"
+                },
+                "backgroundPaint": "transparent",
+                "text": {
+                  "chars": 10,
+                  "lines": 1
+                },
+                "img": null,
+                "childCount": 0
+              },
+              {
+                "tag": "a",
+                "cls": "font-[family-name:var(--font-display)] text-xs font-medium uppercase",
+                "box": {
+                  "top": 48,
+                  "left": 849,
+                  "width": 47,
+                  "height": 15
+                },
+                "styles": {
+                  "fontFamily": "League Spartan",
+                  "fontSize": "11px",
+                  "fontWeight": "500",
+                  "lineHeight": "14.6667px",
+                  "letterSpacing": "0.44px",
+                  "textTransform": "uppercase",
+                  "textAlign": "start",
+                  "width": "47.375px",
+                  "height": "14.6562px",
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                  "overflow": "visible",
+                  "borderTopStyle": "solid",
+                  "borderTopColor": "lab(39.5546 4.40298 2.92697)",
+                  "position": "static",
+                  "objectFit": "fill",
+                  "objectPosition": "50% 50%",
+                  "opacity": "1"
+                },
+                "backgroundPaint": "transparent",
+                "text": {
+                  "chars": 7,
+                  "lines": 1
+                },
+                "img": null,
+                "childCount": 0
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "cls": "flex items-center gap-3",
+            "box": {
+              "top": 35,
+              "left": 1284,
+              "width": 99,
+              "height": 41
+            },
+            "styles": {
+              "fontFamily": "Schibsted Grotesk",
+              "fontSize": "17px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "textAlign": "start",
+              "width": "98.6875px",
+              "height": "40.6562px",
+              "boxSizing": "border-box",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexWrap": "nowrap",
+              "alignItems": "center",
+              "gap": "12px",
+              "rowGap": "12px",
+              "columnGap": "12px",
+              "overflow": "visible",
+              "borderTopStyle": "solid",
+              "borderTopColor": "lab(4.38094 2.04752 1.24407)",
+              "position": "static",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%",
+              "opacity": "1"
+            },
+            "backgroundPaint": "transparent",
+            "text": null,
+            "img": null,
+            "childCount": 2,
+            "children": [
+              {
+                "tag": "a",
+                "cls": "hidden rounded-[var(--radius-sm)] border border-[var(--color-on-surface)]",
+                "box": {
+                  "top": 35,
+                  "left": 1284,
+                  "width": 99,
+                  "height": 41
+                },
+                "styles": {
+                  "fontFamily": "League Spartan",
+                  "fontSize": "11px",
+                  "fontWeight": "600",
+                  "lineHeight": "14.6667px",
+                  "letterSpacing": "0.44px",
+                  "textTransform": "uppercase",
+                  "textAlign": "start",
+                  "padding": "12px 20px",
+                  "paddingTop": "12px",
+                  "paddingRight": "20px",
+                  "paddingBottom": "12px",
+                  "paddingLeft": "20px",
+                  "width": "98.6875px",
+                  "height": "40.6562px",
+                  "boxSizing": "border-box",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                  "overflow": "visible",
+                  "borderRadius": "2px",
+                  "borderTopWidth": "1px",
+                  "borderRightWidth": "1px",
+                  "borderBottomWidth": "1px",
+                  "borderLeftWidth": "1px",
+                  "borderTopStyle": "solid",
+                  "borderTopColor": "lab(4.38094 2.04752 1.24407)",
+                  "position": "static",
+                  "objectFit": "fill",
+                  "objectPosition": "50% 50%",
+                  "opacity": "1"
+                },
+                "backgroundPaint": "opaque",
+                "text": {
+                  "chars": 8,
+                  "lines": 3
+                },
+                "img": null,
+                "childCount": 0
+              },
+              {
+                "tag": "button",
+                "cls": "inline-flex h-11 w-11 items-center",
+                "box": {
+                  "top": 0,
+                  "left": 0,
+                  "width": 0,
+                  "height": 0
+                },
+                "styles": {
+                  "fontFamily": "Schibsted Grotesk",
+                  "fontSize": "17px",
+                  "fontWeight": "400",
+                  "lineHeight": "27.2px",
+                  "textAlign": "center",
+                  "width": "44px",
+                  "height": "44px",
+                  "boxSizing": "border-box",
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "overflow": "visible",
+                  "borderRadius": "2px",
+                  "borderTopWidth": "1px",
+                  "borderRightWidth": "1px",
+                  "borderBottomWidth": "1px",
+                  "borderLeftWidth": "1px",
+                  "borderTopStyle": "solid",
+                  "borderTopColor": "lab(86.0969 0.871807 3.70513)",
+                  "position": "static",
+                  "objectFit": "fill",
+                  "objectPosition": "50% 50%",
+                  "opacity": "1"
+                },
+                "backgroundPaint": "opaque",
+                "text": null,
+                "img": null,
+                "childCount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

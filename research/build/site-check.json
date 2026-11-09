@@ -1,0 +1,176 @@
+{
+  "time": "2026-11-09T11:13:11.006Z",
+  "base": "http://127.0.0.1:63580/",
+  "launch": false,
+  "pages": [
+    {
+      "route": "/",
+      "name": "home",
+      "width": 1440,
+      "findings": [
+        {
+          "severity": "BLOCKER",
+          "check": "Console error",
+          "detail": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "severity": "BLOCKER",
+          "check": "Console error",
+          "detail": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "severity": "BLOCKER",
+          "check": "Console error",
+          "detail": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "severity": "BLOCKER",
+          "check": "Console error",
+          "detail": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "severity": "BLOCKER",
+          "check": "Failed request",
+          "detail": "404 /projects/__next.projects.__PAGE__.txt?_rsc=BZPL-4BkS0RUjLBR"
+        },
+        {
+          "severity": "BLOCKER",
+          "check": "Failed request",
+          "detail": "404 /services/__next.services.__PAGE__.txt?_rsc=sf1YpdcMRkAgPkSR"
+        },
+        {
+          "severity": "BLOCKER",
+          "check": "Failed request",
+          "detail": "404 /about/__next.about.__PAGE__.txt?_rsc=hzcUC6YqarYE9pKE"
+        },
+        {
+          "severity": "BLOCKER",
+          "check": "Failed request",
+          "detail": "404 /contact/__next.contact.__PAGE__.txt?_rsc=BiuOixuigeBXVJn7"
+        },
+        {
+          "severity": "BLOCKER",
+          "check": "Band order",
+          "detail": "data-band order 1 ≠ Blueprint 1,2,3,4,5,6,7 (missing 2,3,4,5,6,7)"
+        },
+        {
+          "severity": "HIGH",
+          "check": "Off-scale spacing",
+          "detail": "[band 1] section.home-hero-band: paddingTop 111px, marginTop -111px (scale 4px)"
+        },
+        {
+          "severity": "WARN",
+          "check": "Empty image slots",
+          "detail": "[band 1] div.home-hero-band__media"
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "name": "home",
+      "width": 375,
+      "findings": [
+        {
+          "severity": "BLOCKER",
+          "check": "Console error",
+          "detail": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "severity": "BLOCKER",
+          "check": "Console error",
+          "detail": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "severity": "BLOCKER",
+          "check": "Console error",
+          "detail": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "severity": "BLOCKER",
+          "check": "Console error",
+          "detail": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "severity": "BLOCKER",
+          "check": "Failed request",
+          "detail": "404 /projects/__next.projects.__PAGE__.txt?_rsc=BZPL-4BkS0RUjLBR"
+        },
+        {
+          "severity": "BLOCKER",
+          "check": "Failed request",
+          "detail": "404 /services/__next.services.__PAGE__.txt?_rsc=sf1YpdcMRkAgPkSR"
+        },
+        {
+          "severity": "BLOCKER",
+          "check": "Failed request",
+          "detail": "404 /about/__next.about.__PAGE__.txt?_rsc=hzcUC6YqarYE9pKE"
+        },
+        {
+          "severity": "BLOCKER",
+          "check": "Failed request",
+          "detail": "404 /contact/__next.contact.__PAGE__.txt?_rsc=BiuOixuigeBXVJn7"
+        },
+        {
+          "severity": "BLOCKER",
+          "check": "Band order",
+          "detail": "data-band order 1 ≠ Blueprint 1,2,3,4,5,6,7 (missing 2,3,4,5,6,7)"
+        },
+        {
+          "severity": "HIGH",
+          "check": "Off-scale spacing",
+          "detail": "[band 1] section.home-hero-band: paddingTop 111px, marginTop -111px (scale 4px)"
+        },
+        {
+          "severity": "HIGH",
+          "check": "Tap target < 44px",
+          "detail": "a.font-[family-name:var(--font-display)] 60×21"
+        },
+        {
+          "severity": "HIGH",
+          "check": "Tap target < 44px",
+          "detail": "a.font-[family-name:var(--font-display)] 37×21"
+        },
+        {
+          "severity": "HIGH",
+          "check": "Tap target < 44px",
+          "detail": "a.font-[family-name:var(--font-display)] 71×21"
+        },
+        {
+          "severity": "HIGH",
+          "check": "Tap target < 44px",
+          "detail": "a.font-[family-name:var(--font-display)] 81×21"
+        },
+        {
+          "severity": "HIGH",
+          "check": "Tap target < 44px",
+          "detail": "a.font-[family-name:var(--font-display)] 84×21"
+        },
+        {
+          "severity": "HIGH",
+          "check": "Tap target < 44px",
+          "detail": "a.font-[family-name:var(--font-display)] 60×21"
+        },
+        {
+          "severity": "HIGH",
+          "check": "Tap target < 44px",
+          "detail": "a.hidden 70×21"
+        },
+        {
+          "severity": "HIGH",
+          "check": "Tap target < 44px",
+          "detail": "button.inline-flex 116×33"
+        },
+        {
+          "severity": "WARN",
+          "check": "Empty image slots",
+          "detail": "[band 1] div.home-hero-band__media"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "BLOCKER": 18,
+    "HIGH": 10,
+    "WARN": 2
+  }
+}

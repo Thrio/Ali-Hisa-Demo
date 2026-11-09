@@ -1,0 +1,87 @@
+{
+  "robots": "local build (not applicable)",
+  "ownerPermission": null,
+  "events": {
+    "blocked": [
+      {
+        "url": "ws://localhost:3000/_next/hmr?id=JPsAo53Ozy5jUW9jeT1A2",
+        "reason": "websocket (not needed for layout capture)",
+        "type": "websocket"
+      },
+      {
+        "url": "ws://localhost:3000/_next/hmr?id=JPsAo53Ozy5jUW9jeT1A2",
+        "reason": "websocket (not needed for layout capture)",
+        "type": "websocket"
+      },
+      {
+        "url": "ws://localhost:3000/_next/hmr?id=JPsAo53Ozy5jUW9jeT1A2",
+        "reason": "websocket (not needed for layout capture)",
+        "type": "websocket"
+      },
+      {
+        "url": "ws://localhost:3000/_next/hmr?id=JPsAo53Ozy5jUW9jeT1A2",
+        "reason": "websocket (not needed for layout capture)",
+        "type": "websocket"
+      },
+      {
+        "url": "ws://localhost:3000/_next/hmr?id=JPsAo53Ozy5jUW9jeT1A2",
+        "reason": "websocket (not needed for layout capture)",
+        "type": "websocket"
+      },
+      {
+        "url": "ws://localhost:3000/_next/hmr?id=JPsAo53Ozy5jUW9jeT1A2",
+        "reason": "websocket (not needed for layout capture)",
+        "type": "websocket"
+      },
+      {
+        "url": "ws://localhost:3000/_next/hmr?id=JPsAo53Ozy5jUW9jeT1A2",
+        "reason": "websocket (not needed for layout capture)",
+        "type": "websocket"
+      },
+      {
+        "url": "ws://localhost:3000/_next/hmr?id=GRPSQ0liF_58Uta0hHiDf",
+        "reason": "websocket (not needed for layout capture)",
+        "type": "websocket"
+      },
+      {
+        "url": "ws://localhost:3000/_next/hmr?id=GRPSQ0liF_58Uta0hHiDf",
+        "reason": "websocket (not needed for layout capture)",
+        "type": "websocket"
+      },
+      {
+        "url": "ws://localhost:3000/_next/hmr?id=GRPSQ0liF_58Uta0hHiDf",
+        "reason": "websocket (not needed for layout capture)",
+        "type": "websocket"
+      },
+      {
+        "url": "ws://localhost:3000/_next/hmr?id=GRPSQ0liF_58Uta0hHiDf",
+        "reason": "websocket (not needed for layout capture)",
+        "type": "websocket"
+      },
+      {
+        "url": "ws://localhost:3000/_next/hmr?id=GRPSQ0liF_58Uta0hHiDf",
+        "reason": "websocket (not needed for layout capture)",
+        "type": "websocket"
+      },
+      {
+        "url": "ws://localhost:3000/_next/hmr?id=GRPSQ0liF_58Uta0hHiDf",
+        "reason": "websocket (not needed for layout capture)",
+        "type": "websocket"
+      },
+      {
+        "url": "ws://localhost:3000/_next/hmr?id=GRPSQ0liF_58Uta0hHiDf",
+        "reason": "websocket (not needed for layout capture)",
+        "type": "websocket"
+      }
+    ],
+    "privateResponses": [],
+    "popups": 0,
+    "dialogs": 0,
+    "downloads": 0
+  },
+  "overlaysHidden": [],
+  "hiddenTextTotals": {
+    "home": 0
+  },
+  "injection": []
+}

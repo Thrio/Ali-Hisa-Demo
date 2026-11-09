@@ -1,0 +1,42 @@
+{
+  "robots": "robots.txt found",
+  "ownerPermission": null,
+  "events": {
+    "blocked": [
+      {
+        "url": "wss://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/w",
+        "reason": "websocket (not needed for layout capture)",
+        "type": "websocket"
+      },
+      {
+        "url": "wss://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/w",
+        "reason": "websocket (not needed for layout capture)",
+        "type": "websocket"
+      },
+      {
+        "url": "wss://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/w",
+        "reason": "websocket (not needed for layout capture)",
+        "type": "websocket"
+      },
+      {
+        "url": "wss://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/w",
+        "reason": "websocket (not needed for layout capture)",
+        "type": "websocket"
+      }
+    ],
+    "privateResponses": [],
+    "popups": 0,
+    "dialogs": 0,
+    "downloads": 0
+  },
+  "overlaysHidden": [],
+  "hiddenTextTotals": {
+    "home": 14,
+    "about-us": 1,
+    "services": 2,
+    "contact": 2,
+    "collection": 1,
+    "custom-homes-lake-michigan-estate": 1
+  },
+  "injection": []
+}

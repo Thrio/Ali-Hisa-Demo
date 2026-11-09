@@ -1,0 +1,15 @@
+{
+  "robots": "local build (not applicable)",
+  "events": {
+    "blocked": [],
+    "privateResponses": [],
+    "popups": 0,
+    "dialogs": 0,
+    "downloads": 0
+  },
+  "overlaysHidden": [],
+  "hiddenTextTotals": {
+    "home": 0
+  },
+  "injection": []
+}

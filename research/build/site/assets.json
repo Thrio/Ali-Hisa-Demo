@@ -1,0 +1,73 @@
+{
+  "note": "inventory only — nothing was downloaded; logoSuspect items are never taken",
+  "home/band-1@1440": {
+    "images": [],
+    "backgrounds": [
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          1469,
+          849
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          1440,
+          832
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      }
+    ],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "home/band-1@375": {
+    "images": [],
+    "backgrounds": [
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          383,
+          635
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          375,
+          623
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      }
+    ],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  }
+}

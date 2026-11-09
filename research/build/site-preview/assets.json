@@ -1,0 +1,513 @@
+{
+  "note": "inventory only — nothing was downloaded; logoSuspect items are never taken",
+  "home/band-1@1440": {
+    "images": [
+      {
+        "src": "http://localhost:3000/images/facebook/Ali_foto1.jpg",
+        "alt": "",
+        "natural": [
+          768,
+          515
+        ],
+        "rendered": [
+          1440,
+          966
+        ],
+        "aspect": 1.49,
+        "objectFit": "contain",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "home/band-2@1440": {
+    "images": [
+      {
+        "src": "http://localhost:3000/images/brand/logo.jpg",
+        "alt": "Logo e Ali Hisa",
+        "natural": [
+          81,
+          81
+        ],
+        "rendered": [
+          320,
+          320
+        ],
+        "aspect": 1,
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "home/band-3@1440": {
+    "images": [
+      {
+        "src": "http://localhost:3000/images/facebook/Ali_foto2.jpg",
+        "alt": "Ali Hisa design for a multi-storey building with a patterned facade and planted terraces",
+        "natural": [
+          768,
+          499
+        ],
+        "rendered": [
+          1440,
+          608
+        ],
+        "aspect": 2.37,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "home/band-4@1440": {
+    "images": [
+      {
+        "src": "http://localhost:3000/images/facebook/Ali_foto3.jpg",
+        "alt": "Ali Hisa design for a dark-clad residential and office building with a planted terrace",
+        "natural": [
+          460,
+          276
+        ],
+        "rendered": [
+          815,
+          543
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "http://localhost:3000/images/facebook/Ali_foto4.jpg",
+        "alt": "Ali Hisa design for a high-rise with a glass office wing, apartments and ground-floor cafés",
+        "natural": [
+          460,
+          319
+        ],
+        "rendered": [
+          815,
+          543
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "http://localhost:3000/images/facebook/Ali_foto5.jpg",
+        "alt": "Ali Hisa design for a slim six-storey residential building on a tree-lined street",
+        "natural": [
+          460,
+          303
+        ],
+        "rendered": [
+          815,
+          543
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "http://localhost:3000/images/facebook/Ali_foto6.jpg",
+        "alt": "Ali Hisa design for a row of pitched-roof family houses with brick and stone facades",
+        "natural": [
+          460,
+          205
+        ],
+        "rendered": [
+          815,
+          543
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 4
+  },
+  "home/band-1@768": {
+    "images": [
+      {
+        "src": "http://localhost:3000/images/facebook/Ali_foto1.jpg",
+        "alt": "",
+        "natural": [
+          409,
+          274
+        ],
+        "rendered": [
+          768,
+          515
+        ],
+        "aspect": 1.49,
+        "objectFit": "contain",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "home/band-2@768": {
+    "images": [
+      {
+        "src": "http://localhost:3000/images/brand/logo.jpg",
+        "alt": "Logo e Ali Hisa",
+        "natural": [
+          81,
+          81
+        ],
+        "rendered": [
+          320,
+          320
+        ],
+        "aspect": 1,
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "home/band-3@768": {
+    "images": [
+      {
+        "src": "http://localhost:3000/images/facebook/Ali_foto2.jpg",
+        "alt": "Ali Hisa design for a multi-storey building with a patterned facade and planted terraces",
+        "natural": [
+          409,
+          266
+        ],
+        "rendered": [
+          768,
+          369
+        ],
+        "aspect": 2.08,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "home/band-4@768": {
+    "images": [
+      {
+        "src": "http://localhost:3000/images/facebook/Ali_foto3.jpg",
+        "alt": "Ali Hisa design for a dark-clad residential and office building with a planted terrace",
+        "natural": [
+          409,
+          245
+        ],
+        "rendered": [
+          707,
+          471
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "http://localhost:3000/images/facebook/Ali_foto4.jpg",
+        "alt": "Ali Hisa design for a high-rise with a glass office wing, apartments and ground-floor cafés",
+        "natural": [
+          409,
+          283
+        ],
+        "rendered": [
+          707,
+          471
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "http://localhost:3000/images/facebook/Ali_foto5.jpg",
+        "alt": "Ali Hisa design for a slim six-storey residential building on a tree-lined street",
+        "natural": [
+          409,
+          270
+        ],
+        "rendered": [
+          707,
+          471
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "http://localhost:3000/images/facebook/Ali_foto6.jpg",
+        "alt": "Ali Hisa design for a row of pitched-roof family houses with brick and stone facades",
+        "natural": [
+          409,
+          183
+        ],
+        "rendered": [
+          707,
+          471
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 4
+  },
+  "home/band-1@375": {
+    "images": [
+      {
+        "src": "http://localhost:3000/images/facebook/Ali_foto1.jpg",
+        "alt": "",
+        "natural": [
+          200,
+          134
+        ],
+        "rendered": [
+          375,
+          252
+        ],
+        "aspect": 1.49,
+        "objectFit": "contain",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "home/band-2@375": {
+    "images": [
+      {
+        "src": "http://localhost:3000/images/brand/logo.jpg",
+        "alt": "Logo e Ali Hisa",
+        "natural": [
+          56,
+          56
+        ],
+        "rendered": [
+          224,
+          224
+        ],
+        "aspect": 1,
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "home/band-3@375": {
+    "images": [
+      {
+        "src": "http://localhost:3000/images/facebook/Ali_foto2.jpg",
+        "alt": "Ali Hisa design for a multi-storey building with a patterned facade and planted terraces",
+        "natural": [
+          200,
+          129
+        ],
+        "rendered": [
+          375,
+          352
+        ],
+        "aspect": 1.07,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "home/band-4@375": {
+    "images": [
+      {
+        "src": "http://localhost:3000/images/facebook/Ali_foto3.jpg",
+        "alt": "Ali Hisa design for a dark-clad residential and office building with a planted terrace",
+        "natural": [
+          200,
+          120
+        ],
+        "rendered": [
+          335,
+          223
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "http://localhost:3000/images/facebook/Ali_foto4.jpg",
+        "alt": "Ali Hisa design for a high-rise with a glass office wing, apartments and ground-floor cafés",
+        "natural": [
+          200,
+          138
+        ],
+        "rendered": [
+          335,
+          223
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "http://localhost:3000/images/facebook/Ali_foto5.jpg",
+        "alt": "Ali Hisa design for a slim six-storey residential building on a tree-lined street",
+        "natural": [
+          200,
+          131
+        ],
+        "rendered": [
+          335,
+          223
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "http://localhost:3000/images/facebook/Ali_foto6.jpg",
+        "alt": "Ali Hisa design for a row of pitched-roof family houses with brick and stone facades",
+        "natural": [
+          200,
+          89
+        ],
+        "rendered": [
+          335,
+          223
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 4
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "home/first-screen": {
+    "rounds": 3,
+    "verdict": "FIX",
+    "base": "FIX"
+  },
+  "home/1": {
+    "rounds": 9,
+    "verdict": "NEEDS-REVIEW",
+    "base": "FIX"
+  }
+}

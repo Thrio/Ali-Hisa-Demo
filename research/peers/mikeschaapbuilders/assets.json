@@ -1,0 +1,3019 @@
+{
+  "note": "inventory only — nothing was downloaded; logoSuspect items are never taken",
+  "home/band-1@1440": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [
+      "player.vimeo.com"
+    ],
+    "layers": 0
+  },
+  "home/band-2@1440": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/f78bc43e-dd5f-40ba-b620-81f7bde46044/40thsmall.png?format=1500w",
+        "alt": "",
+        "natural": [
+          171,
+          171
+        ],
+        "rendered": [
+          179,
+          179
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 5,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "home/band-3@1440": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/85b97f5b-69e7-4a97-a589-5f2518bbe93b/RiverHaus-8.jpg?format=1500w",
+        "alt": "",
+        "natural": [
+          1440,
+          958
+        ],
+        "rendered": [
+          1440,
+          448
+        ],
+        "aspect": 3.21,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/c26985cb-18f5-49f7-aafc-3e323f2f5919/scrollwork.png?format=100w",
+        "alt": "",
+        "natural": [
+          30,
+          15
+        ],
+        "rendered": [
+          55,
+          24
+        ],
+        "aspect": 2.29,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 2
+  },
+  "home/band-4@1440": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/caf8769b-a4d9-4988-bbfc-fa19b024a062/msbpm.jpg?format=1500w",
+        "alt": "",
+        "natural": [
+          696,
+          462
+        ],
+        "rendered": [
+          696,
+          462
+        ],
+        "aspect": 1.51,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/2a53ee31-34ea-435f-83c5-5b604e3a2400/customhomes.jpg?format=1500w",
+        "alt": "",
+        "natural": [
+          696,
+          464
+        ],
+        "rendered": [
+          696,
+          464
+        ],
+        "aspect": 1.5,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/88d971e8-a1b1-4035-8cb0-19f0e8940cf4/LifestyleVideo_FINAL-high.gif?format=1500w",
+        "alt": "",
+        "natural": [
+          394,
+          167
+        ],
+        "rendered": [
+          696,
+          295
+        ],
+        "aspect": 2.35,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/d81cef20-183b-44f9-ab65-f0539def9c3c/benchmark-wood-shop.jpg?format=1500w",
+        "alt": "",
+        "natural": [
+          371,
+          247
+        ],
+        "rendered": [
+          696,
+          463
+        ],
+        "aspect": 1.5,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1634131543202-BG7XBCVO1SHA7EV4LDO0/architectural-plan-design.jpg?format=1500w",
+        "alt": "",
+        "natural": [
+          215,
+          143
+        ],
+        "rendered": [
+          696,
+          464
+        ],
+        "aspect": 1.5,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/895d8b21-3741-473d-a426-4f0da52b6c46/interior-design.jpg?format=1500w",
+        "alt": "",
+        "natural": [
+          696,
+          464
+        ],
+        "rendered": [
+          696,
+          464
+        ],
+        "aspect": 1.5,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/caf8769b-a4d9-4988-bbfc-fa19b024a062/msbpm.jpg?format=1500w",
+        "alt": "",
+        "natural": [
+          696,
+          462
+        ],
+        "rendered": [
+          696,
+          462
+        ],
+        "aspect": 1.51,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/2a53ee31-34ea-435f-83c5-5b604e3a2400/customhomes.jpg?format=1500w",
+        "alt": "",
+        "natural": [
+          696,
+          464
+        ],
+        "rendered": [
+          696,
+          464
+        ],
+        "aspect": 1.5,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 8
+  },
+  "home/band-5@1440": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/9d3bc7db-6a67-4044-9819-9e01e38beded/collection-mike-schaap-3-botton-tinted-2.jpg?format=1500w",
+        "alt": "",
+        "natural": [
+          1440,
+          516
+        ],
+        "rendered": [
+          1440,
+          469
+        ],
+        "aspect": 3.07,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "home/band-6@1440": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "home/band-7@1440": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "home/band-1@375": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [
+      "player.vimeo.com"
+    ],
+    "layers": 0
+  },
+  "home/band-2@375": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/f78bc43e-dd5f-40ba-b620-81f7bde46044/40thsmall.png?format=500w",
+        "alt": "",
+        "natural": [
+          134,
+          134
+        ],
+        "rendered": [
+          179,
+          179
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 5,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "home/band-3@375": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/85b97f5b-69e7-4a97-a589-5f2518bbe93b/RiverHaus-8.jpg?format=750w",
+        "alt": "",
+        "natural": [
+          750,
+          499
+        ],
+        "rendered": [
+          375,
+          400
+        ],
+        "aspect": 0.94,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/c26985cb-18f5-49f7-aafc-3e323f2f5919/scrollwork.png?format=100w",
+        "alt": "",
+        "natural": [
+          30,
+          15
+        ],
+        "rendered": [
+          55,
+          24
+        ],
+        "aspect": 2.29,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 2
+  },
+  "home/band-4@375": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/caf8769b-a4d9-4988-bbfc-fa19b024a062/msbpm.jpg?format=500w",
+        "alt": "",
+        "natural": [
+          330,
+          219
+        ],
+        "rendered": [
+          330,
+          219
+        ],
+        "aspect": 1.51,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/2a53ee31-34ea-435f-83c5-5b604e3a2400/customhomes.jpg?format=500w",
+        "alt": "",
+        "natural": [
+          330,
+          220
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/88d971e8-a1b1-4035-8cb0-19f0e8940cf4/LifestyleVideo_FINAL-high.gif?format=500w",
+        "alt": "",
+        "natural": [
+          330,
+          139
+        ],
+        "rendered": [
+          330,
+          140
+        ],
+        "aspect": 2.35,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/d81cef20-183b-44f9-ab65-f0539def9c3c/benchmark-wood-shop.jpg?format=500w",
+        "alt": "",
+        "natural": [
+          330,
+          219
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1634131543202-BG7XBCVO1SHA7EV4LDO0/architectural-plan-design.jpg?format=500w",
+        "alt": "",
+        "natural": [
+          306,
+          204
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/895d8b21-3741-473d-a426-4f0da52b6c46/interior-design.jpg?format=500w",
+        "alt": "",
+        "natural": [
+          330,
+          219
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/caf8769b-a4d9-4988-bbfc-fa19b024a062/msbpm.jpg?format=500w",
+        "alt": "",
+        "natural": [
+          330,
+          219
+        ],
+        "rendered": [
+          330,
+          219
+        ],
+        "aspect": 1.51,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/2a53ee31-34ea-435f-83c5-5b604e3a2400/customhomes.jpg?format=500w",
+        "alt": "",
+        "natural": [
+          330,
+          220
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 8
+  },
+  "home/band-5@375": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/9d3bc7db-6a67-4044-9819-9e01e38beded/collection-mike-schaap-3-botton-tinted-2.jpg?format=750w",
+        "alt": "",
+        "natural": [
+          750,
+          269
+        ],
+        "rendered": [
+          375,
+          500
+        ],
+        "aspect": 0.75,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "home/band-6@375": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "home/band-7@375": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "about-us/band-1@1440": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1634070571344-3ICJBDUJ7106WW8O7MXC/Mike+Schaap.jpg?format=1500w",
+        "alt": "",
+        "natural": [
+          607,
+          912
+        ],
+        "rendered": [
+          419,
+          629
+        ],
+        "aspect": 0.67,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "about-us/band-2@1440": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "about-us/band-3@1440": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "about-us/band-4@1440": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/3f8142f6-5a8d-44d6-9ddc-3308fcfb412d/MSB-8x8-Marketing-Book-2024-FINAL-PROOF.jpg?format=750w",
+        "alt": "",
+        "natural": [
+          457,
+          457
+        ],
+        "rendered": [
+          596,
+          596
+        ],
+        "aspect": 1,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "about-us/band-1@375": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1634070571344-3ICJBDUJ7106WW8O7MXC/Mike+Schaap.jpg?format=500w",
+        "alt": "",
+        "natural": [
+          375,
+          562
+        ],
+        "rendered": [
+          330,
+          495
+        ],
+        "aspect": 0.67,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "about-us/band-2@375": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "about-us/band-3@375": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "about-us/band-4@375": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "about-us/band-5@375": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/3f8142f6-5a8d-44d6-9ddc-3308fcfb412d/MSB-8x8-Marketing-Book-2024-FINAL-PROOF.jpg?format=500w",
+        "alt": "",
+        "natural": [
+          297,
+          297
+        ],
+        "rendered": [
+          297,
+          297
+        ],
+        "aspect": 1,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "services/band-1@1440": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/f7f635b4-557b-4160-95b2-a2f47c2477a8/Koning2023-22.jpg?format=1500w",
+        "alt": "",
+        "natural": [
+          1440,
+          958
+        ],
+        "rendered": [
+          1440,
+          642
+        ],
+        "aspect": 2.24,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "services/band-2@1440": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/e6888226-bec7-4eeb-ad5c-cd4f76c3a24c/Michigan+Custom+Home+Builder?format=1500w",
+        "alt": "Custom Lake Homes in Michigan",
+        "natural": [
+          1440,
+          965
+        ],
+        "rendered": [
+          532,
+          357
+        ],
+        "aspect": 1.49,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "services/band-3@1440": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/231be6e1-76e6-4a6f-8b97-f924721bb5dd/image-asset.jpeg?format=750w",
+        "alt": "Michigan Lake Home Remodels",
+        "natural": [
+          532,
+          356
+        ],
+        "rendered": [
+          532,
+          356
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "services/band-4@1440": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/2b03b7f0-0875-40c3-8cad-51b793be6edc/design%2Bbuild.jpg?format=750w",
+        "alt": "",
+        "natural": [
+          532,
+          353
+        ],
+        "rendered": [
+          532,
+          354
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "services/band-5@1440": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/895d8b21-3741-473d-a426-4f0da52b6c46/interior-design.jpg?format=750w",
+        "alt": "",
+        "natural": [
+          532,
+          355
+        ],
+        "rendered": [
+          532,
+          355
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "services/band-6@1440": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/e52d6401-6177-418b-a24c-e12a5bd8a098/shop.jpg?format=750w",
+        "alt": "",
+        "natural": [
+          532,
+          354
+        ],
+        "rendered": [
+          532,
+          355
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "services/band-7@1440": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/be89176d-9cf7-4f4c-bdc0-807a5aaa42f6/01a4cf54-d19a-4163-8dbc-30633e701e2b_rw_1200.jpg?format=750w",
+        "alt": "",
+        "natural": [
+          532,
+          289
+        ],
+        "rendered": [
+          532,
+          290
+        ],
+        "aspect": 1.84,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "services/band-1@375": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/f7f635b4-557b-4160-95b2-a2f47c2477a8/Koning2023-22.jpg?format=750w",
+        "alt": "",
+        "natural": [
+          750,
+          499
+        ],
+        "rendered": [
+          375,
+          538
+        ],
+        "aspect": 0.7,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "services/band-2@375": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/e6888226-bec7-4eeb-ad5c-cd4f76c3a24c/Michigan+Custom+Home+Builder?format=500w",
+        "alt": "Custom Lake Homes in Michigan",
+        "natural": [
+          375,
+          251
+        ],
+        "rendered": [
+          330,
+          221
+        ],
+        "aspect": 1.49,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "services/band-3@375": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/231be6e1-76e6-4a6f-8b97-f924721bb5dd/image-asset.jpeg?format=500w",
+        "alt": "Michigan Lake Home Remodels",
+        "natural": [
+          330,
+          220
+        ],
+        "rendered": [
+          330,
+          221
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "services/band-4@375": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/2b03b7f0-0875-40c3-8cad-51b793be6edc/design%2Bbuild.jpg?format=500w",
+        "alt": "",
+        "natural": [
+          330,
+          219
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "services/band-5@375": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/895d8b21-3741-473d-a426-4f0da52b6c46/interior-design.jpg?format=500w",
+        "alt": "",
+        "natural": [
+          330,
+          219
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "services/band-6@375": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/e52d6401-6177-418b-a24c-e12a5bd8a098/shop.jpg?format=500w",
+        "alt": "",
+        "natural": [
+          330,
+          219
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "services/band-7@375": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/be89176d-9cf7-4f4c-bdc0-807a5aaa42f6/01a4cf54-d19a-4163-8dbc-30633e701e2b_rw_1200.jpg?format=500w",
+        "alt": "",
+        "natural": [
+          330,
+          179
+        ],
+        "rendered": [
+          330,
+          180
+        ],
+        "aspect": 1.84,
+        "objectFit": "cover",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "contact/band-1@1440": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "contact/band-2@1440": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "contact/band-3@1440": {
+    "images": [
+      {
+        "src": "https://mikeschaapbuilders.com/universal/images-v6/icons/cover-pages-map-marker-pin-dark-2x.png",
+        "alt": "",
+        "natural": [
+          48,
+          64
+        ],
+        "rendered": [
+          24,
+          32
+        ],
+        "aspect": 0.75,
+        "objectFit": "fill",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1068!3i1507!4i256!2m3!1e0!2sm!3i802568826!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52On",
+        "alt": "",
+        "natural": [
+          256,
+          256
+        ],
+        "rendered": [
+          256,
+          256
+        ],
+        "aspect": 1,
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1069!3i1507!4i256!2m3!1e0!2sm!3i802568826!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52On",
+        "alt": "",
+        "natural": [
+          256,
+          256
+        ],
+        "rendered": [
+          256,
+          256
+        ],
+        "aspect": 1,
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1069!3i1506!4i256!2m3!1e0!2sm!3i802568826!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52On",
+        "alt": "",
+        "natural": [
+          256,
+          256
+        ],
+        "rendered": [
+          256,
+          256
+        ],
+        "aspect": 1,
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1068!3i1506!4i256!2m3!1e0!2sm!3i802568826!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52On",
+        "alt": "",
+        "natural": [
+          256,
+          256
+        ],
+        "rendered": [
+          256,
+          256
+        ],
+        "aspect": 1,
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1067!3i1508!4i256!2m3!1e0!2sm!3i802568826!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52On",
+        "alt": "",
+        "natural": [
+          256,
+          256
+        ],
+        "rendered": [
+          256,
+          256
+        ],
+        "aspect": 1,
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1067!3i1507!4i256!2m3!1e0!2sm!3i802568826!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52On",
+        "alt": "",
+        "natural": [
+          256,
+          256
+        ],
+        "rendered": [
+          256,
+          256
+        ],
+        "aspect": 1,
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1067!3i1506!4i256!2m3!1e0!2sm!3i802568826!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52On",
+        "alt": "",
+        "natural": [
+          256,
+          256
+        ],
+        "rendered": [
+          256,
+          256
+        ],
+        "aspect": 1,
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1068!3i1508!4i256!2m3!1e0!2sm!3i802568826!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52On",
+        "alt": "",
+        "natural": [
+          256,
+          256
+        ],
+        "rendered": [
+          256,
+          256
+        ],
+        "aspect": 1,
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1069!3i1508!4i256!2m3!1e0!2sm!3i802568826!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52On",
+        "alt": "",
+        "natural": [
+          256,
+          256
+        ],
+        "rendered": [
+          256,
+          256
+        ],
+        "aspect": 1,
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://maps.gstatic.com/mapfiles/transparent.png",
+        "alt": "",
+        "natural": [
+          1,
+          1
+        ],
+        "rendered": [
+          24,
+          32
+        ],
+        "aspect": 0.75,
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%200v6h2V2h4V0zm16%200h-4v2h4v4h2V0zm0%2016h-4v2h6v-6h-2zM2%2012H0v6h6v-2H2z%22/%3E%3C/svg%3E",
+        "alt": "",
+        "natural": [
+          150,
+          150
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "fill",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%200v6h2V2h4V0zm16%200h-4v2h4v4h2V0zm0%2016h-4v2h6v-6h-2zM2%2012H0v6h6v-2H2z%22/%3E%3C/svg%3E",
+        "alt": "",
+        "natural": [
+          150,
+          150
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "fill",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%200v6h2V2h4V0zm16%200h-4v2h4v4h2V0zm0%2016h-4v2h6v-6h-2zM2%2012H0v6h6v-2H2z%22/%3E%3C/svg%3E",
+        "alt": "",
+        "natural": [
+          150,
+          150
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "fill",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2069%2029%22%3E%3Cg%20fill%3D%22%23fff%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221.5%22%20opacity%3D%22.9%22%3E%3Cpath%20d%3D%22m17.4706%207.33616.5412-.54112-.5519-.53011c-1.3636-1.30974-3.2017-2.31971-5.7591-2.31971-4.6137%200-8.50262%203.75517-8.50262%208.39578%200%204.6407%203.8",
+        "alt": "Google",
+        "natural": [
+          300,
+          126
+        ],
+        "rendered": [
+          66,
+          26
+        ],
+        "aspect": 2.54,
+        "objectFit": "fill",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [
+      "mikeschaapbuilders.com"
+    ],
+    "layers": 15
+  },
+  "contact/band-1@375": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "contact/band-2@375": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "contact/band-3@375": {
+    "images": [
+      {
+        "src": "https://mikeschaapbuilders.com/universal/images-v6/icons/cover-pages-map-marker-pin-dark-2x.png",
+        "alt": "",
+        "natural": [
+          48,
+          64
+        ],
+        "rendered": [
+          24,
+          32
+        ],
+        "aspect": 0.75,
+        "objectFit": "fill",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i19!2i136747!3i193185!4i256!2m3!1e0!2sm!3i802568124!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC",
+        "alt": "",
+        "natural": [
+          256,
+          256
+        ],
+        "rendered": [
+          256,
+          256
+        ],
+        "aspect": 1,
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i19!2i136748!3i193185!4i256!2m3!1e0!2sm!3i802568124!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC",
+        "alt": "",
+        "natural": [
+          256,
+          256
+        ],
+        "rendered": [
+          256,
+          256
+        ],
+        "aspect": 1,
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i19!2i136747!3i193184!4i256!2m3!1e0!2sm!3i802568124!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC",
+        "alt": "",
+        "natural": [
+          256,
+          256
+        ],
+        "rendered": [
+          256,
+          256
+        ],
+        "aspect": 1,
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i19!2i136748!3i193184!4i256!2m3!1e0!2sm!3i802568124!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC",
+        "alt": "",
+        "natural": [
+          256,
+          256
+        ],
+        "rendered": [
+          256,
+          256
+        ],
+        "aspect": 1,
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i19!2i136749!3i193185!4i256!2m3!1e0!2sm!3i802564050!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC",
+        "alt": "",
+        "natural": [
+          256,
+          256
+        ],
+        "rendered": [
+          256,
+          256
+        ],
+        "aspect": 1,
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i19!2i136749!3i193184!4i256!2m3!1e0!2sm!3i802564050!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC",
+        "alt": "",
+        "natural": [
+          256,
+          256
+        ],
+        "rendered": [
+          256,
+          256
+        ],
+        "aspect": 1,
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://maps.gstatic.com/mapfiles/transparent.png",
+        "alt": "",
+        "natural": [
+          1,
+          1
+        ],
+        "rendered": [
+          64,
+          80
+        ],
+        "aspect": 0.8,
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%200v6h2V2h4V0zm16%200h-4v2h4v4h2V0zm0%2016h-4v2h6v-6h-2zM2%2012H0v6h6v-2H2z%22/%3E%3C/svg%3E",
+        "alt": "",
+        "natural": [
+          150,
+          150
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "fill",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%200v6h2V2h4V0zm16%200h-4v2h4v4h2V0zm0%2016h-4v2h6v-6h-2zM2%2012H0v6h6v-2H2z%22/%3E%3C/svg%3E",
+        "alt": "",
+        "natural": [
+          150,
+          150
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "fill",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%200v6h2V2h4V0zm16%200h-4v2h4v4h2V0zm0%2016h-4v2h6v-6h-2zM2%2012H0v6h6v-2H2z%22/%3E%3C/svg%3E",
+        "alt": "",
+        "natural": [
+          150,
+          150
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "fill",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2069%2029%22%3E%3Cg%20fill%3D%22%23fff%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221.5%22%20opacity%3D%22.9%22%3E%3Cpath%20d%3D%22m17.4706%207.33616.5412-.54112-.5519-.53011c-1.3636-1.30974-3.2017-2.31971-5.7591-2.31971-4.6137%200-8.50262%203.75517-8.50262%208.39578%200%204.6407%203.8",
+        "alt": "Google",
+        "natural": [
+          300,
+          126
+        ],
+        "rendered": [
+          66,
+          26
+        ],
+        "aspect": 2.54,
+        "objectFit": "fill",
+        "position": "absolute",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [
+      "mikeschaapbuilders.com"
+    ],
+    "layers": 12
+  },
+  "collection/band-1@1440": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "collection/band-2@1440": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/79ff42b8-1ba0-420f-8b33-1699c8a19b31/BayWoods-3.jpg?format=750w",
+        "alt": "Bay Woods",
+        "natural": [
+          720,
+          479
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1b463d24-efec-48d1-83fb-ed8dfd3772ca/Vitesse-1.jpg?format=750w",
+        "alt": "Vitesse Beach",
+        "natural": [
+          720,
+          479
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1faaaed5-f938-4f4c-b65b-79f7a5fce88b/RiverHaus-1.jpg?format=750w",
+        "alt": "River Haus",
+        "natural": [
+          720,
+          479
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1709580791476-FD2AV4EX6MMJNTDDZ83O/VillaVista_-12.jpg?format=750w",
+        "alt": "Villa Vista",
+        "natural": [
+          720,
+          480
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1709581862196-Z2EFGC54IMB2UG2D4M0P/Lakeshore+Chic-+Mike+Schaap+Builders-15.jpg?format=750w",
+        "alt": "Lakeside Chic",
+        "natural": [
+          720,
+          479
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1709581152582-3A9FDAYO58FXXRLXFJCK/WildflowerHill-+Mike+Schaap+builders-21.jpg?format=750w",
+        "alt": "Wildflower Hill",
+        "natural": [
+          720,
+          480
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1709571260819-PG2Q1I601OM3HXQFXEKB/Polakovich-1.jpg?format=750w",
+        "alt": "Perfect View",
+        "natural": [
+          720,
+          479
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1677677859102-6BN6COL2B5CV7DQIZY52/Lindemann-1.jpg?format=750w",
+        "alt": "Michigan Modern",
+        "natural": [
+          720,
+          480
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1677678011944-X40G79CY60MWQM2J5BBL/7520+W+Harbor+Hwy-12.jpg?format=750w",
+        "alt": "Sea Breeze",
+        "natural": [
+          720,
+          480
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1677678037013-W244VLMPH4KYKLIZIKZ1/Vill-2.jpg?format=750w",
+        "alt": "Coastal View",
+        "natural": [
+          720,
+          480
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1677678064346-H7VM4O2SM1SFP9LCDGEN/refinedlakehouse-8.jpg?format=750w",
+        "alt": "Refined Lake House",
+        "natural": [
+          720,
+          480
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1677678091553-160PZVNWC9Y6VDQ9DTOD/01-McDonald-.jpg?format=750w",
+        "alt": "The Ranch",
+        "natural": [
+          720,
+          404
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1677679806334-OYXT9J46WU64XURE41JS/02-DeNooyerTaylor.jpg?format=750w",
+        "alt": "The Dunegrass",
+        "natural": [
+          720,
+          476
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1750183656699-9M9KH294IR3W59SSP979/024ashleyavilaphoto_D.Schaap.jpg?format=750w",
+        "alt": "Mountain Modern",
+        "natural": [
+          720,
+          674
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/d466ec7c-3f08-49c0-9aba-ce91cd48a6f3/BKP_Schaap_Tia-8397_final.jpg?format=750w",
+        "alt": "Duneside",
+        "natural": [
+          720,
+          480
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1677680732408-902THBLS84RA99WA9RYN/exterior.jpg?format=750w",
+        "alt": "Shoreline Traditional",
+        "natural": [
+          720,
+          480
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1677680759367-TTYWWCXXX6GWMEP0BCOY/001AshleyAvilaPhoto_Schofield.jpg?format=750w",
+        "alt": "Artisan Masterpiece",
+        "natural": [
+          720,
+          397
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1642176595801-3OPDT62IPI4WODKCY39Z/2976056b-afc0-412b-a0fe-d7fcc5b013ea_rw_1920.jpg?format=750w",
+        "alt": "Michigan Lakehouse",
+        "natural": [
+          720,
+          480
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1642179075953-CAZ2QM5PEJ33I037Z2SI/d94f75ca-35b6-4418-ac46-d7e80ccfced2_rw_1920.jpg?format=750w",
+        "alt": "Lake Michigan Estate",
+        "natural": [
+          720,
+          480
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1642182679752-Y4G6VRUO0A6O6WWTOKY9/d6248594-fb42-4022-b0e8-196af0a9d356_rwc_224x0x1009x757x1009.jpg?format=750w",
+        "alt": "Grand Views",
+        "natural": [
+          720,
+          540
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1642182935718-SKJUR0W39DL98C2G9OPX/e1434405-3229-4ee1-8002-34e13535b007_rw_1920.jpg?format=750w",
+        "alt": "Endless Views",
+        "natural": [
+          720,
+          478
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1642183303819-VX0DYKMTGL9NKNG6WMZF/ae374804-84ae-4947-8b04-f09f0be3041f_rw_1920.jpg?format=750w",
+        "alt": "Gold Coast Cottage",
+        "natural": [
+          720,
+          480
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1642188024847-SMQ5ZL900KQV3Z2FQOTL/f59fe3f6-e8fb-434a-ac11-2c3327feb2f9_rwc_401x0x1104x828x1104.jpg?format=750w",
+        "alt": "Bayside Retreat",
+        "natural": [
+          720,
+          540
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1642190531298-VF2NTDDIFM7ZP7CQZ7EX/004a6645-c11a-416d-b56d-ac79fe8fe8b3_rw_1920.jpg?format=750w",
+        "alt": "A Lasting Impression",
+        "natural": [
+          720,
+          480
+        ],
+        "rendered": [
+          324,
+          216
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 24
+  },
+  "collection/band-1@375": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "collection/band-2@375": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/79ff42b8-1ba0-420f-8b33-1699c8a19b31/BayWoods-3.jpg?format=500w",
+        "alt": "Bay Woods",
+        "natural": [
+          375,
+          249
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1b463d24-efec-48d1-83fb-ed8dfd3772ca/Vitesse-1.jpg?format=500w",
+        "alt": "Vitesse Beach",
+        "natural": [
+          375,
+          249
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1faaaed5-f938-4f4c-b65b-79f7a5fce88b/RiverHaus-1.jpg?format=500w",
+        "alt": "River Haus",
+        "natural": [
+          375,
+          249
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1709580791476-FD2AV4EX6MMJNTDDZ83O/VillaVista_-12.jpg?format=500w",
+        "alt": "Villa Vista",
+        "natural": [
+          375,
+          249
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1709581862196-Z2EFGC54IMB2UG2D4M0P/Lakeshore+Chic-+Mike+Schaap+Builders-15.jpg?format=500w",
+        "alt": "Lakeside Chic",
+        "natural": [
+          375,
+          249
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1709581152582-3A9FDAYO58FXXRLXFJCK/WildflowerHill-+Mike+Schaap+builders-21.jpg?format=500w",
+        "alt": "Wildflower Hill",
+        "natural": [
+          375,
+          249
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1709571260819-PG2Q1I601OM3HXQFXEKB/Polakovich-1.jpg?format=500w",
+        "alt": "Perfect View",
+        "natural": [
+          375,
+          249
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1677677859102-6BN6COL2B5CV7DQIZY52/Lindemann-1.jpg?format=500w",
+        "alt": "Michigan Modern",
+        "natural": [
+          375,
+          249
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1677678011944-X40G79CY60MWQM2J5BBL/7520+W+Harbor+Hwy-12.jpg?format=500w",
+        "alt": "Sea Breeze",
+        "natural": [
+          375,
+          249
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1677678037013-W244VLMPH4KYKLIZIKZ1/Vill-2.jpg?format=500w",
+        "alt": "Coastal View",
+        "natural": [
+          375,
+          249
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1677678064346-H7VM4O2SM1SFP9LCDGEN/refinedlakehouse-8.jpg?format=500w",
+        "alt": "Refined Lake House",
+        "natural": [
+          375,
+          250
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1677678091553-160PZVNWC9Y6VDQ9DTOD/01-McDonald-.jpg?format=500w",
+        "alt": "The Ranch",
+        "natural": [
+          375,
+          210
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1677679806334-OYXT9J46WU64XURE41JS/02-DeNooyerTaylor.jpg?format=500w",
+        "alt": "The Dunegrass",
+        "natural": [
+          375,
+          248
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1750183656699-9M9KH294IR3W59SSP979/024ashleyavilaphoto_D.Schaap.jpg?format=500w",
+        "alt": "Mountain Modern",
+        "natural": [
+          375,
+          351
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/d466ec7c-3f08-49c0-9aba-ce91cd48a6f3/BKP_Schaap_Tia-8397_final.jpg?format=500w",
+        "alt": "Duneside",
+        "natural": [
+          375,
+          249
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1677680732408-902THBLS84RA99WA9RYN/exterior.jpg?format=500w",
+        "alt": "Shoreline Traditional",
+        "natural": [
+          375,
+          249
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1677680759367-TTYWWCXXX6GWMEP0BCOY/001AshleyAvilaPhoto_Schofield.jpg?format=500w",
+        "alt": "Artisan Masterpiece",
+        "natural": [
+          375,
+          207
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1642176595801-3OPDT62IPI4WODKCY39Z/2976056b-afc0-412b-a0fe-d7fcc5b013ea_rw_1920.jpg?format=500w",
+        "alt": "Michigan Lakehouse",
+        "natural": [
+          375,
+          249
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1642179075953-CAZ2QM5PEJ33I037Z2SI/d94f75ca-35b6-4418-ac46-d7e80ccfced2_rw_1920.jpg?format=500w",
+        "alt": "Lake Michigan Estate",
+        "natural": [
+          375,
+          249
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1642182679752-Y4G6VRUO0A6O6WWTOKY9/d6248594-fb42-4022-b0e8-196af0a9d356_rwc_224x0x1009x757x1009.jpg?format=500w",
+        "alt": "Grand Views",
+        "natural": [
+          375,
+          281
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1642182935718-SKJUR0W39DL98C2G9OPX/e1434405-3229-4ee1-8002-34e13535b007_rw_1920.jpg?format=500w",
+        "alt": "Endless Views",
+        "natural": [
+          375,
+          249
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1642183303819-VX0DYKMTGL9NKNG6WMZF/ae374804-84ae-4947-8b04-f09f0be3041f_rw_1920.jpg?format=500w",
+        "alt": "Gold Coast Cottage",
+        "natural": [
+          375,
+          249
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1642188024847-SMQ5ZL900KQV3Z2FQOTL/f59fe3f6-e8fb-434a-ac11-2c3327feb2f9_rwc_401x0x1104x828x1104.jpg?format=500w",
+        "alt": "Bayside Retreat",
+        "natural": [
+          375,
+          281
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/1642190531298-VF2NTDDIFM7ZP7CQZ7EX/004a6645-c11a-416d-b56d-ac79fe8fe8b3_rw_1920.jpg?format=500w",
+        "alt": "A Lasting Impression",
+        "natural": [
+          375,
+          249
+        ],
+        "rendered": [
+          330,
+          220
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 24
+  },
+  "custom-homes-lake-michigan-estate/band-1@1440": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "custom-homes-lake-michigan-estate/band-2@1440": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/c6e69ccb-511d-453c-b2d8-fd02129d48b6/54ccd80d-3be4-4a9f-ad17-3e5ac9bbecee_rw_1920.jpg?format=500w",
+        "alt": "54ccd80d-3be4-4a9f-ad17-3e5ac9bbecee_rw_1920.jpg",
+        "natural": [
+          475,
+          316
+        ],
+        "rendered": [
+          437,
+          291
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/f177ef6f-8990-472b-9e61-e9a7bb4c2857/29e3d1f0-f5eb-45e0-9513-735db9e0d244_rw_1920.jpg?format=500w",
+        "alt": "29e3d1f0-f5eb-45e0-9513-735db9e0d244_rw_1920.jpg",
+        "natural": [
+          475,
+          316
+        ],
+        "rendered": [
+          437,
+          291
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/b061d594-60b0-47d5-9cf0-9f53dbf59ae0/bbe5e2fb-8a79-492b-8d2a-d87fe3983d6c_rw_1920.jpg?format=500w",
+        "alt": "bbe5e2fb-8a79-492b-8d2a-d87fe3983d6c_rw_1920.jpg",
+        "natural": [
+          475,
+          316
+        ],
+        "rendered": [
+          437,
+          291
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/c5c56fb1-3a1e-43ac-bda7-851b5c5da1a5/05e0ef77-438f-49f9-8c51-bddeb959e86c_rw_1200.jpg?format=500w",
+        "alt": "05e0ef77-438f-49f9-8c51-bddeb959e86c_rw_1200.jpg",
+        "natural": [
+          475,
+          712
+        ],
+        "rendered": [
+          437,
+          656
+        ],
+        "aspect": 0.67,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/6f357cb9-6c40-4848-b9f7-9e3c8f907002/090f6fc3-7be0-4fc2-ba0b-fd93693e8dd5_rw_1200.jpg?format=500w",
+        "alt": "090f6fc3-7be0-4fc2-ba0b-fd93693e8dd5_rw_1200.jpg",
+        "natural": [
+          475,
+          717
+        ],
+        "rendered": [
+          438,
+          661
+        ],
+        "aspect": 0.66,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/46894c6a-dc60-4d8c-ac7e-fad016884db1/321bd685-ce4b-419b-b740-2ac0743b57a5_rw_1920.jpg?format=500w",
+        "alt": "321bd685-ce4b-419b-b740-2ac0743b57a5_rw_1920.jpg",
+        "natural": [
+          475,
+          313
+        ],
+        "rendered": [
+          437,
+          288
+        ],
+        "aspect": 1.52,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/814fa750-8abe-480d-ac37-3adb971cc74d/b09c5abe-e298-469a-9d9a-cf7ebb1aae72_rw_1920.jpg?format=500w",
+        "alt": "b09c5abe-e298-469a-9d9a-cf7ebb1aae72_rw_1920.jpg",
+        "natural": [
+          475,
+          308
+        ],
+        "rendered": [
+          439,
+          285
+        ],
+        "aspect": 1.54,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/685e2144-98c6-4a80-8f1e-465102e6db83/8e40acef-3e00-4e15-bd18-25cdfb150fcd_rw_1200.jpg?format=500w",
+        "alt": "8e40acef-3e00-4e15-bd18-25cdfb150fcd_rw_1200.jpg",
+        "natural": [
+          475,
+          712
+        ],
+        "rendered": [
+          437,
+          656
+        ],
+        "aspect": 0.67,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/5e663435-a9d4-4ae7-8695-2aec6399d50f/2080499d-ee95-45be-88ce-395a6d52a931_rw_1920.jpg?format=500w",
+        "alt": "2080499d-ee95-45be-88ce-395a6d52a931_rw_1920.jpg",
+        "natural": [
+          475,
+          678
+        ],
+        "rendered": [
+          438,
+          625
+        ],
+        "aspect": 0.7,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/3ee93326-4244-4445-87ab-b5a092dec794/d94f75ca-35b6-4418-ac46-d7e80ccfced2_rw_1920.jpg?format=500w",
+        "alt": "d94f75ca-35b6-4418-ac46-d7e80ccfced2_rw_1920.jpg",
+        "natural": [
+          475,
+          316
+        ],
+        "rendered": [
+          437,
+          291
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 10
+  },
+  "custom-homes-lake-michigan-estate/band-1@375": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "custom-homes-lake-michigan-estate/band-2@375": {
+    "images": [
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/c6e69ccb-511d-453c-b2d8-fd02129d48b6/54ccd80d-3be4-4a9f-ad17-3e5ac9bbecee_rw_1920.jpg?format=300w",
+        "alt": "54ccd80d-3be4-4a9f-ad17-3e5ac9bbecee_rw_1920.jpg",
+        "natural": [
+          186,
+          124
+        ],
+        "rendered": [
+          166,
+          111
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/f177ef6f-8990-472b-9e61-e9a7bb4c2857/29e3d1f0-f5eb-45e0-9513-735db9e0d244_rw_1920.jpg?format=300w",
+        "alt": "29e3d1f0-f5eb-45e0-9513-735db9e0d244_rw_1920.jpg",
+        "natural": [
+          186,
+          124
+        ],
+        "rendered": [
+          166,
+          111
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/b061d594-60b0-47d5-9cf0-9f53dbf59ae0/bbe5e2fb-8a79-492b-8d2a-d87fe3983d6c_rw_1920.jpg?format=300w",
+        "alt": "bbe5e2fb-8a79-492b-8d2a-d87fe3983d6c_rw_1920.jpg",
+        "natural": [
+          186,
+          124
+        ],
+        "rendered": [
+          166,
+          111
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/c5c56fb1-3a1e-43ac-bda7-851b5c5da1a5/05e0ef77-438f-49f9-8c51-bddeb959e86c_rw_1200.jpg?format=300w",
+        "alt": "05e0ef77-438f-49f9-8c51-bddeb959e86c_rw_1200.jpg",
+        "natural": [
+          186,
+          279
+        ],
+        "rendered": [
+          165,
+          248
+        ],
+        "aspect": 0.67,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/6f357cb9-6c40-4848-b9f7-9e3c8f907002/090f6fc3-7be0-4fc2-ba0b-fd93693e8dd5_rw_1200.jpg?format=300w",
+        "alt": "090f6fc3-7be0-4fc2-ba0b-fd93693e8dd5_rw_1200.jpg",
+        "natural": [
+          186,
+          281
+        ],
+        "rendered": [
+          164,
+          248
+        ],
+        "aspect": 0.66,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/46894c6a-dc60-4d8c-ac7e-fad016884db1/321bd685-ce4b-419b-b740-2ac0743b57a5_rw_1920.jpg?format=300w",
+        "alt": "321bd685-ce4b-419b-b740-2ac0743b57a5_rw_1920.jpg",
+        "natural": [
+          186,
+          123
+        ],
+        "rendered": [
+          164,
+          108
+        ],
+        "aspect": 1.52,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/814fa750-8abe-480d-ac37-3adb971cc74d/b09c5abe-e298-469a-9d9a-cf7ebb1aae72_rw_1920.jpg?format=300w",
+        "alt": "b09c5abe-e298-469a-9d9a-cf7ebb1aae72_rw_1920.jpg",
+        "natural": [
+          186,
+          121
+        ],
+        "rendered": [
+          164,
+          107
+        ],
+        "aspect": 1.54,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/685e2144-98c6-4a80-8f1e-465102e6db83/8e40acef-3e00-4e15-bd18-25cdfb150fcd_rw_1200.jpg?format=300w",
+        "alt": "8e40acef-3e00-4e15-bd18-25cdfb150fcd_rw_1200.jpg",
+        "natural": [
+          186,
+          279
+        ],
+        "rendered": [
+          165,
+          248
+        ],
+        "aspect": 0.67,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/5e663435-a9d4-4ae7-8695-2aec6399d50f/2080499d-ee95-45be-88ce-395a6d52a931_rw_1920.jpg?format=300w",
+        "alt": "2080499d-ee95-45be-88ce-395a6d52a931_rw_1920.jpg",
+        "natural": [
+          186,
+          266
+        ],
+        "rendered": [
+          165,
+          236
+        ],
+        "aspect": 0.7,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/615b7de993287d2be50f610b/3ee93326-4244-4445-87ab-b5a092dec794/d94f75ca-35b6-4418-ac46-d7e80ccfced2_rw_1920.jpg?format=300w",
+        "alt": "d94f75ca-35b6-4418-ac46-d7e80ccfced2_rw_1920.jpg",
+        "natural": [
+          186,
+          124
+        ],
+        "rendered": [
+          166,
+          111
+        ],
+        "aspect": 1.5,
+        "objectFit": "cover",
+        "position": "relative",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 10
+  }
+}

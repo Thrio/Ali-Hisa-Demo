@@ -1,0 +1,153 @@
+{
+  "note": "one viewport frame per scroll step; open them in order to see scroll-driven motion (lesson 13)",
+  "frames": [
+    {
+      "frame": "001",
+      "scrollY": 0,
+      "bandsOnScreen": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "frame": "002",
+      "scrollY": 244,
+      "bandsOnScreen": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "frame": "003",
+      "scrollY": 488,
+      "bandsOnScreen": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "frame": "004",
+      "scrollY": 732,
+      "bandsOnScreen": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "frame": "005",
+      "scrollY": 976,
+      "bandsOnScreen": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "frame": "006",
+      "scrollY": 1220,
+      "bandsOnScreen": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "frame": "007",
+      "scrollY": 1464,
+      "bandsOnScreen": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "frame": "008",
+      "scrollY": 1708,
+      "bandsOnScreen": [
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "frame": "009",
+      "scrollY": 1952,
+      "bandsOnScreen": [
+        "4",
+        "5"
+      ]
+    },
+    {
+      "frame": "010",
+      "scrollY": 2196,
+      "bandsOnScreen": [
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "frame": "011",
+      "scrollY": 2440,
+      "bandsOnScreen": [
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "frame": "012",
+      "scrollY": 2684,
+      "bandsOnScreen": [
+        "5",
+        "6"
+      ]
+    },
+    {
+      "frame": "013",
+      "scrollY": 2928,
+      "bandsOnScreen": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "frame": "014",
+      "scrollY": 3172,
+      "bandsOnScreen": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "frame": "015",
+      "scrollY": 3416,
+      "bandsOnScreen": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "frame": "016",
+      "scrollY": 3660,
+      "bandsOnScreen": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "frame": "017",
+      "scrollY": 3904,
+      "bandsOnScreen": [
+        "7"
+      ]
+    },
+    {
+      "frame": "018",
+      "scrollY": 3976,
+      "bandsOnScreen": [
+        "7"
+      ]
+    }
+  ]
+}
