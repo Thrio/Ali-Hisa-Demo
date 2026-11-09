@@ -1,0 +1,54 @@
+---
+description: MCP catalog and phase defaults — pinned, isolated tools; read when connecting or choosing an MCP (capture tool before design research)
+alwaysApply: false
+---
+
+# MCP usage
+
+Opt-in per task. **Ask once, wait for yes** before connecting — unless already approved this session. **Free tools only** unless the user asks otherwise. Every server is pinned to an exact version and runs isolated (`security.mdc`).
+
+## Reference research: capture tool first
+
+1. Run `node tools/capture.mjs` (skill `capture-reference`). It needs no MCP and is the hardened path.
+2. Playwright MCP is for what the capture can't do: one sniper check on the live reference, interaction states, and our own build. Ask before activating it.
+3. Never connect any browser MCP to the user's everyday browser or profile (no extension mode, no CDP endpoint).
+
+Kickoff does **not** need a browser.
+
+## Catalog
+
+| MCP | When | Connect |
+|---|---|---|
+| **Playwright** | Sniper checks, states, our build, QA | `.cursor/mcp.json` → `@playwright/mcp@0.0.83 --isolated --block-service-workers` + `tools/playwright-mcp.config.json` (sandbox on, downloads off) |
+| **Chrome DevTools** | Lighthouse / traces on the production URL | `npx -y chrome-devtools-mcp@1.10.1 --isolated` — never without `--isolated` |
+| **shadcn** | Registry components | `npx -y shadcn@4.21.4 mcp` |
+| **Context7** | Next / Tailwind / Sanity docs | `.cursor/mcp.json` → `@upstash/context7-mcp@4.3.0` |
+| **Sanity** | After content model confirmed | Add `"sanity": { "url": "https://mcp.sanity.io" }` to `.cursor/mcp.json` when the content model is confirmed |
+| **Cloudflare Docs** | Deploy / DNS / Workers docs | Add `"cloudflare-docs": { "url": "https://docs.mcp.cloudflare.com/mcp" }` to `.cursor/mcp.json` when needed |
+| **Cloudflare API / Builds** | Only if the user asks | Take the URL from Cloudflare's own developer docs, never from search results; use a scoped API token, never the global key |
+
+Pins come from the coordinator (checked 2026-10-27, each at least two weeks old); change them only in the kit, never in a project. Never install lookalike or "wrapper" packages. `.cursor/mcp.json` has no "disabled" field: project servers appear in Cursor's MCP settings — keep them switched off there until a task needs one.
+
+Optional extras (only if the user asks): A1 Gallery, Firecrawl.
+
+## Phase defaults
+
+| Phase | Use | Skip |
+|---|---|---|
+| Kickoff | none | all |
+| Scaffold | Context7 | design refs, deploy |
+| Industry research | capture tool → Playwright (sniper only) | Sanity create, deploy, Lighthouse |
+| Design system | Context7 | deploy |
+| Build | shadcn → capture `--local` → overlay + measure-diff tools | Lighthouse every section; deploy |
+| CMS | Sanity + Context7 | design-ref MCPs |
+| Design QA | capture + overlay tools → Chrome DevTools (isolated) | shadcn |
+| Deploy / host | preship-scrub → Cloudflare Docs | design-ref MCPs |
+
+## Rules
+
+1. Need → ask → connect → use.
+2. Prefer already-connected tools.
+3. No Sanity project/schema while `[REQUIRED]` remain or before the content model is confirmed.
+4. No API keys in rules, MCP config or git.
+5. Don't duplicate this catalog into `plan.md`.
+6. `node tools/scan-kit.mjs` must show no HIGH after any MCP change.

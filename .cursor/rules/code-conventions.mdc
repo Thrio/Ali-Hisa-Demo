@@ -1,0 +1,39 @@
+---
+description: Code conventions for every layer — Next.js static export, content modules or Sanity, shared components (ScrollReveal, PendingText, ImageSlot), images, forms, i18n. Read before writing code in src/.
+globs: src/**, studio/**, sanity.config.*
+alwaysApply: false
+---
+
+# Code conventions
+
+Hard locks: `design.mdc` — enforce, don't restate. Build order: `/build` (shell → home → pages → collections).
+
+## Frontend
+
+- Server Components by default; `"use client"` only for interaction, hooks or browser APIs. Static export: no middleware/proxy, no runtime server, no `headers()` in `next.config` (`public/_headers` instead).
+- Content: landing/multipage from `src/content/*.ts` (typed; `site.ts` = name, NAP, channels incl. WhatsApp, nav, default SEO). cms from Sanity via `src/sanity/` (one GROQ module; typegen after schema changes). Never hardcode copy in components.
+- Folders: blocks `src/components/blocks/` · UI `src/components/ui/` (shadcn restyled to tokens) · motion `src/components/motion/`.
+- Every band root: `data-band="<Blueprint #>"`. Tokens only — no raw px, hex, durations or easings.
+- Images: explicit width/height or aspect ratio (CLS). landing/multipage `images.unoptimized: true` with files sized for their slot; cms Sanity CDN loader. Image alt from content; decorative → `alt=""`.
+- Forms: client + Worker validation, `aria-live`, honeypot + time-trap + Turnstile + rate limit (`site-chrome.mdc`).
+- Menus: focus trap, `aria-expanded` / `aria-controls`, visible focus, Escape closes, focus returns to the toggle.
+
+## Shared components (one each — never one-off variants)
+
+- **`ScrollReveal`** (`src/components/motion/scroll-reveal.tsx`): renders visible on the server; arms the reveal only for elements below the fold after mount; never when reduced motion is on; values from `src/lib/motion-tokens.ts` (generated). Pattern: `.cursor/skills/build-page/references/motion-patterns.md`.
+- **`PendingText`** (`src/components/ui/pending-text.tsx`): `<PendingText lines={n} as="h2">headline</PendingText>` renders `[[PENDING: headline]]` in the slot's own typography with `min-height: calc(n * 1lh)` — `n` = the reference's line count from the capture's copy budget. Never lorem.
+- **`ImageSlot`** (`src/components/ui/image-slot.tsx`): `<ImageSlot ratio="4/3" />` = empty block with the aspect ratio, token surface colour, `aria-hidden="true"`, `data-image-slot`; no icon, no text. Listed in `[[PENDING]]`.
+- **`AgeGate`** (`src/components/age-gate.tsx`): only when the plan has regulated products — spec in `site-chrome.mdc`.
+
+## Languages (static export)
+
+- The main language at `/`, other languages under `/<code>/` (e.g. `/en/…`). One root layout per language through route groups (`app/(sq)/layout.tsx` with `<html lang="sq">`, `app/(en)/en/layout.tsx` with `<html lang="en">`); no runtime language detection.
+- 404 with several root layouts: `global-not-found.js` (experimental flag in Next 16) — after the first build confirm `out/404.html` exists; if not, log it in plan.md Decisions and use a per-language `not-found` in each root layout.
+- hreflang alternates for every page pair + `x-default` → the main language; the sitemap lists every language URL. Language switch links to the same page in the other language.
+
+## Sanity (cms)
+
+- Editorial content only in Sanity — tokens, layout, nav structure and secrets stay in code. Confirm the content model in `plan.md` before schema changes.
+- `page.sections[]` (one block per Blueprint band archetype) + `siteSettings` + shared `seo` (`seo.mdc`). Image alt required.
+- `CONTENT_SOURCE=mock` → read `src/sanity/mock/*.json` (same shape as the GROQ results, typed) instead of the API (`layer-cms.mdc`).
+- Publish → Cloudflare deploy hook → rebuild. `/api/revalidate` exists only on the OpenNext path and verifies the signature with `parseBody`. Draft preview only if Features says so (needs OpenNext). Forms never go into Sanity.

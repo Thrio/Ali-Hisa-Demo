@@ -1,0 +1,44 @@
+---
+description: Site chrome defaults — header, footer, hero anatomy, forms Worker, age gate (breakable). Read for header, footer, forms and age-gate work.
+globs: src/app/layout.tsx, src/components/blocks/header*, src/components/blocks/footer*, src/components/blocks/hero*, src/components/age-gate.tsx, src/worker.ts, wrangler.*
+alwaysApply: false
+---
+
+# Site chrome (breakable)
+
+Prefer these. Clone Blueprint or user override wins — state once in Decisions, don't argue. Type, hero height, and token locks live in `design.mdc` — not repeated here.
+
+Priority: hard locks → Clone Blueprint → these (`core.mdc`).
+
+## Header / nav
+
+- **Anchors under a sticky header:** `scroll-padding-top: var(--header-height)` on `html`, `scroll-margin-top` on anchor targets — otherwise `#contact` lands hidden under the bar.
+- **Conversion links:** `tel:`, `mailto:` and `https://wa.me/<number>` come from `src/content/site.ts` (landing/multipage) or Sanity `siteSettings` (cms/shop). WhatsApp may have its own number. An empty number hides the button and blocks the build.
+
+Sticky · readable over hero · logo left, primary CTA right · one primary CTA · logo → `/` · active state · mobile drawer/full-screen with focus trap, `aria-expanded` / `aria-controls`
+
+## Footer
+
+Logo, nav, contact, legal · NAP matches `src/content/site.ts` / `siteSettings` · no orphan single-link columns · after all page content · legal links from footer · contact CTA in header and footer
+
+## Hero
+
+One headline, one subline, one CTA group · full-bleed media · no cards · no floating badges/chips · content fits in the viewport
+
+## Layout
+
+- **Sticky bottom bars:** reserve space with padding on `body` (or a spacer after the footer), not only on `main`. Widths from `clientWidth`, never `100vw` (scrollbar overflow).
+
+Consistent gutter (token) · section padding follows `plan.md` Section rhythm (Alternating default / Uniform if locked) · one job per section · 404 matches the system · routes land at scroll top · decorative layers under content with `pointer-events-none`
+
+## Buttons & icons
+
+Primary + secondary only · one icon set · sentence case labels
+
+## A11y & forms
+
+- **Forms (Worker, `src/worker.ts`, routed with `run_worker_first: ["/api/*"]`):** honeypot first — filled → return the normal success response before any validation (an error reveals the trap) → time-trap (submitted < 3 s after render → same silent success) → Turnstile server check `POST https://challenges.cloudflare.com/turnstile/v0/siteverify` (fails closed; tokens are single-use) → `zod` validation → send. Default sender: the Cloudflare `send_email` binding to the client's verified address (domain on Cloudflare, Email Routing on); otherwise the provider named in plan Ops. Rate limit with the Workers Rate Limiting binding (`[[ratelimits]]`, key = client IP). The Worker sets the same security headers as `public/_headers` on its responses. Labels, inline errors, `aria-live` status.
+- **Disabled form** (no inbox yet): rendered with inputs disabled and the message "Form opens soon — call or write to <channel>" — never a fake endpoint.
+- **Age gate** (only when plan.md Regulated products = yes): `src/components/age-gate.tsx`, client component. Accessible dialog (`role="dialog"`, `aria-modal`, focus trapped, labelled) asking the Copy-lock `ageGate.question` with Yes / No; the legal age comes from the plan (18 default). Remembers "yes" in `localStorage` inside try/catch (no cookie, so no banner); "No" shows the `ageGate.blocked` text — no redirect to another site. The page HTML stays crawlable underneath (no server redirect); reduced motion = no transition. Shop checkout age confirmation and delivery limits come from ecommerce-brain.
+
+Skip link · touch targets ≥ 44×44 · forms: labels, inline errors, `aria-live`, honeypot + time-trap + rate limit

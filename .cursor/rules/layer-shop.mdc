@@ -1,0 +1,13 @@
+---
+description: Shop projects — the shop layer comes from the ecommerce-brain add-on. Load when plan.md Layer is shop.
+globs: src/shop/**, supabase/**
+alwaysApply: false
+---
+
+# Shop layer → ecommerce-brain
+
+Applies only when `plan.md` Layer is shop; in any other layer ignore this file.
+
+web-brain no longer defines the shop. In a shop project, run `node scripts/shop.mjs add <project>` in **ecommerce-brain**: it replaces this file with the full shop rules (Supabase on Cloudflare or Firebase on Vercel, pay on delivery, customer accounts, the admin, 37 build units, QA and launch checklists, customer-data rules).
+
+If you are reading this text, the shop add-on is missing: stop and tell the user. Never build a cart, checkout, orders or an admin from memory.

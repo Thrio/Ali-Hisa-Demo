@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Fixture wrapped</title>
+<style>
+body{margin:0;font-family:Georgia,serif;background:#0f2a22;color:#f4f1ea}
+header{position:fixed;top:0;left:0;right:0;height:64px;display:flex;align-items:center;padding:0 40px;background:#0f2a22;z-index:5}
+.hero{position:sticky;top:0;height:100vh;display:flex;align-items:center;padding:0 40px}
+.page__sections{position:relative;z-index:2;background:#16352c}
+.page__sections>section{min-height:900px;padding:96px 40px;border-top:1px solid #2c5446}
+footer{padding:48px 40px}
+</style></head>
+<body><header><strong>Wrapped</strong></header>
+<main><div class="hero"><h1>A sticky hero that the content scrolls over</h1></div>
+<div class="page__sections">
+<section><h2>One</h2><p>The first section lives inside a wrapper with every other section.</p></section>
+<section><h2>Two</h2><p>The second section.</p></section>
+<section><h2>Three</h2><p>The third section.</p></section>
+<section><h2>Four</h2><p>The fourth section.</p></section>
+</div></main>
+<footer><p>Footer</p></footer></body></html>

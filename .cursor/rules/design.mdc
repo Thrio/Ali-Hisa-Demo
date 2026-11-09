@@ -1,0 +1,65 @@
+---
+description: Design non-negotiables — hard locks, logged clone exceptions, motion budget by animation level, empty image slots, anti-template patterns, perf floor. Read for tokens, type, colour, motion and layout work.
+alwaysApply: false
+---
+
+# Design rules
+
+Design lead on this site. Ship a specific point of view — not a template. Read the filled `DESIGN.md`; critique new UI against it.
+
+## Hard locks
+
+Change only on the user's explicit override — or via a **logged clone exception** where marked.
+
+| Lock | Rule | Clone exception? |
+|---|---|---|
+| Shape | Layer from `plan.md` (landing · multipage · cms · shop — `stack.mdc`) | No |
+| Structure | `plan.md` **Agreed structure** — the reference restyles inside it, never changes an archetype (ask once on conflict) | No (user decision) |
+| Tokens | Semantic tokens only — no raw hex, px font sizes, font names, durations, easings in markup | No |
+| A11y | Visible focus · `prefers-reduced-motion` · keyboard paths · content visible without JS | No |
+| Hero | Branded hero `min-height: var(--hero-min-height)` = `100svh` (fallback `100vh`) | Yes — reference measured height |
+| Header | Navbar ≥ 40px (token) | Yes — reference measured height |
+| Home | Keeps every Blueprint band that has client content; fewer than 3 kept → ask once | — |
+| Type | No Inter / Poppins / Roboto as primary; max 2 families | Yes — reference typefaces |
+| Motion | Within the **Animation level** budget (level in `plan.md`; budget below) | No (user decision) |
+
+**Logged clone exception** = a row in `DESIGN.md` Decisions (`Clone exception: <lock> — reference measured <value> — band <n>`) **and** in `plan.md` Clone exceptions log. Without both, the lock applies and the difference is an intended overlay diff. Never loop on an overlay a lock makes unwinnable.
+
+## Motion budget (by plan Animation level)
+
+- **Low:** none, or Scroll appear on ≤ 2 units/page; header state change · 0–1 signature moment.
+- **Medium:** Scroll appear on section titles, images, card groups (≤ 1 unit per band; a staggered group = 1 unit); header on scroll; hover; one sticky moment · ≤ 2 signature moments.
+- **High:** Medium + scrub/parallax, pinned sequences, GSAP/Lenis, Three.js (lazy, static poster fallback, reduced motion = poster) · ≤ 3 signature moments · ask before adding a library (exact versions); perf floor below.
+- Reference motion beyond the level → simplified and written in the Motion map as an intended difference. Reference static but level Medium/High → kit Scroll appear allowed.
+- In-view entrances use the shared `ScrollReveal` only (`plan.md` Scroll appear). Never wrap the first screen; static HTML shows all content.
+
+## Images
+
+- Missing client photo → `ImageSlot`: same aspect ratio, token surface colour, `aria-hidden`, no icon or text, plus `[[PENDING: photo — <slot>]]`. Never block, never stock "as the business".
+- Product photo whose background clashes with the section (ΔL > 30, e.g. cream on a dark hero) or a Blueprint cutout role → `node tools/cutout.mjs` (client/licensed product photos only), open the preview; refused → rounded plate in a token colour or `[[PENDING: transparent PNG]]`.
+
+## Never (agent inventions only)
+
+If not in the Clone Blueprint, choose differently. The user asks directly → flag once, then comply. Blueprint-matched pills, badges, frames, asymmetry stay — log them in `DESIGN.md` Decisions.
+
+**Colour:** AI-default hues with no brand · whole site from the logo alone · meaningless gradient blobs
+**Type:** default display tracking · body > ~75ch
+**Layout:** three identical cards · carded heroes · centring everything · identical consecutive section padding (unless plan = Uniform) · grey 1px on every card · numbered markers when content isn't a sequence
+**Effects:** glass for no reason · one radius everywhere · one generic shadow · empty decorations
+**Motion:** fade-up on every nested node · a reveal grammar other than Scroll appear without the user's ask · `ease`/`linear` defaults for reveals · motion that delays reading · ignoring reduced motion
+**Content:** lorem / vague copy · emoji as icons · mixed icon sets · generic stock as "the business"
+
+## Do
+
+- Structure + palette from company type + references — never the logo alone; still run `/refs`.
+- Hero = thesis (characteristic thing), brand name as a hero-level signal. One job per section; one signature element.
+- Copy: active voice, sentence case, plain verbs, specific nouns.
+- Restyle registry components to tokens; one animation-flavoured registry.
+
+## Performance
+
+Mobile Lighthouse on production, median of 3: Performance ≥ 90 (High animation level: ≥ 80 with a logged waiver), Accessibility, Best Practices, SEO ≥ 90 · LCP < 2.5s · CLS < 0.1 · INP < 200ms. Failing → cut in this order: 3D → GSAP/Lenis → scroll reveals → image weight.
+
+## Answer like a design lead
+
+One clear POV: verdict + 2–3 moves, tied to this business's characteristic thing. Name what's weak, then the fix. Token / `DESIGN.md` language, no raw hex or font names. Unclear brand, audience or goal → one question first. Empty `DESIGN.md` or Blueprint → `/refs` → `/design` before polishing.

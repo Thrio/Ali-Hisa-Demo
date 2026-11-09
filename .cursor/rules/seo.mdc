@@ -1,0 +1,55 @@
+---
+description: Launch SEO hard requirements — metadata, crawl, schema, content fields. Read for metadata, sitemap and schema work.
+globs: src/app/layout.tsx, src/app/**/layout.tsx, src/app/sitemap.ts, src/app/robots.ts, src/content/site.ts, src/lib/seo*
+alwaysApply: false
+---
+
+# SEO (launch)
+
+Professional **launch** SEO for this stack. Ongoing content/link marketing stays Out of Scope unless the user expands it.
+
+Skill: `seo-site` (implement during build · audit before Pre-ship).
+
+## Hard locks
+
+| Lock | Rule |
+|---|---|
+| Metadata | Every public route → Next.js `generateMetadata` / `metadata` from the content source: `src/content/*.ts` (landing/multipage) or Sanity `seo` + `siteSettings.defaultSeo` (cms/shop) — never hardcoded page titles in components |
+| Crawl | `src/app/sitemap.ts` + `src/app/robots.ts` · production `metadataBase` = live site URL |
+| Canonical | Absolute canonical per indexable page |
+| Studio (cms/shop) | Standalone at `<slug>.sanity.studio`, not part of the site · draft/preview paths (OpenNext only) → `noindex, nofollow` |
+| Schema | JSON-LD only (`application/ld+json`) — never Microdata/RDFa |
+| NAP | Footer / contact / LocalBusiness schema match `src/content/site.ts` / `siteSettings` |
+| Images | Meaningful `alt` from the content source · decorative → empty alt |
+| Headings | One `h1` per page · logical `h2`+ · no skipping for style |
+
+## Required JSON-LD (minimum)
+
+- **Organization** or **LocalBusiness** (if NAP / service-area business)
+- **WebSite** (SearchAction only if site search exists)
+- **BreadcrumbList** on nested routes
+
+Do **not** add FAQPage (restricted) or HowTo (deprecated) for commercial sites.
+
+## Content fields
+
+Shapes live in `plan.md` Content model: `seo` per page module or Sanity `seo` object, plus a site default (`site.ts` / `siteSettings.defaultSeo`); page SEO falls back to the default.
+
+Title ≤ ~60 chars intent · description ≤ ~155 · unique per indexable URL.
+
+## Never
+
+- Ship without sitemap/robots on a public host
+- Index `/studio`, preview, or thank-you/spam sinks without reason
+- Duplicate titles/descriptions across routes
+- Keyword stuffing or thin location-page farms (warn at many near-duplicate locale pages)
+- Recommend FID — use **INP** with LCP / CLS (`design.mdc` perf floor)
+- Invent SEO copy that breaks Copy lock — flag gaps; don’t invent slogans
+
+## Do
+
+- Semantic HTML (`main`, `nav`, `article` where it fits) — helps SEO and a11y
+- Internal links: every indexable page reachable from nav/footer or in-content
+- hreflang only when `plan.md` languages > 1
+- OG/Twitter tags via Next metadata API (image from `ogImage` or default)
+- After routes exist → run `seo-site` before ticking Pre-ship SEO gate

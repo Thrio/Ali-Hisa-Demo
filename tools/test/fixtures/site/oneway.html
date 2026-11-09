@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Fixture one-way hero</title>
+<style>
+body{margin:0;font-family:Georgia,serif}
+.hero{position:sticky;top:0;height:100vh;display:flex;align-items:center;padding:0 40px;background:#c0392b;color:#fff}
+body.played .hero{background:#1f3a5f}
+section{min-height:900px;padding:96px 40px;background:#f4f1ea;position:relative;z-index:2;border-top:1px solid #ddd}
+</style></head>
+<body><main>
+<div class="hero"><h1>A hero that changes for good once you scroll</h1></div>
+<section><h2>One</h2><p>Scroll past this and the hero turns dark blue for good — like scroll animations that only play forward.</p></section>
+<section><h2>Two</h2><p>More content below the fold.</p></section>
+</main>
+<script>addEventListener("scroll", () => { if (scrollY > 300) document.body.classList.add("played"); }, { passive: true });</script>
+</body></html>

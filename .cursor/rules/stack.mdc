@@ -1,0 +1,40 @@
+---
+description: Locked stack and layers — Next.js static export, Sanity for cms, ecommerce-brain for shop, Tailwind v4, Cloudflare. Read before /scaffold and before adding any package.
+alwaysApply: false
+---
+
+# Stack (do not substitute)
+
+**Layers** — one per project, set in `plan.md` → Layer:
+
+| Layer | Pages | Content | Server | Extra rules |
+|---|---|---|---|---|
+| landing | Home + Privacy + 404 | `src/content/*.ts` | none (forms Worker if there is a form) | — |
+| multipage | 2–15 | `src/content/*.ts` | none (forms Worker) | — |
+| cms | any | Sanity, standalone Studio | none — publish triggers a rebuild | `layer-cms.mdc` |
+| shop | any | Supabase (or Firebase) — from the **ecommerce-brain** add-on | the server path: OpenNext on Cloudflare, or Vercel with Firebase | `layer-shop.mdc` from ecommerce-brain |
+
+| Part | Choice |
+|---|---|
+| Framework | Next.js App Router + TypeScript, `output: "export"` → `out/` |
+| CMS | cms/shop only: Sanity + `next-sanity` read at build time; Studio standalone in `studio/` → `<slug>.sanity.studio` |
+| Styles | Tailwind CSS v4 `@theme` |
+| Host | Cloudflare Workers static assets (`out/`) + one small Worker for `/api/*` (forms, orders). **OpenNext only when `plan.md` Decisions logs a server need** (draft preview, auth, per-request data) |
+| Repo | GitHub |
+| Images | landing / multipage: `next/image` with `images.unoptimized: true` (static export has no image optimizer) — client or licensed photos as pre-sized WebP in `public/`; stand-ins from `fetch-asset --to-public` stay in `public/_peer/` and are removed before deploy · cms: Sanity CDN loader · shop: per the ecommerce-brain rules · never `dangerouslyAllowSVG` |
+| Fonts | `next/font` (max 2) |
+| Motion | `motion` (`motion/react`) default — **Scroll appear** via shared `ScrollReveal` (`plan.md` Motion contract); GSAP/Lenis only if `DESIGN.md` requires. Patterns: `build-page/references/motion-patterns.md` |
+| Icons | `lucide-react` (one set) |
+| Forms | Worker: honeypot first → Turnstile → `zod` → email provider (`site-chrome.mdc`) |
+
+**Always OK:** `motion`, `clsx`, `tailwind-merge`, `class-variance-authority`, `lucide-react`, `culori`. `apca-w3` only as a design-time contrast check, never in the shipped bundle (non-standard license). Exact package names only — never a shortened or lookalike name.
+
+**Version floor:** `next` and the React Server Components packages must meet `tools/security-floor.json` (October 2026: Next.js 16.4.1 / 15.5.28). Check at scaffold and before every deploy; exact versions in `package.json`, lockfile committed.
+
+**Default scroll motion:** Scroll appear recipe in `plan.md` Motion contract — change only on user explicit ask. One shared `ScrollReveal` component; tokens `--motion-reveal-*` in `@theme`.
+
+**Conditional** (if `DESIGN.md` requires + Lighthouse passes): `gsap`/`lenis` · Rive · Three.js (lazy). GSAP's free license is proprietary and bars use in tools that let people build visual animations without code — fine for client sites, not for a site-builder product.
+
+Components: shadcn is pre-approved — add, then restyle to tokens. One animation-flavored registry per project (**ask first**).
+
+Anything else → **ask first**. Secrets in env — never commit. Keep `.env.example` name-only, in git.

@@ -1,0 +1,21 @@
+---
+description: CMS layer — standalone Sanity Studio, page-builder blocks from the Clone Blueprint, mock mode without a cloud project, publish → deploy hook → rebuild, editor handoff. Load when plan.md Layer is cms.
+globs: studio/**, src/sanity/**
+alwaysApply: false
+---
+
+# CMS layer
+
+Applies only when `plan.md` Layer is cms (or shop with Sanity content). Inherits everything from landing/multipage.
+
+- **Studio:** `studio/` in the repo, deployed with `sanity deploy` to `<slug>.sanity.studio`. Dataset `production`. Never mounted under the site's `app/`.
+- **Blocks = bands:** one page-builder block per Clone Blueprint band archetype, with fields for its slots (heading, body, media, CTA). Copy budgets from the capture (`measures/<page>/band-<n>.md`: characters and lines) become validation hints. Layout, spacing and motion stay in code.
+- **Read at build time:** `next-sanity` client in `src/sanity/`, one GROQ module, typegen clean (`sanity schema extract` → `sanity typegen generate`). A public dataset needs no token in the site.
+- **Mock mode (no cloud project):** `CONTENT_SOURCE=mock` makes `src/sanity/` read typed fixtures from `src/sanity/mock/*.json` — same shape as the GROQ results, seeded from approved copy — so every page and block builds and renders locally. Studio checks offline: `cd studio && npm exec sanity -- schema validate` and typegen (the Studio's pinned `sanity`, never `npx sanity`). The Studio **UI** itself always connects to a hosted dataset (Sanity has no offline Studio): for UI tests use a **free test project**, never a client's real one.
+- **Publish → rebuild:** a Sanity webhook calls a Cloudflare Workers Builds **deploy hook** (`POST https://api.cloudflare.com/client/v4/workers/builds/deploy_hooks/<ID>`). The hook URL is a secret: stored only in the Sanity webhook settings, listed in the handoff with a rotation date. Tell the client the rebuild time.
+- **Draft preview** only if Features asks for it — it needs the OpenNext path, logged in plan.md Decisions.
+- **Access:** editors invited by email; CORS origins only where the browser queries Sanity; no API tokens in the site or git.
+- **Seed content** from approved copy (`studio/scripts/seed.ts`); the same data feeds the mock fixtures. No lorem in Sanity.
+- **Editor handoff:** `docs/editor-guide.md` — one page with Studio screenshots: create a page, reorder sections, change a price, publish, see it live after the rebuild.
+
+**Done when:** every block has a preview; the site builds with `CONTENT_SOURCE=mock` and with the test project; an editor can create a page, reorder sections, publish and see it live; the editor guide is delivered.

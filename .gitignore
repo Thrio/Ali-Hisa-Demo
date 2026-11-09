@@ -1,0 +1,57 @@
+# Research
+# research/peers/ IS committed — build-page stops without peer band PNGs.
+# Strip research/ from the handoff repo (see plan.md Handoff).
+research/build/
+public/_peer/
+
+# Dependencies
+node_modules/
+
+# Next.js / OpenNext
+.next/
+.open-next/
+out/
+dist/
+build/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Debug / logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# TypeScript / test
+*.tsbuildinfo
+coverage/
+.turbo/
+
+# Cloudflare / Wrangler
+.wrangler/
+.dev.vars
+
+# Sanity
+.sanity/
+
+# web-brain 3.0 — commit OUR evidence (screenshots, measures, reports, asset-sources.md); never third-party files or raw text
+research/peers/**/assets/
+research/peers/**/text/
+tools/node_modules/
+*.pem
+*.key
+*.p12
+service-account*.json
+.vercel

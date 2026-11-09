@@ -1,0 +1,21 @@
+# Secrets — never readable by the agent
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+*.pem
+*.key
+*.p12
+service-account*.json
+
+# Raw third-party text and files — the tools read them, the agent does not
+research/peers/**/text/
+research/peers/**/assets/
+
+# Heavy and irrelevant
+node_modules/
+tools/node_modules/
+.next/
+.open-next/
+out/

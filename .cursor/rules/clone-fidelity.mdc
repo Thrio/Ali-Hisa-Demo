@@ -1,0 +1,65 @@
+---
+description: Reference clone rules — Blueprint, measures, band-check overlays, motion within the animation budget, Agreed structure, stand-in media, missing content. Read for /refs, /design, /build and any band.
+alwaysApply: false
+---
+
+# Clone fidelity
+
+After the user picks the reference, **layout is binding** inside the plan's **Agreed structure**, and the reference's motion **driver + role** is binding inside the plan's **Animation level** budget. Matching mood, palette or fonts is not a pass. Lessons L1–L13 (one line each in plan.md → Clone lessons; full text `.cursor/skills/build-page/references/clone-lessons.md` when one is named) are Blockers on every band.
+
+**One-line rule:** Agreed structure says *which layouts*. Blueprint says *what*. Measures say *how big*. Motion map says *what moves*. band-check sheets say *pass/fail*.
+
+- **Swap:** colours, copy, logo and identity marks, animation implementation (rebuild with `motion` + tokens; never paste reference JS).
+- **Keep:** section order, archetypes, element map, CTA anatomy, signature devices, motion driver + role (within budget).
+- **Reference vs Agreed structure** (e.g. full-screen panels where the plan agreed a product grid) → ask once: "Reference uses X, plan agreed Y. Keep Y [default] or switch to X?", log it in plan.md Decisions. Never switch silently.
+- **Lock vs reference** (`design.mdc`) → logged clone exception, never a loop on an unwinnable overlay.
+
+**Soft-pass ban** — these phrases are a fail: "inspired by" · "same vibe" · "layout language" · "close enough" · "static is fine" · "layout first, motion later" · "skip animations".
+
+## Blueprint (plan.md)
+
+- `#` = the capture's band number for that page. Never renumber. No client content → row stays as `dropped`. An approved new band = `<n>a` (no overlay; check-site only). Build roots carry `data-band="<#>"`.
+- `research/page-map.json` maps reference pages to build routes: `{"pages":[{"name":"home","peer":"home","build":"/"},{"name":"about","peer":"en-about","build":"/about"}]}`.
+- Required per band: name + order · screenshots (375 + 1440) · archetype · element map (L/R/float/bg + layered media) · type roles · CTA anatomy · keep vs swap · **Do not invent** (1–3 forbidden reinterpretations) · measures · interaction model · motion · interaction states where present.
+- Empty Blueprint or Motion map after the pick → no `/design`, no `/build`.
+
+## Interaction model and motion (before coding)
+
+1. Don't click first: scroll slowly and watch (sticky header, in-view reveals, scroll-snap, parallax, smooth-scroll). Then hover/click.
+2. Write the driver (scroll / click / hover / time / static) in the Blueprint, Motion map and `research/peers/<ref>/behaviors.md`. Wrong driver = rewrite the band (Blocker).
+3. Motion map row per band (`none` if static). Beyond the budget → simplified and written as an intended difference. Reference static and level Medium/High → kit Scroll appear allowed.
+4. Motion ≠ none → before/after state PNGs at 375 + 1440 in `research/peers/<ref>/states/`.
+5. In-view entrances = shared `ScrollReveal` (renders visible; arms only below the fold; reduced motion = final state). Never wrap the first screen.
+
+## Measure before code
+
+Start from the capture: `research/peers/<ref>/measures/<page>/band-<n>.md` (raw px at both widths, computed-style tree beside it, copy budget = characters and lines per text slot). The live reference wins when they disagree (L7); sniper checks with Playwright `getComputedStyle` (`.cursor/skills/build-page/peer-extract.md`). Never dump reference DOM/CSS or copy its colours, fonts or identity copy. Measured px → nearest token in `design/tokens.css`; raw px in markup = fail.
+
+## Gate: band-check (every band, both widths)
+
+`node tools/band-check.mjs --peer-slug <ref> --page <name> --band <#>` — one local capture of that route, overlays at 1440 and 375 (one `…-sheet.png` per width: side by side + structure), measure-diff with lesson hints, check-site findings inside the band.
+
+- **Open both sheets.** Grey structure = aligned; red (reference only) or cyan (build only) structure, or bright edges on structure, spacing, placement or media side = **fail**. Our colours, copy and logo differ on purpose — ignore those. Numbers are hints, never the pass (L10).
+- Verdict FIX → fix (max 3 rounds), then `needs review` in `PROGRESS.md` with the reason. Hero + header: also `--first-screen`. Sticky/pinned bands compare against the in-place shot or a filmstrip frame.
+- Interaction states not in the capture (open menu, hover, scrolled header): screenshot the build at the same width and compare side by side with the state PNG.
+
+## Missing content (never blocks)
+
+- Copy the client hasn't written → `<PendingText lines={n}>` with `n` from the capture's copy budget: shows `[[PENDING: …]]` and reserves `min-height: calc(n * 1lh)`, so overlays compare layout, not text length. No lorem, no invented text.
+- Photo slots while building → the reference's own media as an **internal stand-in** (people included): `node tools/fetch-asset.mjs <url> --peer <ref> --to-public` (URLs from `research/peers/<ref>/assets.json`). Never logos or images whose subject is the reference's brand (their sign, their mark on a map) → `ImageSlot` instead.
+- Before any client preview or launch: client or licensed photo, or an empty `ImageSlot` (same aspect, token surface, `aria-hidden`) + `[[PENDING: photo — <slot>]]`.
+- Product photo clashing with its section (ΔL > 30) or a cutout role → `node tools/cutout.mjs` on the client's photo (never reference media, never people); open the preview.
+
+## Reference media rules
+
+Stand-ins never leave the team (no client previews, shared screenshots or deploys while `public/_peer/` exists) and are deleted before ship. Shipping one needs a **written license from the rights holder**, logged in plan.md Ops — client acceptance is not a license. `preship-scrub` blocks `public/_peer/`, identical files and look-alike images. Never take logos, wordmarks, slogans, brand names or identity copy at any stage. Layered media: enumerate every `<img>`, CSS background and overlay in the band before coding.
+
+## Self-check before showing a band
+
+- [ ] Reference PNGs open · Blueprint row + Do not invent read · Agreed structure respected
+- [ ] L1–L13 scanned for this band · interaction model and motion driver matched (within budget)
+- [ ] Measures from the capture, mapped to tokens · placement (band top/left) checked, not only inner size
+- [ ] Section paint (transparent vs opaque) and layered media match
+- [ ] band-check verdict not FIX · both sheets opened · one verdict line per width
+- [ ] Only intended differences: our colours / copy / logo / motion implementation / logged exceptions
+- [ ] Missing content as PendingText / ImageSlot / `[[PENDING]]` · reduced motion honoured

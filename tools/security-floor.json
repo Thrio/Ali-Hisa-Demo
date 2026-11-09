@@ -1,0 +1,103 @@
+{
+  "updated": "2026-10-27",
+  "source": "Next.js security release of 2026-10-14 (GHSA-2464-fhr4-w9xw image-processing RCE, GHSA-673q-mjm6-r5xr, GHSA-p3m5-59mp-jv5r, React GHSA-xqc2-xf4c-x3h3 Flight RCE, GHSA-h3gv-c5rc-p453 Server Functions DoS, sharp GHSA-wq5f-xc86-pv6w). Re-checked 2026-10-27: no newer advisory for next 15/16, react-server-dom-* or sharp (npm advisory feed, nextjs.org/blog, react.dev/blog).",
+  "how_to_update": "Before every scaffold and every deploy: read the current Next.js and React security advisories, raise the minimums below, change 'updated', commit with the advisory IDs.",
+  "packages": {
+    "next": [
+      {
+        "major": 16,
+        "min": "16.4.1"
+      },
+      {
+        "major": 15,
+        "min": "15.5.28"
+      }
+    ],
+    "react-server-dom-webpack": [
+      {
+        "major": 19,
+        "minor": 0,
+        "min": "19.0.9"
+      },
+      {
+        "major": 19,
+        "minor": 1,
+        "min": "19.1.10"
+      },
+      {
+        "major": 19,
+        "minor": 2,
+        "min": "19.2.9"
+      },
+      {
+        "major": 19,
+        "minor": 3,
+        "min": "19.3.1"
+      },
+      {
+        "major": 19,
+        "min": "19.3.1"
+      }
+    ],
+    "react-server-dom-turbopack": [
+      {
+        "major": 19,
+        "minor": 0,
+        "min": "19.0.9"
+      },
+      {
+        "major": 19,
+        "minor": 1,
+        "min": "19.1.10"
+      },
+      {
+        "major": 19,
+        "minor": 2,
+        "min": "19.2.9"
+      },
+      {
+        "major": 19,
+        "minor": 3,
+        "min": "19.3.1"
+      },
+      {
+        "major": 19,
+        "min": "19.3.1"
+      }
+    ],
+    "react-server-dom-parcel": [
+      {
+        "major": 19,
+        "minor": 0,
+        "min": "19.0.9"
+      },
+      {
+        "major": 19,
+        "minor": 1,
+        "min": "19.1.10"
+      },
+      {
+        "major": 19,
+        "minor": 2,
+        "min": "19.2.9"
+      },
+      {
+        "major": 19,
+        "minor": 3,
+        "min": "19.3.1"
+      },
+      {
+        "major": 19,
+        "min": "19.3.1"
+      }
+    ],
+    "sharp": [
+      {
+        "major": 0,
+        "min": "0.35.5",
+        "note": "workaround for the SVG image-processing RCE"
+      }
+    ]
+  },
+  "rule_format": "A rule with 'minor' applies to that minor line only; a rule without 'minor' covers the rest of the major line."
+}

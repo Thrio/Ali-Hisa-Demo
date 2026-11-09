@@ -1,0 +1,8 @@
+{
+  "browser": {
+    "browserName": "chromium",
+    "isolated": true,
+    "launchOptions": { "channel": "chrome", "headless": false, "chromiumSandbox": true },
+    "contextOptions": { "acceptDownloads": false, "serviceWorkers": "block", "permissions": [] }
+  }
+}

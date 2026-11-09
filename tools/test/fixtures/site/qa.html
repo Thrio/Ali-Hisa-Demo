@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>QA defects fixture</title>
+<style>
+  body { margin: 0; font-family: sans-serif; }
+  section { padding: 32px 24px; }
+  .wide { width: 120vw; height: 20px; background: #c33; }
+  .wrap { width: 800px; }
+  form { width: 400px; margin: 0 120px 0 40px; display: block; }
+  .cards { display: flex; }
+  .card { width: 150px; height: 100px; background: #eee; }
+  .card:nth-child(1) { margin-right: 16px; } .card:nth-child(2) { margin-right: 24px; }
+  .odd { padding: 13px; }
+</style>
+</head>
+<body>
+<h1>QA fixture</h1>
+<section data-band="1"><div class="wide"></div></section>
+<section data-band="2"><div class="wrap"><form><label>Email <input type="email"></label></form></div></section>
+<section data-band="3"><div class="cards"><div class="card">A</div><div class="card">B</div><div class="card">C</div></div></section>
+<section data-band="4" class="odd"><p>Off-scale padding</p></section>
+<div id="loop"></div>
+<script>
+  // Deliberate loop: replaces a node every 5 ms (a render loop in disguise).
+  const box = document.getElementById("loop");
+  setInterval(() => { box.textContent = ""; box.appendChild(document.createElement("span")); }, 5);
+</script>
+</body>
+</html>
