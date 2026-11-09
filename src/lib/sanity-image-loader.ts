@@ -1,9 +1,10 @@
 import type { ImageLoaderProps } from "next/image";
+import { asset } from "./asset";
 
 /** Sanity CDN query params for static-export `next/image`. */
 export default function sanityImageLoader({ src, width, quality }: ImageLoaderProps): string {
   if (src.startsWith("/")) {
-    return src;
+    return asset(src);
   }
   const q = quality ?? 75;
   const url = new URL(src);

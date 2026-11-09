@@ -17,10 +17,13 @@ const body = Schibsted_Grotesk({
   weight: ["400", "500"],
 });
 
+const isDemo = Boolean(process.env.NEXT_PUBLIC_BASE_PATH);
+
 export async function generateMetadata(): Promise<Metadata> {
   const site = await getSiteSettings();
   const base = process.env.NEXT_PUBLIC_SITE_URL || "https://alihisa.com";
   return {
+    ...(isDemo ? { robots: { index: false, follow: false } } : {}),
     metadataBase: new URL(base),
     title: {
       default: site.name,
