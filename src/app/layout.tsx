@@ -4,6 +4,7 @@ import { SiteFooter } from "@/components/chrome/site-footer";
 import { SiteHeader } from "@/components/chrome/site-header";
 import { getSiteSettings } from "@/sanity/fetch";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const display = League_Spartan({
   subsets: ["latin", "latin-ext"],
@@ -46,6 +47,7 @@ export default async function RootLayout({
         <SiteHeader site={site} />
         <main className="flex-1">{children}</main>
         <SiteFooter site={site} />
+        <Analytics />
       </body>
     </html>
   );
