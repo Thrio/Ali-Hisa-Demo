@@ -8,7 +8,7 @@ export default function NotFound() {
       </h1>
       <p className="mt-4">
         <Link href="/" className="underline">
-          Kreu
+          Почетна
         </Link>
       </p>
     </section>

@@ -6,27 +6,27 @@
   "email": "Info@alihisa.com",
   "facebookUrl": "https://www.facebook.com/Bauhaus.Struga/",
   "instagramUrl": "https://www.instagram.com/bauhaus_hisa/",
-  "city": "Strugë",
-  "country": "Maqedonia e Veriut",
+  "city": "Струга",
+  "country": "Северна Македонија",
   "foundedYear": 1997,
   "footer": {
-    "tagline": "Studio arkitekture dhe ndërtimi në Strugë, që nga viti 1997.",
-    "intro": "Arkitekturë dhe ndërtim nën një çati — nga skica e parë deri te detaji i fundit.",
-    "services": ["Arkitekturë", "Ndërtim"]
+    "tagline": "Студио за архитектура и градежништво во Струга, од 1997 година.",
+    "intro": "Архитектура и градежништво под еден покрив — од првата скица до последниот детаљ.",
+    "services": ["Архитектура", "Градежништво"]
   },
-  "legalNav": [{ "label": "Privatësia", "href": "/privacy" }],
-  "primaryCtaLabel": "Get in touch",
+  "legalNav": [{ "label": "Приватност", "href": "/privacy" }],
+  "primaryCtaLabel": "Контактирајте нè",
   "logo": {
     "src": "/images/brand/logo.jpg",
     "width": 976,
     "height": 976,
-    "alt": "Logo e Ali Hisa"
+    "alt": "Лого на Ali Hisa"
   },
   "nav": [
-    { "label": "Kreu", "href": "/" },
-    { "label": "Projektet", "href": "/projects" },
-    { "label": "Shërbimet", "href": "/services" },
-    { "label": "Rreth nesh", "href": "/about" },
-    { "label": "Kontakt", "href": "/contact" }
+    { "label": "Почетна", "href": "/" },
+    { "label": "Проекти", "href": "/projects" },
+    { "label": "Услуги", "href": "/services" },
+    { "label": "За нас", "href": "/about" },
+    { "label": "Контакт", "href": "/contact" }
   ]
 }

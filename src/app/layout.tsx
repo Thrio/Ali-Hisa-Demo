@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
-import { League_Spartan, Schibsted_Grotesk } from "next/font/google";
+import { Golos_Text, Jost } from "next/font/google";
 import { SiteFooter } from "@/components/chrome/site-footer";
 import { SiteHeader } from "@/components/chrome/site-header";
 import { getSiteSettings } from "@/sanity/fetch";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 
-const display = League_Spartan({
-  subsets: ["latin", "latin-ext"],
+const display = Jost({
+  subsets: ["latin", "latin-ext", "cyrillic"],
   variable: "--font-family-display",
   weight: ["500", "600", "700"],
 });
 
-const body = Schibsted_Grotesk({
-  subsets: ["latin", "latin-ext"],
+const body = Golos_Text({
+  subsets: ["latin", "latin-ext", "cyrillic"],
   variable: "--font-family-body",
   weight: ["400", "500"],
 });
@@ -42,7 +42,7 @@ export default async function RootLayout({
   const site = await getSiteSettings();
 
   return (
-    <html lang="sq" className={`${display.variable} ${body.variable} h-full antialiased`}>
+    <html lang="mk" className={`${display.variable} ${body.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
         <SiteHeader site={site} />
         <main className="flex-1">{children}</main>

@@ -54,8 +54,8 @@ export function SiteFooter({ site }: SiteFooterProps) {
             </p>
           </div>
 
-          <nav aria-label="Footer">
-            <FooterHeading>Navigimi</FooterHeading>
+          <nav aria-label="Подножје">
+            <FooterHeading>Навигација</FooterHeading>
             <ul className="m-0 flex list-none flex-col gap-[var(--space-2)] p-0 text-sm">
               {site.nav.map((item) => (
                 <li key={item.href}>
@@ -68,7 +68,7 @@ export function SiteFooter({ site }: SiteFooterProps) {
           </nav>
 
           <div>
-            <FooterHeading>Shërbimet tona</FooterHeading>
+            <FooterHeading>Наши услуги</FooterHeading>
             <ul className="m-0 flex list-none flex-col gap-[var(--space-2)] p-0 text-sm">
               {site.footer.services.map((service) => (
                 <li key={service}>
@@ -81,7 +81,7 @@ export function SiteFooter({ site }: SiteFooterProps) {
           </div>
 
           <div>
-            <FooterHeading>Kontakt</FooterHeading>
+            <FooterHeading>Контакт</FooterHeading>
             <ul className="m-0 flex list-none flex-col gap-[var(--space-3)] p-0 text-sm">
               {phones.map((phone) => (
                 <li key={phone} className="flex items-center gap-[var(--space-2)]">
@@ -108,7 +108,7 @@ export function SiteFooter({ site }: SiteFooterProps) {
 
           {socials.length > 0 ? (
             <div>
-              <FooterHeading>Na ndiqni</FooterHeading>
+              <FooterHeading>Следете нè</FooterHeading>
               <ul className="m-0 flex list-none flex-col gap-[var(--space-3)] p-0 text-sm">
                 {socials.map(({ label, href, Icon }) => (
                   <li key={href}>
@@ -122,7 +122,7 @@ export function SiteFooter({ site }: SiteFooterProps) {
                         <Icon className="h-[1.125rem] w-[1.125rem]" />
                       </span>
                       <span>{label}</span>
-                      <span className="sr-only"> (hapet në dritare të re)</span>
+                      <span className="sr-only"> (се отвора во нов прозорец)</span>
                     </a>
                   </li>
                 ))}
@@ -133,7 +133,7 @@ export function SiteFooter({ site }: SiteFooterProps) {
 
         <div className="flex flex-col gap-[var(--space-3)] border-t border-[color-mix(in_oklch,var(--color-on-accent)_12%,transparent)] py-[var(--space-6)] text-xs text-[color-mix(in_oklch,var(--color-on-accent)_50%,transparent)] sm:flex-row sm:items-center sm:justify-between">
           <p className="m-0">
-            © {year} {site.name}. Të gjitha të drejtat e rezervuara.
+            © {year} {site.name}. Сите права се задржани.
           </p>
           {site.legalNav.length > 0 ? (
             <ul className="m-0 flex list-none gap-[var(--space-5)] p-0">

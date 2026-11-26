@@ -11,7 +11,7 @@ Art direction + token rationale. Synced with `plan.md` (Medium animation, Altern
 | | |
 |---|---|
 | What it is | Architecture and construction practice in Struga, North Macedonia, since 1997 |
-| Who visits | Albanian-speaking clients seeking design or build partners |
+| Who visits | Macedonian-speaking clients seeking design or build partners |
 | The one action | Get in touch (call or email) |
 | **The characteristic thing** | [[PENDING: what the design should express]] — craft shown through real project photography, not decoration |
 | Does NOT want to look like | Generic template; peer brand (Mike Schaap); “Bauhaus” directory naming |
@@ -79,7 +79,7 @@ Photo-led builder site: generous whitespace, uppercase display type, calm neutra
 |---|---|---|
 | Color anchor | Warm neutral surface + near-black text | Peer rgb roles → OKLCH, slightly warmed for Ali Hisa |
 | Neutral temperature | Warm stone accent `oklch(42% 0.04 55)` | Subtle construction accent without copying peer black/white only |
-| Display / body type | League Spartan + Schibsted Grotesk | Stand-ins for Futura PT + Freight Sans (`font-stand-ins.md`) |
+| Display / body type | Jost + Golos Text (Cyrillic-capable) | Stand-ins for Futura PT + Freight Sans (`font-stand-ins.md`) |
 | Type scale / tracking | 17px body, 35–56px display, wide display tracking | Peer computed sizes → tokens |
 | Spacing / section rhythm | 17–106px scale · Alternating | Matches plan + peer measures |
 | Radius / elevation | Minimal radius · subtle shadow | Peer uses flat cards; light shadow on hover only |
@@ -137,7 +137,7 @@ Default: **Scroll appear** (`--motion-reveal-*`). Peer scrub → reveal (logged 
 **Clone exceptions:**
 
 - `Clone exception: Header — peer measured 111px — sitewide`
-- `Clone exception: Type — Futura PT → League Spartan; Freight Sans Pro → Schibsted Grotesk — sitewide`
+- `Clone exception: Type — Futura PT → Jost; Freight Sans Pro → Golos Text (Cyrillic needed for Macedonian copy) — sitewide`
 
 **Clone overrides:** Uppercase display nav/CTA tracking (peer grammar).
 

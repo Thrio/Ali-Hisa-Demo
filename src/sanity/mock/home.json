@@ -4,58 +4,58 @@
       "src": "/images/facebook/Ali_foto3.jpg",
       "width": 2048,
       "height": 1229,
-      "alt": "Ali Hisa design for a dark-clad residential and office building with a planted terrace",
+      "alt": "Дизајн на Ali Hisa за станбено-деловна зграда со темна фасада и озеленета тераса",
       "focus": "0% 100%",
-      "title": "Spaces for living and working",
-      "body": "Homes and offices designed side by side, with planted terraces that bring calm to the city."
+      "title": "Простори за живеење и работа",
+      "body": "Домови и канцеларии дизајнирани едни покрај други, со озеленети тераси што внесуваат мир во градот."
     },
     {
       "src": "/images/facebook/Ali_foto4.jpg",
       "width": 2048,
       "height": 1418,
-      "alt": "Ali Hisa design for a high-rise with a glass office wing, apartments and ground-floor cafés",
+      "alt": "Дизајн на Ali Hisa за висока зграда со стаклено деловно крило, станови и кафулиња во приземјето",
       "focus": "0% 100%",
-      "title": "Built to rise",
-      "body": "Taller structures planned with precision, where glass, light and solid construction work together."
+      "title": "Изградено да се издига",
+      "body": "Повисоки објекти планирани со прецизност, каде што стаклото, светлината и цврстата градба делуваат заедно."
     },
     {
       "src": "/images/facebook/Ali_foto5.jpg",
       "width": 2048,
       "height": 1351,
-      "alt": "Ali Hisa design for a slim six-storey residential building on a tree-lined street",
+      "alt": "Дизајн на Ali Hisa за тесна шесткатна станбена зграда на улица со дрвореди",
       "focus": "0% 100%",
-      "title": "Modern residential living",
-      "body": "Clean lines, generous windows and durable materials — residential buildings made for everyday life."
+      "title": "Модерно станбено живеење",
+      "body": "Чисти линии, големи прозорци и издржливи материјали — станбени згради создадени за секојдневниот живот."
     },
     {
       "src": "/images/facebook/Ali_foto6.jpg",
       "width": 2048,
       "height": 915,
-      "alt": "Ali Hisa design for a row of pitched-roof family houses with brick and stone facades",
+      "alt": "Дизајн на Ali Hisa за низа семејни куќи со коси покриви и фасади од тула и камен",
       "focus": "50% 60%",
-      "title": "Family homes, made to last",
-      "body": "Warm materials and careful detailing, from the first drawing to the final finish — since 1997."
+      "title": "Семејни домови, градени да траат",
+      "body": "Топли материјали и внимателни детали, од првиот цртеж до завршната обработка — од 1997 година."
     }
   ],
   "intro": {
-    "eyebrow": "Crafting homes for",
-    "title": "Discerning clients",
-    "since": "Since 1986",
+    "eyebrow": "Градиме домови за",
+    "title": "Клиенти со префинет вкус",
+    "since": "Од 1986",
     "body": [
-      "The only thing more important than experience is passion.",
-      "We have both."
+      "Единствено нешто поважно од искуството е страста.",
+      "Ние ги имаме двете."
     ],
-    "cta": { "label": "More about us", "href": "/about" }
+    "cta": { "label": "Повеќе за нас", "href": "/about" }
   },
   "craft": {
     "image": {
       "src": "/images/facebook/Ali_foto2.jpg",
       "width": 2048,
       "height": 1331,
-      "alt": "Ali Hisa design for a multi-storey building with a patterned facade and planted terraces"
+      "alt": "Дизајн на Ali Hisa за повеќекатна зграда со орнаментирана фасада и озеленети тераси"
     },
-    "eyebrow": "Struga · Since 1997",
-    "title": "Built with precision. Designed to last.",
-    "body": "Architecture and construction under one roof — from the first drawing to the final detail."
+    "eyebrow": "Струга · Од 1997",
+    "title": "Изградено со прецизност. Дизајнирано да трае.",
+    "body": "Архитектура и градежништво под еден покрив — од првиот цртеж до последниот детаљ."
   }
 }

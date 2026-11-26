@@ -102,7 +102,7 @@ export function HomeSlideshowBand({ slides }: HomeSlideshowBandProps) {
     <section
       data-band="4"
       aria-roledescription="carousel"
-      aria-label="Ali Hisa projects"
+      aria-label="Проекти на Ali Hisa"
       className="w-full bg-[var(--color-surface-elevated)] px-[var(--gutter-inline)] pb-[var(--space-8)] pt-[var(--space-10)] md:pb-[var(--space-9)] md:pt-[var(--space-11)]"
     >
       <div
@@ -168,7 +168,7 @@ export function HomeSlideshowBand({ slides }: HomeSlideshowBandProps) {
               className="order-3 mt-[var(--space-5)] grid md:mt-[var(--space-8)] lg:col-start-2 lg:row-start-1 lg:mt-0 lg:self-center"
               style={enterStyle(hidden, 200)}
             >
-              <h2 className="sr-only">Ali Hisa projects</h2>
+              <h2 className="sr-only">Проекти на Ali Hisa</h2>
               {slides.map((slide, i) => {
                 const isActive = i === active;
                 return (

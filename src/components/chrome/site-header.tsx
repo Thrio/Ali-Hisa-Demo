@@ -35,7 +35,7 @@ export function SiteHeader({ site }: SiteHeaderProps) {
           <span>{site.name}</span>
         </Link>
 
-        <nav aria-label="Primary">
+        <nav aria-label="Главна навигација">
           <ul className="m-0 flex list-none flex-wrap items-center gap-x-[var(--space-4)] gap-y-[var(--space-1)] whitespace-nowrap p-0 sm:gap-x-[var(--space-6)] md:gap-x-[var(--space-8)]">
             {site.nav.map((item) => {
               const active = isActive(pathname, item.href);
